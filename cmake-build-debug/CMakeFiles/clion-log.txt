@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\13443\source\stm8sdemo Select CMakeLists.txt

@@ -2778,3 +2778,489 @@ Error[Li005]: no definition for "TIM3_Cmd" [referenced from c:\Users\13443\sour
 [2022-01-22 20:01:09]	[done]
 	build successfully !
 
+[2022-01-22 20:14:40]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\pwm\pwm.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+TIM1_OC2Init(TIM1_OCMODE_PWM1, 
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\pwm\pwm.c",12  Error[Pe167]: argument of
+          type "void" is incompatible with parameter of type "enum <unnamed>"
+                  TIM1_OCNIDLESTATE_RESET);
+                                          ^
+"c:\Users\13443\source\stm8sdemo\lib\pwm\pwm.c",18  Error[Pe165]: too few
+          arguments in function call
+                  TIM1_OCNIDLESTATE_RESET);
+                                          ^
+"c:\Users\13443\source\stm8sdemo\lib\pwm\pwm.c",18  Error[Pe018]: expected a
+          ")"
+
+[2022-01-22 20:14:47]	[done]
+	build successfully !
+
+[2022-01-22 20:22:30]	[done]
+	build successfully !
+
+[2022-01-22 20:22:44]	[done]
+	build successfully !
+
+[2022-01-22 20:25:53]	[done]
+	build successfully !
+
+[2022-01-22 20:26:31]	[done]
+	build successfully !
+
+[2022-01-22 20:28:15]	[done]
+	build successfully !
+
+[2022-01-22 20:29:39]	[done]
+	build successfully !
+
+[2022-01-22 20:30:07]	[done]
+	build successfully !
+
+[2022-01-22 20:30:30]	[done]
+	build successfully !
+
+[2022-01-22 20:30:47]	[done]
+	build successfully !
+
+[2022-01-22 20:31:03]	[done]
+	build successfully !
+
+[2022-01-22 20:34:38]	[done]
+	build successfully !
+
+[2022-01-22 20:34:57]	[done]
+	build successfully !
+
+[2022-01-22 20:35:13]	[done]
+	build successfully !
+
+[2022-01-22 20:35:36]	[done]
+	build successfully !
+
+[2022-01-22 20:35:49]	[done]
+	build successfully !
+
+[2022-01-22 20:37:22]	[done]
+	build successfully !
+
+[2022-01-22 20:37:42]	[done]
+	build successfully !
+
+[2022-01-22 21:13:58]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\exit\exit.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+#include "stm8l15x.h"
+                       ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",3  Fatal error[Pe1696]: 
+          cannot open source file "stm8l15x.h"
+            searched: "c:\Users\13443\source\stm8sdemo\lib\delay\"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\ports\stm8\"
+            searched: ".\lib\LCD\OLED-0.96-inch\"
+            searched: ".\lib\kernel\"
+            searched: ".\lib\exit\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+EXTI_SetPinSensitivity(KEY_GPIO_PIN_UP, EXTI_Trigger_Falling); //
+     ^
+"c:\Users\13443\source\stm8sdemo\lib\exit\exit.c",12  Warning[Pe223]: function
+          "EXTI_SetPinSensitivity" declared implicitly
+     EXTI_SetPinSensitivity(KEY_GPIO_PIN_UP, EXTI_Trigger_Falling); //
+                                             ^
+"c:\Users\13443\source\stm8sdemo\lib\exit\exit.c",12  Error[Pe020]: identifier
+          "EXTI_Trigger_Falling" is undefined
+
+[2022-01-22 21:22:49]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\delay\delay.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+void delay_ms(u16 n_ms)
+       ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",22  Error[Pe147]: 
+          declaration is incompatible with "void delay_ms(u8)" (declared at
+          line 9 of "c:\Users\13443\source\stm8sdemo\lib\delay\delay.h")
+
+[2022-01-22 21:23:14]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\delay\delay.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+void delay_ms(uint16_t n_ms)
+       ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",22  Error[Pe147]: 
+          declaration is incompatible with "void delay_ms(u8)" (declared at
+          line 9 of "c:\Users\13443\source\stm8sdemo\lib\delay\delay.h")
+
+[2022-01-22 21:23:52]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\delay\delay.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+void delay_ms(uint16_t n_ms)
+       ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",22  Error[Pe147]: 
+          declaration is incompatible with "void delay_ms(u8)" (declared at
+          line 9 of "c:\Users\13443\source\stm8sdemo\lib\delay\delay.h")
+
+[2022-01-22 21:24:47]	[done]
+	build successfully !
+
+[2022-01-22 21:38:15]	[done]
+	build successfully !
+
+[2022-01-22 21:38:27]	[done]
+	build successfully !
+
+[2022-01-22 21:39:51]	[done]
+	build successfully !
+
+[2022-01-22 21:40:58]	[done]
+	build successfully !
+
+[2022-01-22 21:46:27]	[done]
+	build successfully !
+
+[2022-01-22 21:47:09]	[done]
+	build successfully !
+
+[2022-01-22 22:29:22]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\key\key.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+#ifndef __DRV_GPIO_H
+   ^
+"c:\Users\13443\source\stm8sdemo\lib\key\key.h",1  Error[Pe037]: the #endif for
+          this directive is missing
+
+[2022-01-22 22:29:42]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\key\key.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+#ifndef __DRV_GPIO_H
+   ^
+"c:\Users\13443\source\stm8sdemo\lib\key\key.h",1  Error[Pe037]: the #endif for
+          this directive is missing
+
+[2022-01-22 22:30:13]	[done]
+	build successfully !
+
+[2022-01-22 22:32:56]	[done]
+	build successfully !
+
+[2022-01-22 22:36:34]	[done]
+	build successfully !
+
+[2022-01-22 22:37:23]	[done]
+	build successfully !
+
+[2022-01-22 22:39:09]	[done]
+	build successfully !
+
+[2022-01-22 22:40:02]	[done]
+	build successfully !
+
+[2022-01-22 22:52:40]	[done]
+	build successfully !
+
+[2022-01-22 22:52:59]	[done]
+	build successfully !
+
+[2022-01-22 22:53:28]	[done]
+	build successfully !
+
+[2022-01-22 22:56:46]	[done]
+	build successfully !
+
+[2022-01-22 23:09:14]	[done]
+	build successfully !
+
+[2022-01-22 23:10:32]	[done]
+	build successfully !
+
+[2022-01-22 23:12:59]	[done]
+	build successfully !
+
+[2022-01-22 23:14:47]	[done]
+	build successfully !
+
+[2022-01-22 23:15:42]	[done]
+	build successfully !
+
+[2022-01-22 23:16:59]	[done]
+	build successfully !
+
+[2022-01-22 23:29:53]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\kernel\atomtimer.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+.\lib\kernel\atomkernel.c:241: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomkernel.c:314: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomkernel.c:225: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomkernel.c:472: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomkernel.c:478: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomkernel.c:486: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomkernel.c:389: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\ports\stm8\/atomport-private.h:74: error 1: Syntax error, declaration ignored at 'INTERRUPT'
+.\lib\ports\stm8\atomport.c:82: syntax error: token -> '{' ; column 1
+.\lib\ports\stm8\atomport.c:83: error 7: Old style C declaration. IGNORED 'TIM3_UPD_OVF_BRK_IRQHandler'
+.\lib\kernel\atomqueue.c:226: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:241: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:255: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:268: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:278: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:207: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomqueue.c:353: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:422: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:452: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:458: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:465: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:472: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:479: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:489: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:338: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomqueue.c:559: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:630: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:660: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:666: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:673: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:680: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:687: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:697: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:544: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomqueue.c:737: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:755: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:728: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomtimer.c:140: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomtimer.c:165: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomtimer.c:128: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomtimer.c:205: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomtimer.c:237: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomtimer.c:194: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomtimer.c:356: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomtimer.c:378: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomtimer.c:386: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomtimer.c:332: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomtimer.c:534: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomtimer.c:540: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomtimer.c:525: error 20: Undefined identifier 'CRITICAL_STORE'
+
+[2022-01-22 23:30:12]	[done]
+	build successfully !
+
+[2022-01-22 23:50:10]	[done]
+	build successfully !
+
+[2022-01-22 23:50:50]	[done]
+	build successfully !
+
+[2022-01-22 23:54:07]	[done]
+	build successfully !
+
+[2022-01-22 23:55:26]	[done]
+	build successfully !
+
+[2022-01-22 23:56:25]	[done]
+	build successfully !
+
+[2022-01-22 23:58:00]	[done]
+	build successfully !
+
+[2022-01-22 23:58:41]	[done]
+	build successfully !
+
+[2022-01-23 00:00:00]	[done]
+	build successfully !
+
+[2022-01-23 00:01:34]	[done]
+	build successfully !
+
+[2022-01-23 00:02:53]	[done]
+	build successfully !
+
+[2022-01-23 00:03:45]	[done]
+	build successfully !
+
+[2022-01-23 00:04:25]	[done]
+	build successfully !
+
+[2022-01-23 00:04:52]	[done]
+	build successfully !
+
+[2022-01-23 00:06:23]	[done]
+	build successfully !
+
+[2022-01-23 00:07:00]	[done]
+	build successfully !
+
+[2022-01-23 00:07:48]	[done]
+	build successfully !
+
+[2022-01-23 00:08:14]	[done]
+	build successfully !
+
+[2022-01-23 00:09:44]	[done]
+	build successfully !
+
+[2022-01-23 00:10:26]	[done]
+	build successfully !
+
+[2022-01-23 00:11:15]	[done]
+	build successfully !
+
+[2022-01-23 00:12:17]	[done]
+	build successfully !
+
+[2022-01-23 00:14:24]	[done]
+	build successfully !
+
+[2022-01-23 00:15:21]	[done]
+	build successfully !
+
+[2022-01-23 00:16:34]	[done]
+	build successfully !
+
+[2022-01-23 00:18:09]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\key\key.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+keyReadByCode(KEY_UP);
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\key\key.c",39  Warning[Pe223]: function
+          "keyReadByCode" declared implicitly
+  uint8_t keyReadByCode(uint8_t key_map)
+          ^
+"c:\Users\13443\source\stm8sdemo\lib\key\key.c",42  Error[Pe159]: declaration
+          is incompatible with previous "keyReadByCode" (declared at line 39)
+      printf("KEY_UP uint8_t{%d}\n", (KEY_UP != RESET && GPIO_ReadInputPin(KEY_GPIO, KEY1_GPIO_PIN) == RESET));
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\key\key.c",45  Warning[Pe223]: function
+          "printf" declared implicitly
+
+[2022-01-23 00:18:30]	[done]
+	build successfully !
+
+[2022-01-23 00:19:05]	[done]
+	build successfully !
+
+[2022-01-23 00:20:10]	[done]
+	build successfully !
+
+[2022-01-23 00:20:14]	[done]
+	build successfully !
+
+[2022-01-23 00:20:44]	[done]
+	build successfully !
+
+[2022-01-23 00:22:23]	[done]
+	build successfully !
+
+[2022-01-23 00:28:45]	[done]
+	build successfully !
+
+[2022-01-23 00:29:11]	[done]
+	build successfully !
+
+[2022-01-23 00:29:31]	[done]
+	build successfully !
+
+[2022-01-23 00:30:17]	[done]
+	build successfully !
+
+[2022-01-23 00:31:00]	[done]
+	build successfully !
+
+[2022-01-23 00:31:46]	[done]
+	build successfully !
+
+[2022-01-23 00:32:25]	[done]
+	build successfully !
+
+[2022-01-23 00:40:40]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+uint32_t test_status;
+               ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",254  Warning[Pe177]: variable
+          "test_status" was declared but never referenced
+          case keyPassOne:
+               ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",285  Error[Pe020]: identifier
+          "keyPassOne" is undefined
+          case KeyPassLong:
+               ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",288  Error[Pe020]: identifier
+          "KeyPassLong" is undefined
+
+[2022-01-23 00:41:26]	[done]
+	build successfully !
+
+[2022-01-23 00:42:59]	[done]
+	build successfully !
+
+[2022-01-23 00:44:38]	[done]
+	build successfully !
+
+[2022-01-23 00:47:54]	[done]
+	build successfully !
+
+[2022-01-23 00:50:37]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "keyScan" [referenced from
+          c:\Users\13443\source\stm8sdemo\build\Release\lib\key\key.o]
+
+
+[2022-01-23 00:50:59]	[done]
+	build successfully !
+
+[2022-01-23 01:01:19]	[done]
+	build successfully !
+
+[2022-01-23 01:02:02]	[done]
+	build successfully !
+
+[2022-01-23 01:27:40]	[done]
+	build successfully !
+
+[2022-01-23 01:28:52]	[done]
+	build successfully !
+
+[2022-01-23 01:29:33]	[done]
+	build successfully !
+
+[2022-01-23 01:30:09]	[done]
+	build successfully !
+
+[2022-01-23 01:31:58]	[done]
+	build successfully !
+
+[2022-01-23 01:33:38]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\delay\delay.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+void delay_ms(u16 n_ms)
+       ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",22  Error[Pe147]: 
+          declaration is incompatible with "void delay_ms(u8)" (declared at
+          line 9 of "c:\Users\13443\source\stm8sdemo\lib\delay\delay.h")
+
+[2022-01-23 01:34:11]	[done]
+	build successfully !
+
+[2022-01-23 01:34:41]	[done]
+	build successfully !
+

@@ -7,8 +7,8 @@
             "name": "stm8-debug launch",
             "interface": "stlink3",
             "serverType": "st7",
-            "cpu": "STM8S103F3P",
-            "executable": ".\\out\\IAR_STM8\\stm8s103f3.out"
+            "cpu": "STM8S105K4",
+            "executable": ".\\build\\Release\\stm8soled.out"
         },
         {
             "type": "stm8-debug",
@@ -16,8 +16,19 @@
             "name": "st7",
             "serverType": "st7",
             "interface": "stlink3",
-            "cpu": "<MCU-NAME>",
+            "cpu": "STM8S105K4",
             "executable": ".\\build\\Release\\stm8soled.out"
+        },
+        {
+            "type": "stm8-debug",
+            "request": "launch",
+            "name": "openocd",
+            "serverType": "stm8-sdcc",
+            "executable": ".\\build\\Release\\stm8soled.elf",
+            "openOcdConfigs": [
+                "interface/stlink.cfg",
+                "target/<target-name>.cfg"
+            ]
         }
     ]
 }

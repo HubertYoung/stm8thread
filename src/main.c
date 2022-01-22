@@ -46,6 +46,7 @@
 #include <stm8s.h>
 #include <stm8s_gpio.h>
 #include <pwm.h>
+#include <key.h>
 #include "atomport-private.h"
 
 /* Constants */
@@ -148,6 +149,8 @@ NO_REG_SAVE void main(void)
     /* GPIO configuration */
     GPIO_Config();
 
+    keyInit();
+
     PWM_Init();
     /**
      * Note: to protect OS structures and data during initialisation,
@@ -204,10 +207,9 @@ NO_REG_SAVE void main(void)
 static void CLK_Config(void)
 {
     CLK_HSICmd(ENABLE);
-        // CLK_HSECmd(ENABLE);
+    // CLK_HSECmd(ENABLE);
     CLK_HSIPrescalerConfig(CLK_PRESCALER_HSIDIV1);
     CLK_SYSCLKConfig(CLK_PRESCALER_HSIDIV1);
-
 
     // ErrorStatus clk_return_status;
     // clk_return_status = CLK_ClockSwitchConfig(CLK_SWITCHMODE_AUTO, CLK_SOURCE_HSI, ENABLE, CLK_CURRENTCLOCKSTATE_DISABLE);
@@ -229,22 +231,14 @@ static void GPIO_Config(void)
 {
     /* Configure GPIO for flashing STM8L mini system board GPIO B0 */
     GPIO_DeInit(GPIOE);
+    GPIO_DeInit(GPIOA);
     GPIO_Init(GPIOE, GPIO_PIN_5, GPIO_MODE_OUT_PP_LOW_FAST);
+    GPIO_Init(GPIOA, GPIO_PIN_1, GPIO_MODE_OUT_PP_LOW_FAST);
+    GPIO_Init(GPIOA, GPIO_PIN_2, GPIO_MODE_OUT_PP_LOW_FAST);
     /* Configure USART Tx as alternate function push-pull  (software pull up)*/
     GPIO_ExternalPullUpConfig(GPIOC, GPIO_PIN_3, ENABLE);
     /* Configure USART Rx as alternate function push-pull  (software pull up)*/
     GPIO_ExternalPullUpConfig(GPIOC, GPIO_PIN_2, ENABLE);
-}
-
-static void at_thread_func(uint32_t param)
-{
-    int8_t status = 0;
-    while (1)
-    {
-        status++;
-        printf("printf main(%d)\n", (int)status);
-        atomTimerDelay(SYSTEM_TICKS_PER_SEC);
-    }
 }
 
 /**
@@ -277,5 +271,32 @@ static void system_status(uint32_t param)
         GPIO_WriteReverse(GPIOE, GPIO_PIN_5);
         /* Sleep then toggle LED again */
         atomTimerDelay(10);
+    }
+}
+
+static void at_thread_func(uint32_t param)
+{
+    volatile uint8_t keyPassValue = 0; //长按短按状态
+    while (1)
+    {
+        //一个系统周期检测一次键盘
+        atomTimerDelay(10);
+        // keyPassValue = keyRead();
+        // keyPassValue = keyScan();
+        switch (keyPassValue)
+        {
+        case KEY_UP:
+            printf("KEY_UP keyPassOne\n");
+            break;
+        case KEY_DOWN:
+            printf("KEY_UP KeyPassLong\n");
+            break;
+        default:
+            break;
+        }
+       
+        // printf("KEY_UP keyPassValue${%d}\n", keyPassValue);
+        // printf("KEY_UP uint8_t{%d}\n", (KEY_UP != RESET && GPIO_ReadInputPin(KEY_GPIO, KEY1_GPIO_PIN) == RESET));
+        
     }
 }
