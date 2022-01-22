@@ -30,7 +30,7 @@
 
 #include "atom.h"
 #include "atomport-private.h"
-#include "stm8s_tim1.h"
+#include "stm8s_tim4.h"
 #if defined(__RCSTM8__)
 #include <intrins.h>
 #endif
@@ -237,16 +237,22 @@ void archThreadContextInit (ATOM_TCB *tcb_ptr, void *stack_top, void (*entry_poi
 void archInitSystemTickTimer ( void )
 {
     /* Reset TIM1 */
-    TIM1_DeInit();
-
+    TIM4_DeInit();
+    // TIM4CLK is set to 16 MHz, the TIM4 Prescaler is equal to 128 so the TIM1 counter
+// 37    clock used is 16 MHz / 128 = 125 000 Hz
+// 38   - With 125 000 Hz we can generate time base:
+// 39       max time base is 2.048 ms if TIM4_PERIOD = 255 --> (255 + 1) / 125000 = 2.048 ms
+// 40       min time base is 0.016 ms if TIM4_PERIOD = 1   --> (  1 + 1) / 125000 = 0.016 ms
+// 41   - In this example we need to generate a time base equal to 1 ms
+// 42    so TIM4_PERIOD = (0.001 * 125000 - 1) = 124 */
     /* Configure a 10ms tick */
-    TIM1_TimeBaseInit(10000, TIM1_COUNTERMODE_UP, 1, 0);
+    TIM4_TimeBaseInit(TIM4_PRESCALER_128, 124);
 
     /* Generate an interrupt on timer count overflow */
-    TIM1_ITConfig(TIM1_IT_UPDATE, ENABLE);
+    TIM4_ITConfig(TIM4_IT_UPDATE, ENABLE);
 
     /* Enable TIM1 */
-    TIM1_Cmd(ENABLE);
+    TIM4_Cmd(ENABLE);
 
 }
 
@@ -288,11 +294,11 @@ void archInitSystemTickTimer ( void )
  * @return None
  */
 #if defined(__IAR_SYSTEMS_ICC__)
-#pragma vector = 13
+#pragma vector = 25
 #endif
-INTERRUPT void TIM1_SystemTickISR (void)
+INTERRUPT void TIM4_SystemTickISR (void)
 #if defined(__RCSTM8__)
-interrupt 11
+interrupt 23
 #endif
 {
     /* Call the interrupt entry routine */
@@ -302,7 +308,7 @@ interrupt 11
     atomTimerTick();
 
     /* Ack the interrupt (Clear TIM1:SR1 register bit 0) */
-    TIM1->SR1 = (uint8_t)(~(uint8_t)TIM1_IT_UPDATE);
+    TIM4->SR1 = (uint8_t)(~(uint8_t)TIM4_IT_UPDATE);
 
     /* Call the interrupt exit routine */
     atomIntExit(TRUE);

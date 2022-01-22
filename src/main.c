@@ -200,12 +200,20 @@ NO_REG_SAVE void main ( void )
   */
 static void CLK_Config(void)
 {
+    CLK_HSICmd(ENABLE);
+    CLK_HSIPrescalerConfig(CLK_PRESCALER_HSIDIV1);
+    CLK_SYSCLKConfig(CLK_PRESCALER_HSIDIV1);
+    // ErrorStatus clk_return_status;
+    // clk_return_status = CLK_ClockSwitchConfig(CLK_SWITCHMODE_AUTO, CLK_SOURCE_HSI, ENABLE, CLK_CURRENTCLOCKSTATE_DISABLE);
+    // if (clk_return_status == SUCCESS)  //SUCCESS or ERROR
+    // {};
+
     /* Enable TIM1 clock */
     CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER1, ENABLE);
     /* Enable TIM2 clock */
     CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER2, ENABLE);
     
-    CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER4, ENABLE);
+    CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER3, ENABLE);
     /* Enable USART clock */
     CLK_PeripheralClockConfig(CLK_PERIPHERAL_UART1, ENABLE);
     CLK_PeripheralClockConfig(CLK_PERIPHERAL_UART2, ENABLE);
@@ -294,7 +302,7 @@ static void main_thread_func (uint32_t param)
         GPIO_WriteReverse(GPIOE, GPIO_PIN_5);
 
         /* Sleep then toggle LED again */
-        atomTimerDelay(SYSTEM_TICKS_PER_SEC);
+        atomTimerDelay(1000);
     }
 }
 
