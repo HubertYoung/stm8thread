@@ -71,6 +71,6 @@
 
 /* Function prototypes */
 void archInitSystemTickTimer (void);
-INTERRUPT void TIM3_SystemTickISR (void);
+INTERRUPT void TIM3_UPD_OVF_BRK_IRQHandler (void);
 
 #endif /* __ATOM_PORT_PRIVATE_H */

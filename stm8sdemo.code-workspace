@@ -21,7 +21,10 @@
             "oled.h": "c",
             "uart.h": "c",
             "atom.h": "c",
-            "stm8s_tim4.h": "c"
+            "stm8s_tim4.h": "c",
+            "pwm.h": "c",
+            "atomport-private.h": "c",
+            "stm8s_tim3.h": "c"
         },
         "[yaml]": {
             "editor.insertSpaces": true,

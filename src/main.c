@@ -41,11 +41,12 @@
 
 #include <stdio.h>
 #include <atom.h>
+#include <uart.h>
 #include <atomtimer.h>
 #include <stm8s.h>
 #include <stm8s_gpio.h>
+#include <pwm.h>
 #include "atomport-private.h"
-
 
 /* Constants */
 
@@ -60,8 +61,7 @@
  * In this case, the idle stack is allocated on the BSS via the
  * idle_thread_stack[] byte array.
  */
-#define IDLE_STACK_SIZE_BYTES       128
-
+#define IDLE_STACK_SIZE_BYTES 128
 
 /*
  * Main thread stack size
@@ -86,8 +86,7 @@
  * future as the codebase changes but for the time being is enough to
  * cope with all of the automated tests.
  */
-#define MAIN_STACK_SIZE_BYTES       256
-
+#define MAIN_STACK_SIZE_BYTES 128
 
 /*
  * Startup code stack
@@ -102,25 +101,26 @@
  * For convenience we just use the default region here.
  */
 
-
 /* Linker-provided startup stack location (usually top of RAM) */
 extern int _stack;
-
 
 /* Local data */
 
 /* Application threads' TCBs */
 static ATOM_TCB main_tcb;
+/* Application threads' TCBs */
+static ATOM_TCB at_thread;
 
 /* Main thread's stack area (large so place outside of the small page0 area on STM8) */
 NEAR static uint8_t main_thread_stack[MAIN_STACK_SIZE_BYTES];
 
+NEAR static uint8_t at_thread_stack[IDLE_STACK_SIZE_BYTES];
 /* Idle thread's stack area (large so place outside of the small page0 area on STM8) */
 NEAR static uint8_t idle_thread_stack[IDLE_STACK_SIZE_BYTES];
 
-
 /* Forward declarations */
-static void main_thread_func (uint32_t param);
+static void system_status(uint32_t param);
+static void at_thread_func(uint32_t param);
 static void CLK_Config(void);
 static void GPIO_Config(void);
 
@@ -139,7 +139,7 @@ static void GPIO_Config(void);
  * functions in a compiler-agnostic way, though not all compilers support it.
  *
  */
-NO_REG_SAVE void main ( void )
+NO_REG_SAVE void main(void)
 {
     int8_t status;
 
@@ -148,6 +148,7 @@ NO_REG_SAVE void main ( void )
     /* GPIO configuration */
     GPIO_Config();
 
+    PWM_Init();
     /**
      * Note: to protect OS structures and data during initialisation,
      * interrupts must remain disabled until the first thread
@@ -162,13 +163,17 @@ NO_REG_SAVE void main ( void )
     {
         /* Enable the system tick timer */
         archInitSystemTickTimer();
-
         /* Create an application thread */
         status = atomThreadCreate(&main_tcb,
-                                  16, main_thread_func, 0,
+                                  16, system_status, 0,
                                   &main_thread_stack[MAIN_STACK_SIZE_BYTES - 1],
                                   MAIN_STACK_SIZE_BYTES,
-                                  TRUE);
+                                  FALSE);
+        status = atomThreadCreate(&at_thread,
+                                  16, at_thread_func, 0,
+                                  &at_thread_stack[IDLE_STACK_SIZE_BYTES - 1],
+                                  IDLE_STACK_SIZE_BYTES,
+                                  FALSE);
         if (status == ATOM_OK)
         {
             /**
@@ -187,9 +192,7 @@ NO_REG_SAVE void main ( void )
 
     /* There was an error starting the OS if we reach here */
     while (1)
-    {
-    }
-
+        ;
 }
 
 /**
@@ -201,21 +204,20 @@ NO_REG_SAVE void main ( void )
 static void CLK_Config(void)
 {
     CLK_HSICmd(ENABLE);
+        // CLK_HSECmd(ENABLE);
     CLK_HSIPrescalerConfig(CLK_PRESCALER_HSIDIV1);
     CLK_SYSCLKConfig(CLK_PRESCALER_HSIDIV1);
+
+
     // ErrorStatus clk_return_status;
     // clk_return_status = CLK_ClockSwitchConfig(CLK_SWITCHMODE_AUTO, CLK_SOURCE_HSI, ENABLE, CLK_CURRENTCLOCKSTATE_DISABLE);
     // if (clk_return_status == SUCCESS)  //SUCCESS or ERROR
     // {};
-
     /* Enable TIM1 clock */
     CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER1, ENABLE);
     /* Enable TIM2 clock */
-    CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER2, ENABLE);
-    
     CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER3, ENABLE);
-    /* Enable USART clock */
-    CLK_PeripheralClockConfig(CLK_PERIPHERAL_UART1, ENABLE);
+
     CLK_PeripheralClockConfig(CLK_PERIPHERAL_UART2, ENABLE);
 }
 /**
@@ -228,14 +230,23 @@ static void GPIO_Config(void)
     /* Configure GPIO for flashing STM8L mini system board GPIO B0 */
     GPIO_DeInit(GPIOE);
     GPIO_Init(GPIOE, GPIO_PIN_5, GPIO_MODE_OUT_PP_LOW_FAST);
-
-
     /* Configure USART Tx as alternate function push-pull  (software pull up)*/
     GPIO_ExternalPullUpConfig(GPIOC, GPIO_PIN_3, ENABLE);
-
     /* Configure USART Rx as alternate function push-pull  (software pull up)*/
     GPIO_ExternalPullUpConfig(GPIOC, GPIO_PIN_2, ENABLE);
 }
+
+static void at_thread_func(uint32_t param)
+{
+    int8_t status = 0;
+    while (1)
+    {
+        status++;
+        printf("printf main(%d)\n", (int)status);
+        atomTimerDelay(SYSTEM_TICKS_PER_SEC);
+    }
+}
+
 /**
  * \b main_thread_func
  *
@@ -247,62 +258,24 @@ static void GPIO_Config(void)
  *
  * @return None
  */
-static void main_thread_func (uint32_t param)
+static void system_status(uint32_t param)
 {
     uint32_t test_status;
-
     /* Compiler warnings */
     param = param;
-
     /* Initialise UART (115200bps) */
     if (uart_init(115200) != 0)
     {
         /* Error initialising UART */
     }
-
     /* Put a message out on the UART */
     printf("Go\n");
-
-    /* Start test. All tests use the same start API. */
-    test_status = 0;
-
-    /* Check main thread stack usage (if enabled) */
-#ifdef ATOM_STACK_CHECKING
-    if (test_status == 0)
-    {
-        uint32_t used_bytes, free_bytes;
-
-        /* Check idle thread stack usage */
-        if (atomThreadStackCheck (&main_tcb, &used_bytes, &free_bytes) == ATOM_OK)
-        {
-            /* Check the thread did not use up to the end of stack */
-            if (free_bytes == 0)
-            {
-                printf ("Main stack overflow\n");
-                test_status++;
-            }
-
-            /* Log the stack usage */
-#ifdef TESTS_LOG_STACK_USAGE
-            printf ("MainUse:%d\n", (int)used_bytes);
-#endif
-        }
-
-    }
-#endif
-
-    /* Test printf function */
-    printf("printf test(%d)\n", (int)test_status);
-
-
     /* Test finished, flash slowly for pass, fast for fail */
     while (1)
     {
         /* Toggle LED on pin B0 (STM8L mini board-specific) */
         GPIO_WriteReverse(GPIOE, GPIO_PIN_5);
-
         /* Sleep then toggle LED again */
-        atomTimerDelay(1000);
+        atomTimerDelay(10);
     }
 }
-

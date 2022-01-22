@@ -30,7 +30,7 @@
 
 #include "atom.h"
 #include "atomport-private.h"
-#include "stm8s_tim4.h"
+#include "stm8s_tim3.h"
 #if defined(__RCSTM8__)
 #include <intrins.h>
 #endif
@@ -237,22 +237,26 @@ void archThreadContextInit (ATOM_TCB *tcb_ptr, void *stack_top, void (*entry_poi
 void archInitSystemTickTimer ( void )
 {
     /* Reset TIM1 */
-    TIM4_DeInit();
+    TIM3_DeInit();
     // TIM4CLK is set to 16 MHz, the TIM4 Prescaler is equal to 128 so the TIM1 counter
 // 37    clock used is 16 MHz / 128 = 125 000 Hz
+// 37    clock used is 16 MHz / 1024 =  15625Hz = 
 // 38   - With 125 000 Hz we can generate time base:
-// 39       max time base is 2.048 ms if TIM4_PERIOD = 255 --> (255 + 1) / 125000 = 2.048 ms
+// 39       max time base is 2.048 ms if TIM4_PERIOD = 255 --> (255 + 1) / 125000 = 2.048 ms 
 // 40       min time base is 0.016 ms if TIM4_PERIOD = 1   --> (  1 + 1) / 125000 = 0.016 ms
+//         x / 15625 = 10ms  
+//          2 / 15625 = 0.128ms
+
 // 41   - In this example we need to generate a time base equal to 1 ms
 // 42    so TIM4_PERIOD = (0.001 * 125000 - 1) = 124 */
     /* Configure a 10ms tick */
-    TIM4_TimeBaseInit(TIM4_PRESCALER_128, 124);
+    TIM3_TimeBaseInit(TIM3_PRESCALER_1024, 155); //9.984ms
 
     /* Generate an interrupt on timer count overflow */
-    TIM4_ITConfig(TIM4_IT_UPDATE, ENABLE);
+    TIM3_ITConfig(TIM3_IT_UPDATE, ENABLE);
 
     /* Enable TIM1 */
-    TIM4_Cmd(ENABLE);
+    TIM3_Cmd(ENABLE);
 
 }
 
@@ -294,11 +298,11 @@ void archInitSystemTickTimer ( void )
  * @return None
  */
 #if defined(__IAR_SYSTEMS_ICC__)
-#pragma vector = 25
+#pragma vector = 17
 #endif
-INTERRUPT void TIM4_SystemTickISR (void)
+INTERRUPT void TIM3_UPD_OVF_BRK_IRQHandler (void)
 #if defined(__RCSTM8__)
-interrupt 23
+interrupt 15
 #endif
 {
     /* Call the interrupt entry routine */
@@ -308,7 +312,7 @@ interrupt 23
     atomTimerTick();
 
     /* Ack the interrupt (Clear TIM1:SR1 register bit 0) */
-    TIM4->SR1 = (uint8_t)(~(uint8_t)TIM4_IT_UPDATE);
+    TIM3->SR1 = (uint8_t)(~(uint8_t)TIM3_IT_UPDATE);
 
     /* Call the interrupt exit routine */
     atomIntExit(TRUE);

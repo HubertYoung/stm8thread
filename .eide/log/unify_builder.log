@@ -2439,3 +2439,342 @@ if (uart_init(115200) != 0)
 [2022-01-22 18:01:14]	[done]
 	build successfully !
 
+[2022-01-22 18:10:02]	[done]
+	build successfully !
+
+[2022-01-22 18:11:26]	[done]
+	build successfully !
+
+[2022-01-22 18:11:31]	[done]
+	build successfully !
+
+[2022-01-22 18:20:11]	[done]
+	build successfully !
+
+[2022-01-22 18:22:42]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x248 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-22 18:23:00]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x248 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-22 18:23:20]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x2c8 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-22 18:23:42]	[done]
+	build successfully !
+
+[2022-01-22 18:24:16]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x2c8 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-22 18:25:19]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x268 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-22 18:25:41]	[done]
+	build successfully !
+
+[2022-01-22 18:26:01]	[done]
+	build successfully !
+
+[2022-01-22 18:26:29]	[done]
+	build successfully !
+
+[2022-01-22 18:26:56]	[done]
+	build successfully !
+
+[2022-01-22 18:27:20]	[done]
+	build successfully !
+
+[2022-01-22 18:27:56]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x2c8 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-22 18:28:06]	[done]
+	build successfully !
+
+[2022-01-22 18:28:26]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x248 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-22 18:28:51]	[done]
+	build successfully !
+
+[2022-01-22 18:29:27]	[done]
+	build successfully !
+
+[2022-01-22 18:29:54]	[done]
+	build successfully !
+
+[2022-01-22 18:30:42]	[done]
+	build successfully !
+
+[2022-01-22 18:31:12]	[done]
+	build successfully !
+
+[2022-01-22 18:31:35]	[done]
+	build successfully !
+
+[2022-01-22 18:32:03]	[done]
+	build successfully !
+
+[2022-01-22 18:32:27]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x248 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-22 18:33:39]	[done]
+	build successfully !
+
+[2022-01-22 18:33:51]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x248 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-22 18:37:44]	[done]
+	build successfully !
+
+[2022-01-22 18:40:13]	[done]
+	build successfully !
+
+[2022-01-22 18:41:35]	[done]
+	build successfully !
+
+[2022-01-22 18:43:44]	[done]
+	build successfully !
+
+[2022-01-22 18:44:22]	[done]
+	build successfully !
+
+[2022-01-22 18:44:39]	[done]
+	build successfully !
+
+[2022-01-22 18:45:33]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x248 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-22 18:45:47]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x208 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-22 18:46:04]	[done]
+	build successfully !
+
+[2022-01-22 18:46:34]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x248 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-22 18:47:54]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x248 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-22 18:51:09]	[done]
+	build successfully !
+
+[2022-01-22 18:54:25]	[done]
+	build successfully !
+
+[2022-01-22 18:54:45]	[done]
+	build successfully !
+
+[2022-01-22 18:55:10]	[done]
+	build successfully !
+
+[2022-01-22 18:55:16]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x248 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-22 18:55:26]	[done]
+	build successfully !
+
+[2022-01-22 18:57:12]	[done]
+	build successfully !
+
+[2022-01-22 18:57:48]	[done]
+	build successfully !
+
+[2022-01-22 19:12:31]	[done]
+	build successfully !
+
+[2022-01-22 19:14:04]	[done]
+	build successfully !
+
+[2022-01-22 19:14:52]	[done]
+	build successfully !
+
+[2022-01-22 19:15:37]	[done]
+	build successfully !
+
+[2022-01-22 19:16:46]	[done]
+	build successfully !
+
+[2022-01-22 19:18:37]	[done]
+	build successfully !
+
+[2022-01-22 19:24:24]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "TIM3_DeInit" [referenced from c:\Users\13443\s
+          ource\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+Error[Li005]: no definition for "TIM3_TimeBaseInit" [referenced from c:\Users\1
+          3443\source\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+Error[Li005]: no definition for "TIM3_ITConfig" [referenced from c:\Users\13443
+          \source\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+Error[Li005]: no definition for "TIM3_Cmd" [referenced from c:\Users\13443\sour
+          ce\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+
+
+[2022-01-22 19:24:42]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "TIM3_DeInit" [referenced from c:\Users\13443\s
+          ource\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+Error[Li005]: no definition for "TIM3_TimeBaseInit" [referenced from c:\Users\1
+          3443\source\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+Error[Li005]: no definition for "TIM3_ITConfig" [referenced from c:\Users\13443
+          \source\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+Error[Li005]: no definition for "TIM3_Cmd" [referenced from c:\Users\13443\sour
+          ce\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+
+
+[2022-01-22 19:25:53]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "TIM3_DeInit" [referenced from c:\Users\13443\s
+          ource\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+Error[Li005]: no definition for "TIM3_TimeBaseInit" [referenced from c:\Users\1
+          3443\source\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+Error[Li005]: no definition for "TIM3_ITConfig" [referenced from c:\Users\13443
+          \source\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+Error[Li005]: no definition for "TIM3_Cmd" [referenced from c:\Users\13443\sour
+          ce\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+
+
+[2022-01-22 19:27:53]	[done]
+	build successfully !
+
+[2022-01-22 19:53:41]	[done]
+	build successfully !
+
+[2022-01-22 19:54:00]	[done]
+	build successfully !
+
+[2022-01-22 19:54:15]	[done]
+	build successfully !
+
+[2022-01-22 20:01:09]	[done]
+	build successfully !
+
