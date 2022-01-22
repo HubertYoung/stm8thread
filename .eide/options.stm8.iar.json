@@ -1,0 +1,35 @@
+{
+    "beforeBuildTasks": [],
+    "afterBuildTasks": [],
+    "global": {
+        "printf-formatter": "tiny",
+        "scanf-formatter": "small",
+        "math-functions": "default",
+        "data-mode": "medium",
+        "code-mode": "small",
+        "output-debug-info": "enable"
+    },
+    "c/cpp-compiler": {
+        "optimization": "no",
+        "destroy-cpp-static-object": true,
+        "runtime-lib": "normal",
+        "language-c": "c99",
+        "language-cpp": "Extended-EC++",
+        "language-conformance": "IAR-extensions",
+        "virtual-bytes": "16"
+    },
+    "asm-compiler": {
+        "case-sensitive-user-symbols": true
+    },
+    "linker": {
+        "linker-config": "lnkstm8s103f3.icf",
+        "config-defines": [
+            "_CSTACK_SIZE=0x0200",
+            "_HEAP_SIZE=0x0000"
+        ],
+        "auto-search-runtime-lib": true,
+        "use-C_SPY-debug-lib": true,
+        "output-format": "elf"
+    },
+    "version": 5
+}

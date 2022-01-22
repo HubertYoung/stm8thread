@@ -1,0 +1,28 @@
+{
+    "version": 0,
+    "beforeBuildTasks": [],
+    "afterBuildTasks": [
+        {
+            "name": "clean",
+            "command": "del \"${OutDir}\\*.asm\" \"${OutDir}\\*.rst\" \"${OutDir}\\*.sym\" \"${OutDir}\\*.cdb\""
+        },
+	{
+            "name": "fix sdcc elf",
+            "command": "\"${ExeDir}\\stm8-objcopy.exe\" --remove-section SSEG \"${OutDir}\\${targetName}.elf\" \"${OutDir}\\${targetName}.elf\""
+        }
+    ],
+    "global": {
+        "device": "stm8",
+        "optimize-type": "size",
+        "specific-options": [
+            "--model-medium"
+        ]
+    },
+    "c/cpp-compiler": {
+        "language-c": "c99"
+    },
+    "asm-compiler": {},
+    "linker": {
+        "$mainFileName": "main"
+    }
+}

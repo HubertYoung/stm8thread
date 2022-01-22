@@ -1,0 +1,51 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "C_Cpp.default.intelliSenseMode": "gcc-x86",
+        "files.autoGuessEncoding": false,
+        "files.encoding": "utf8",
+        "C_Cpp.default.cppStandard": "c++11",
+        "C_Cpp.default.cStandard": "c99",
+        "C_Cpp.errorSquiggles": "Enabled",
+        "EIDE.ARM.Option.AutoGenerateRTE_Components": false,
+        "files.associations": {
+            ".eideignore": "ignore",
+            "stm8s.h": "c",
+            "stm8s_uart1.h": "c",
+            "stm8s_gpio.h": "c",
+            "stm8s_conf.h": "c",
+            "oled.h": "c",
+            "uart.h": "c",
+            "atom.h": "c",
+            "stm8s_tim4.h": "c"
+        },
+        "[yaml]": {
+            "editor.insertSpaces": true,
+            "editor.tabSize": 4,
+            "editor.autoIndent": "advanced"
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "cl.eide",
+            "keroc.hex-fmt",
+            "xiaoyongdong.srecord",
+            "hars.cppsnippets",
+            "zixuanwang.linkerscript",
+            "redhat.vscode-yaml",
+            "cl.stm8-debug"
+        ]
+    },
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": []
+    }
+}

@@ -1,0 +1,2411 @@
+[2022-01-17 01:06:54]	[done]
+	build successfully !
+
+[2022-01-17 01:08:10]	compilation failed at : "c:\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01851] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+UART1_Init();
+                 ^
+"c:\source\stm8sdemo\src\main.c",30  Error[Pe165]: too few arguments in
+          function call
+
+[2022-01-17 01:08:54]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "UART2_DeInit" [referenced from
+          c:\source\stm8sdemo\build\Release\src\main.o]
+
+
+[2022-01-17 01:09:30]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "UART1_DeInit" [referenced from
+          c:\source\stm8sdemo\build\Release\src\main.o]
+
+
+[2022-01-17 01:09:51]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "UART1_DeInit" [referenced from
+          c:\source\stm8sdemo\build\Release\src\main.o]
+
+
+[2022-01-17 01:10:21]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "UART1_DeInit" [referenced from
+          c:\source\stm8sdemo\build\Release\src\main.o]
+
+
+[2022-01-17 01:10:45]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "UART1_DeInit" [referenced from
+          c:\source\stm8sdemo\build\Release\src\main.o]
+
+
+[2022-01-17 01:16:25]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "UART1_DeInit" [referenced from
+          c:\source\stm8sdemo\build\Release\src\main.o]
+
+
+[2022-01-17 01:19:07]	[done]
+	build successfully !
+
+[2022-01-17 01:19:53]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li006]: duplicate definitions for "main"; in
+          "c:\source\stm8sdemo\build\Release\src\main.o", and
+          "c:\source\stm8sdemo\build\Release\src\oled.o"
+Error[Li005]: no definition for "I2C_GetFlagStatus" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_GenerateSTART" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_CheckEvent" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Send7bitAddress" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_SendData" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_GenerateSTOP" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "UART2_DeInit" [referenced from
+          c:\source\stm8sdemo\build\Release\lib\ports\stm8\uart.o]
+Error[Li005]: no definition for "UART2_Init" [referenced from
+          c:\source\stm8sdemo\build\Release\lib\ports\stm8\uart.o]
+Error[Li005]: no definition for "TIM1_DeInit" [referenced from
+          c:\source\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+Error[Li005]: no definition for "TIM1_TimeBaseInit" [referenced from
+          c:\source\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+Error[Li005]: no definition for "TIM1_ITConfig" [referenced from
+          c:\source\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+Error[Li005]: no definition for "TIM1_Cmd" [referenced from
+          c:\source\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+
+
+[2022-01-17 01:20:53]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "I2C_GetFlagStatus" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_GenerateSTART" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_CheckEvent" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Send7bitAddress" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_SendData" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_GenerateSTOP" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Init" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Cmd" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+
+
+[2022-01-17 01:21:04]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "I2C_GetFlagStatus" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_GenerateSTART" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_CheckEvent" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Send7bitAddress" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_SendData" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_GenerateSTOP" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Init" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Cmd" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+
+
+[2022-01-17 01:21:58]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "I2C_GetFlagStatus" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_GenerateSTART" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_CheckEvent" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Send7bitAddress" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_SendData" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_GenerateSTOP" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Init" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Cmd" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+
+
+[2022-01-17 01:23:35]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "I2C_GetFlagStatus" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_GenerateSTART" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_CheckEvent" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Send7bitAddress" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_SendData" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_GenerateSTOP" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Init" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Cmd" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+
+
+[2022-01-17 01:28:21]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "I2C_GetFlagStatus" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_GenerateSTART" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_CheckEvent" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Send7bitAddress" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_SendData" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_GenerateSTOP" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Init" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Cmd" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+
+
+[2022-01-17 01:28:30]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li006]: duplicate definitions for "main"; in
+          "c:\source\stm8sdemo\build\Release\src\main.o", and
+          "c:\source\stm8sdemo\build\Release\src\oled.o"
+Error[Li005]: no definition for "I2C_GetFlagStatus" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_GenerateSTART" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_CheckEvent" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_Send7bitAddress" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_SendData" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "I2C_GenerateSTOP" [referenced from
+          c:\source\stm8sdemo\build\Release\src\oled_driver.o]
+Error[Li005]: no definition for "UART2_DeInit" [referenced from
+          c:\source\stm8sdemo\build\Release\lib\ports\stm8\uart.o]
+Error[Li005]: no definition for "UART2_Init" [referenced from
+          c:\source\stm8sdemo\build\Release\lib\ports\stm8\uart.o]
+Error[Li005]: no definition for "TIM1_DeInit" [referenced from
+          c:\source\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+Error[Li005]: no definition for "TIM1_TimeBaseInit" [referenced from
+          c:\source\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+Error[Li005]: no definition for "TIM1_ITConfig" [referenced from
+          c:\source\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+Error[Li005]: no definition for "TIM1_Cmd" [referenced from
+          c:\source\stm8sdemo\build\Release\lib\ports\stm8\atomport.o]
+
+
+[2022-01-17 01:28:56]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li006]: duplicate definitions for "main"; in
+          "c:\source\stm8sdemo\build\Release\src\main.o", and
+          "c:\source\stm8sdemo\build\Release\src\oled.o"
+Error[Li005]: no definition for "UART2_DeInit" [referenced from
+          c:\source\stm8sdemo\build\Release\lib\ports\stm8\uart.o]
+Error[Li005]: no definition for "UART2_Init" [referenced from
+          c:\source\stm8sdemo\build\Release\lib\ports\stm8\uart.o]
+
+
+[2022-01-17 01:29:08]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li006]: duplicate definitions for "main"; in
+          "c:\source\stm8sdemo\build\Release\src\main.o", and
+          "c:\source\stm8sdemo\build\Release\src\oled.o"
+
+
+[2022-01-17 01:30:02]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li006]: duplicate definitions for "main"; in
+          "c:\source\stm8sdemo\build\Release\src\main.o", and
+          "c:\source\stm8sdemo\build\Release\src\oled.o"
+
+
+[2022-01-17 01:30:59]	compilation failed at : "c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+TIM6->CR1 	= TIM6_CR1_RESET_VALUE;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",54  Error[Pe020]: 
+          identifier "TIM6" is undefined
+    TIM6->ARR = (uint8_t)(TIM6_Period);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",77  Error[Pe020]: 
+          identifier "TIM6" is undefined
+      TIM6->CR1 |= TIM6_CR1_CEN ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",96  Error[Pe020]: 
+          identifier "TIM6" is undefined
+      TIM6->CR1 &= (uint8_t)(~TIM6_CR1_CEN) ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",100  Error[Pe020]: 
+          identifier "TIM6" is undefined
+      TIM6->CR1 |= TIM6_CR1_UDIS ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",118  Error[Pe020]: 
+          identifier "TIM6" is undefined
+      TIM6->CR1 &= (uint8_t)(~TIM6_CR1_UDIS) ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",122  Error[Pe020]: 
+          identifier "TIM6" is undefined
+      TIM6->CR1 |= TIM6_CR1_URS ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",140  Error[Pe020]: 
+          identifier "TIM6" is undefined
+      TIM6->CR1 &= (uint8_t)(~TIM6_CR1_URS) ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",144  Error[Pe020]: 
+          identifier "TIM6" is undefined
+      TIM6->CR1 |= TIM6_CR1_OPM ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",162  Error[Pe020]: 
+          identifier "TIM6" is undefined
+      TIM6->CR1 &= (uint8_t)(~TIM6_CR1_OPM) ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",166  Error[Pe020]: 
+          identifier "TIM6" is undefined
+    TIM6->PSCR = (uint8_t)Prescaler;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",186  Error[Pe020]: 
+          identifier "TIM6" is undefined
+      TIM6->CR1 |= TIM6_CR1_ARPE ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",213  Error[Pe020]: 
+          identifier "TIM6" is undefined
+      TIM6->CR1 &= (uint8_t)(~TIM6_CR1_ARPE) ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",217  Error[Pe020]: 
+          identifier "TIM6" is undefined
+    TIM6->CNTR = (uint8_t)(Counter);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",230  Error[Pe020]: 
+          identifier "TIM6" is undefined
+    TIM6->ARR = (uint8_t)(Autoreload);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",242  Error[Pe020]: 
+          identifier "TIM6" is undefined
+    tmpcntr = TIM6->CNTR;
+              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",253  Error[Pe020]: 
+          identifier "TIM6" is undefined
+    return ((TIM6_Prescaler_TypeDef)TIM6->PSCR);
+                                    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",266  Error[Pe020]: 
+          identifier "TIM6" is undefined
+      TIM6->IER |= (uint8_t)TIM6_IT;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",289  Error[Pe020]: 
+          identifier "TIM6" is undefined
+      TIM6->IER &= (uint8_t)(~(uint8_t)TIM6_IT);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",294  Error[Pe020]: 
+          identifier "TIM6" is undefined
+    TIM6->SR1 &= (uint8_t)(~((uint8_t)TIM6_FLAG));
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",309  Error[Pe020]: 
+          identifier "TIM6" is undefined
+    itStatus = (uint8_t)(TIM6->SR1 & (uint8_t)TIM6_IT);
+                         ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",327  Error[Pe020]: 
+          identifier "TIM6" is undefined
+    TIM6->EGR |= (uint8_t)TIM6_EventSource;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",354  Error[Pe020]: 
+          identifier "TIM6" is undefined
+    if ((TIM6->SR1 & (uint8_t)TIM6_FLAG)  != 0)
+         ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",371  Error[Pe020]: 
+          identifier "TIM6" is undefined
+    TIM6->SR1 &= (uint8_t)(~(uint8_t)TIM6_IT);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",394  Error[Pe020]: 
+          identifier "TIM6" is undefined
+    tmpcr2 = TIM6->CR2;
+             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",410  Error[Pe020]: 
+          identifier "TIM6" is undefined
+      TIM6->SMCR |= TIM6_SMCR_MSM;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",436  Error[Pe020]: 
+          identifier "TIM6" is undefined
+      TIM6->SMCR &= (uint8_t)(~TIM6_SMCR_MSM);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",440  Error[Pe020]: 
+          identifier "TIM6" is undefined
+    tmpsmcr = TIM6->SMCR;
+              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",457  Error[Pe020]: 
+          identifier "TIM6" is undefined
+    TIM6->SMCR &=  (uint8_t)(~TIM6_SMCR_SMS);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",474  Error[Pe020]: 
+          identifier "TIM6" is undefined
+    tmpsmcr = TIM6->SMCR;
+              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim6.c",490  Error[Pe020]: 
+          identifier "TIM6" is undefined
+(void) UART3->SR;
+           ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",58  Error[Pe020]: 
+          identifier "UART3" is undefined
+    UART3->CR1 &= (uint8_t)(~UART3_CR1_M);     
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",98  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR1 &= (uint8_t)(~UART3_CR1_UARTD); 
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",165  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR1 |= UART3_CR1_UARTD;  
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",170  Error[Pe020]: 
+          identifier "UART3" is undefined
+        UART3->CR1 |= itpos;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",208  Error[Pe020]: 
+          identifier "UART3" is undefined
+        UART3->CR2 |= itpos;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",212  Error[Pe020]: 
+          identifier "UART3" is undefined
+        UART3->CR4 |= itpos;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",216  Error[Pe020]: 
+          identifier "UART3" is undefined
+        UART3->CR6 |= itpos;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",220  Error[Pe020]: 
+          identifier "UART3" is undefined
+        UART3->CR1 &= (uint8_t)(~itpos);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",228  Error[Pe020]: 
+          identifier "UART3" is undefined
+        UART3->CR2 &= (uint8_t)(~itpos);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",232  Error[Pe020]: 
+          identifier "UART3" is undefined
+        UART3->CR4 &= (uint8_t)(~itpos);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",236  Error[Pe020]: 
+          identifier "UART3" is undefined
+        UART3->CR6 &= (uint8_t)(~itpos);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",240  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR4 |= UART3_CR4_LBDL;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",259  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR4 &= ((uint8_t)~UART3_CR4_LBDL);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",263  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR6 |=  UART3_CR6_LSLV;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",288  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR6 &= ((uint8_t)~UART3_CR6_LSLV);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",292  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR6 |=  UART3_CR6_LASE ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",297  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR6 &= ((uint8_t)~ UART3_CR6_LASE );
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",301  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR6 |=  UART3_CR6_LDUM;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",306  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR6 &= ((uint8_t)~ UART3_CR6_LDUM);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",310  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR3 |= UART3_CR3_LINEN;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",328  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR3 &= ((uint8_t)~UART3_CR3_LINEN);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",333  Error[Pe020]: 
+          identifier "UART3" is undefined
+    UART3->CR1 &= ((uint8_t)~UART3_CR1_WAKE);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",348  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR2 |= UART3_CR2_RWU;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",366  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR2 &= ((uint8_t)~UART3_CR2_RWU);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",371  Error[Pe020]: 
+          identifier "UART3" is undefined
+    return ((uint8_t)UART3->DR);
+                     ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",382  Error[Pe020]: 
+          identifier "UART3" is undefined
+    temp = (uint16_t)(((uint16_t)((uint16_t)UART3->CR1 & (uint16_t)UART3_CR1_R8)) << 1);
+                                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",394  Error[Pe020]: 
+          identifier "UART3" is undefined
+    UART3->DR = Data;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",406  Error[Pe020]: 
+          identifier "UART3" is undefined
+    UART3->CR1 &= ((uint8_t)~UART3_CR1_T8);                  
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",417  Error[Pe020]: 
+          identifier "UART3" is undefined
+    UART3->CR2 |= UART3_CR2_SBK;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",433  Error[Pe020]: 
+          identifier "UART3" is undefined
+    UART3->CR4 &= ((uint8_t)~UART3_CR4_ADD);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",447  Error[Pe020]: 
+          identifier "UART3" is undefined
+      if ((UART3->CR4 & (uint8_t)UART3_FLAG) != (uint8_t)0x00)
+           ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",468  Error[Pe020]: 
+          identifier "UART3" is undefined
+      if ((UART3->CR2 & (uint8_t)UART3_FLAG) != (uint8_t)0x00)
+           ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",481  Error[Pe020]: 
+          identifier "UART3" is undefined
+      if ((UART3->CR6 & (uint8_t)UART3_FLAG) != (uint8_t)0x00)
+           ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",494  Error[Pe020]: 
+          identifier "UART3" is undefined
+      if ((UART3->SR & (uint8_t)UART3_FLAG) != (uint8_t)0x00)
+           ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",507  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->SR = (uint8_t)~(UART3_SR_RXNE);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",559  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR4 &= (uint8_t)(~UART3_CR4_LBDF);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",564  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR6 &= (uint8_t)(~UART3_CR6_LHDF);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",569  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR6 &= (uint8_t)(~UART3_CR6_LSF);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",574  Error[Pe020]: 
+          identifier "UART3" is undefined
+      enablestatus = (uint8_t)((uint8_t)UART3->CR1 & itmask2);
+                                        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",613  Error[Pe020]: 
+          identifier "UART3" is undefined
+      enablestatus = (uint8_t)((uint8_t)UART3->CR4 & itmask2);
+                                        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",630  Error[Pe020]: 
+          identifier "UART3" is undefined
+      enablestatus = (uint8_t)((uint8_t)UART3->CR6 & itmask2);
+                                        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",646  Error[Pe020]: 
+          identifier "UART3" is undefined
+      enablestatus = (uint8_t)((uint8_t)UART3->CR2 & itmask2);
+                                        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",662  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->SR = (uint8_t)~(UART3_SR_RXNE);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",714  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR4 &= (uint8_t)~(UART3_CR4_LBDF);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",719  Error[Pe020]: 
+          identifier "UART3" is undefined
+      UART3->CR6 &= (uint8_t)(~UART3_CR6_LHDF);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart3.c",724  Error[Pe020]: 
+          identifier "UART3" is undefined
+
+[2022-01-17 01:32:03]	compilation failed at : "c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+ADC2->CSR  = ADC2_CSR_RESET_VALUE;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",56  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CSR  = ADC2_CSR_RESET_VALUE;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",56  Error[Pe020]: 
+          identifier "ADC2_CSR_RESET_VALUE" is undefined
+    ADC2->CR1  = ADC2_CR1_RESET_VALUE;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",57  Error[Pe020]: 
+          identifier "ADC2_CR1_RESET_VALUE" is undefined
+    ADC2->CR2  = ADC2_CR2_RESET_VALUE;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",58  Error[Pe020]: 
+          identifier "ADC2_CR2_RESET_VALUE" is undefined
+    ADC2->TDRH = ADC2_TDRH_RESET_VALUE;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",59  Error[Pe020]: 
+          identifier "ADC2_TDRH_RESET_VALUE" is undefined
+    ADC2->TDRL = ADC2_TDRL_RESET_VALUE;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",60  Error[Pe020]: 
+          identifier "ADC2_TDRL_RESET_VALUE" is undefined
+    ADC2->CR1 |= ADC2_CR1_ADON;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",113  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR1 |= ADC2_CR1_ADON;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",113  Error[Pe020]: 
+          identifier "ADC2_CR1_ADON" is undefined
+      ADC2->CR1 |= ADC2_CR1_ADON;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",128  Error[Pe020]: 
+          identifier "ADC2" is undefined
+      ADC2->CR1 |= ADC2_CR1_ADON;
+                   ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",128  Error[Pe020]: 
+          identifier "ADC2_CR1_ADON" is undefined
+      ADC2->CR1 &= (uint8_t)(~ADC2_CR1_ADON);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",132  Error[Pe020]: 
+          identifier "ADC2" is undefined
+      ADC2->CR1 &= (uint8_t)(~ADC2_CR1_ADON);
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",132  Error[Pe020]: 
+          identifier "ADC2_CR1_ADON" is undefined
+      ADC2->CSR |= (uint8_t)ADC2_CSR_EOCIE;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",149  Error[Pe020]: 
+          identifier "ADC2" is undefined
+      ADC2->CSR |= (uint8_t)ADC2_CSR_EOCIE;
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",149  Error[Pe020]: 
+          identifier "ADC2_CSR_EOCIE" is undefined
+      ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOCIE);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",154  Error[Pe020]: 
+          identifier "ADC2" is undefined
+      ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOCIE);
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",154  Error[Pe020]: 
+          identifier "ADC2_CSR_EOCIE" is undefined
+    ADC2->CR1 &= (uint8_t)(~ADC2_CR1_SPSEL);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",170  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR1 &= (uint8_t)(~ADC2_CR1_SPSEL);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",170  Error[Pe020]: 
+          identifier "ADC2_CR1_SPSEL" is undefined
+        ADC2->TDRL &= (uint8_t)0x0;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",193  Error[Pe020]: 
+          identifier "ADC2" is undefined
+        ADC2->TDRL |= (uint8_t)0xFF;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",198  Error[Pe020]: 
+          identifier "ADC2" is undefined
+        ADC2->TDRL &= (uint8_t)(~(uint8_t)((uint8_t)0x01 << (uint8_t)ADC2_SchmittTriggerChannel));
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",206  Error[Pe020]: 
+          identifier "ADC2" is undefined
+        ADC2->TDRL |= (uint8_t)((uint8_t)0x01 << (uint8_t)ADC2_SchmittTriggerChannel);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",210  Error[Pe020]: 
+          identifier "ADC2" is undefined
+        ADC2->TDRH &= (uint8_t)(~(uint8_t)((uint8_t)0x01 << ((uint8_t)ADC2_SchmittTriggerChannel - (uint8_t)8)));
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",217  Error[Pe020]: 
+          identifier "ADC2" is undefined
+        ADC2->TDRH |= (uint8_t)((uint8_t)0x01 << ((uint8_t)ADC2_SchmittTriggerChannel - (uint8_t)8));
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",221  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR2 &= (uint8_t)(~ADC2_CR2_ALIGN);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",244  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR2 &= (uint8_t)(~ADC2_CR2_ALIGN);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",244  Error[Pe020]: 
+          identifier "ADC2_CR2_ALIGN" is undefined
+      ADC2->CR1 |= ADC2_CR1_CONT;
+                   ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",251  Error[Pe020]: 
+          identifier "ADC2_CR1_CONT" is undefined
+      ADC2->CR1 &= (uint8_t)(~ADC2_CR1_CONT);
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",256  Error[Pe020]: 
+          identifier "ADC2_CR1_CONT" is undefined
+    ADC2->CSR &= (uint8_t)(~ADC2_CSR_CH);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",260  Error[Pe020]: 
+          identifier "ADC2_CSR_CH" is undefined
+    ADC2->CR2 &= (uint8_t)(~ADC2_CR2_EXTSEL);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",282  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR2 &= (uint8_t)(~ADC2_CR2_EXTSEL);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",282  Error[Pe020]: 
+          identifier "ADC2_CR2_EXTSEL" is undefined
+      ADC2->CR2 |= (uint8_t)(ADC2_CR2_EXTTRIG);
+                             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",287  Error[Pe020]: 
+          identifier "ADC2_CR2_EXTTRIG" is undefined
+      ADC2->CR2 &= (uint8_t)(~ADC2_CR2_EXTTRIG);
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",292  Error[Pe020]: 
+          identifier "ADC2_CR2_EXTTRIG" is undefined
+    ADC2->CR1 |= ADC2_CR1_ADON;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",310  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR1 |= ADC2_CR1_ADON;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",310  Error[Pe020]: 
+          identifier "ADC2_CR1_ADON" is undefined
+    if ((ADC2->CR2 & ADC2_CR2_ALIGN) != 0) /* Right alignment */
+         ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",325  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    if ((ADC2->CR2 & ADC2_CR2_ALIGN) != 0) /* Right alignment */
+                     ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",325  Error[Pe020]: 
+          identifier "ADC2_CR2_ALIGN" is undefined
+    return (FlagStatus)(ADC2->CSR & ADC2_CSR_EOC);
+                        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",355  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    return (FlagStatus)(ADC2->CSR & ADC2_CSR_EOC);
+                                    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",355  Error[Pe020]: 
+          identifier "ADC2_CSR_EOC" is undefined
+    ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOC);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",365  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOC);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",365  Error[Pe020]: 
+          identifier "ADC2_CSR_EOC" is undefined
+    return (ITStatus)(ADC2->CSR & ADC2_CSR_EOC);
+                      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",376  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    return (ITStatus)(ADC2->CSR & ADC2_CSR_EOC);
+                                  ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",376  Error[Pe020]: 
+          identifier "ADC2_CSR_EOC" is undefined
+    ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOC);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",386  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOC);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",386  Error[Pe020]: 
+          identifier "ADC2_CSR_EOC" is undefined
+TIM5->CR1 = (uint8_t)TIM5_CR1_RESET_VALUE;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",54  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->PSCR = (uint8_t)(TIM5_Prescaler);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",94  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->CCER1 &= (uint8_t)(~( TIM5_CCER1_CC1E | TIM5_CCER1_CC1P));
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",119  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->CCER1 &= (uint8_t)(~( TIM5_CCER1_CC2E |  TIM5_CCER1_CC2P ));
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",152  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->CCER2 &= (uint8_t)(~( TIM5_CCER2_CC3E  | TIM5_CCER2_CC3P));
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",185  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CR1 |= TIM5_CR1_CEN ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",342  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CR1 &= (uint8_t)(~TIM5_CR1_CEN) ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",346  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->IER |= (uint8_t)TIM5_IT;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",372  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->IER &= (uint8_t)(~TIM5_IT);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",377  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CR1 |= TIM5_CR1_UDIS ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",395  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CR1 &= (uint8_t)(~TIM5_CR1_UDIS) ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",399  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CR1 |= TIM5_CR1_URS ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",419  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CR1 &= (uint8_t)(~TIM5_CR1_URS) ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",423  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CR1 |= TIM5_CR1_OPM ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",443  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CR1 &= (uint8_t)(~TIM5_CR1_OPM) ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",447  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->PSCR = (uint8_t)Prescaler;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",487  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->CCMR1  =  (uint8_t)((uint8_t)(TIM5->CCMR1 & (uint8_t)(~TIM5_CCMR_OCM))
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",508  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->CCMR2  =  (uint8_t)((uint8_t)(TIM5->CCMR2 & (uint8_t)(~TIM5_CCMR_OCM))
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",527  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->CCMR3  =  (uint8_t)((uint8_t)(TIM5->CCMR3 & (uint8_t)(~TIM5_CCMR_OCM))  
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",546  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CR1 |= TIM5_CR1_ARPE ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",564  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CR1 &= (uint8_t)(~TIM5_CR1_ARPE) ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",568  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CCMR1 |= TIM5_CCMR_OCxPE ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",586  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CCMR1 &= (uint8_t)(~TIM5_CCMR_OCxPE) ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",590  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CCMR2 |= TIM5_CCMR_OCxPE ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",608  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CCMR2 &= (uint8_t)(~TIM5_CCMR_OCxPE) ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",612  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CCMR3 |= TIM5_CCMR_OCxPE ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",630  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CCMR3 &= (uint8_t)(~TIM5_CCMR_OCxPE) ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",634  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->EGR = (uint8_t)TIM5_EventSource;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",654  Error[Pe020]: 
+          identifier "TIM5" is undefined
+          TIM5->CCER1 |= TIM5_CCER1_CC1P ;
+          ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",673  Error[Pe020]: 
+          identifier "TIM5" is undefined
+          TIM5->CCER1 &= (uint8_t)(~TIM5_CCER1_CC1P) ;
+          ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",677  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CCER1 |= TIM5_CCER1_CC2P ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",698  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CCER1 &= (uint8_t)(~TIM5_CCER1_CC2P) ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",702  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CCER2 |= TIM5_CCER2_CC3P ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",722  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CCER2 &= (uint8_t)(~TIM5_CCER2_CC3P) ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",726  Error[Pe020]: 
+          identifier "TIM5" is undefined
+        TIM5->CCER1 |= TIM5_CCER1_CC1E ;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",752  Error[Pe020]: 
+          identifier "TIM5" is undefined
+        TIM5->CCER1 &= (uint8_t)(~TIM5_CCER1_CC1E) ;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",756  Error[Pe020]: 
+          identifier "TIM5" is undefined
+        TIM5->CCER1 |= TIM5_CCER1_CC2E;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",765  Error[Pe020]: 
+          identifier "TIM5" is undefined
+        TIM5->CCER1 &= (uint8_t)(~TIM5_CCER1_CC2E) ;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",769  Error[Pe020]: 
+          identifier "TIM5" is undefined
+        TIM5->CCER2 |= TIM5_CCER2_CC3E;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",777  Error[Pe020]: 
+          identifier "TIM5" is undefined
+        TIM5->CCER2 &= (uint8_t)(~TIM5_CCER2_CC3E) ;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",781  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CCER1 &= (uint8_t)(~TIM5_CCER1_CC1E);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",815  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CCER1 &= (uint8_t)(~TIM5_CCER1_CC2E);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",824  Error[Pe020]: 
+          identifier "TIM5" is undefined
+      TIM5->CCER2 &= (uint8_t)(~TIM5_CCER2_CC3E);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",833  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->CNTRH = (uint8_t)(Counter >> 8);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",850  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->ARRH = (uint8_t)(Autoreload >> 8);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",863  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->CCR1H = (uint8_t)(Compare1 >> 8);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",876  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->CCR2H = (uint8_t)(Compare2 >> 8);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",889  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->CCR3H = (uint8_t)(Compare3 >> 8);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",902  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->CCMR1 = (uint8_t)((uint8_t)(TIM5->CCMR1 & (uint8_t)(~TIM5_CCMR_ICxPSC))|
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",922  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->CCMR2 = (uint8_t)((uint8_t)(TIM5->CCMR2 & (uint8_t)(~TIM5_CCMR_ICxPSC))
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",942  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->CCMR3 = (uint8_t)((uint8_t)(TIM5->CCMR3 & (uint8_t)(~TIM5_CCMR_ICxPSC)) |
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",961  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    temp = ((uint16_t)TIM5->CCR1H << 8); 
+                      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",974  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    temp = ((uint16_t)TIM5->CCR2H << 8);  
+                      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",989  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    temp = ((uint16_t)TIM5->CCR3H << 8);
+                      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",1004  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    tmpcntr = ((uint16_t)TIM5->CNTRH << 8); 
+                         ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",1018  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    return (TIM5_Prescaler_TypeDef)(TIM5->PSCR);
+                                    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",1031  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    tim5_flag_l= (uint8_t)(TIM5->SR1 & (uint8_t)TIM5_FLAG);
+                           ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",1055  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->SR1 = (uint8_t)(~((uint8_t)(TIM5_FLAG)));
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",1088  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5_itStatus = (uint8_t)(TIM5->SR1 & TIM5_IT);
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",1111  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->SR1 = (uint8_t)(~TIM5_IT);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",1142  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->CCER1 &= (uint8_t)(~TIM5_CCER1_CC1E);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",1166  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->CCER1 &=  (uint8_t)(~TIM5_CCER1_CC2E);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",1206  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->CCER2 &=  (uint8_t)(~TIM5_CCER2_CC3E);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",1245  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    TIM5->SMCR &=  (uint8_t)(~TIM5_SMCR_SMS);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",1274  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    tmpcr2 = TIM5->CR2;
+             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",1290  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    tmpsmcr = TIM5->SMCR;
+              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",1314  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    tmpsmcr = TIM5->SMCR;
+              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",1338  Error[Pe020]: 
+          identifier "TIM5" is undefined
+    tmpsmcr = TIM5->SMCR;
+              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_tim5.c",1370  Error[Pe020]: 
+          identifier "TIM5" is undefined
+
+[2022-01-17 01:32:16]	compilation failed at : "c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+ADC2->CSR  = ADC2_CSR_RESET_VALUE;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",56  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CSR  = ADC2_CSR_RESET_VALUE;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",56  Error[Pe020]: 
+          identifier "ADC2_CSR_RESET_VALUE" is undefined
+    ADC2->CR1  = ADC2_CR1_RESET_VALUE;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",57  Error[Pe020]: 
+          identifier "ADC2_CR1_RESET_VALUE" is undefined
+    ADC2->CR2  = ADC2_CR2_RESET_VALUE;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",58  Error[Pe020]: 
+          identifier "ADC2_CR2_RESET_VALUE" is undefined
+    ADC2->TDRH = ADC2_TDRH_RESET_VALUE;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",59  Error[Pe020]: 
+          identifier "ADC2_TDRH_RESET_VALUE" is undefined
+    ADC2->TDRL = ADC2_TDRL_RESET_VALUE;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",60  Error[Pe020]: 
+          identifier "ADC2_TDRL_RESET_VALUE" is undefined
+    ADC2->CR1 |= ADC2_CR1_ADON;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",113  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR1 |= ADC2_CR1_ADON;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",113  Error[Pe020]: 
+          identifier "ADC2_CR1_ADON" is undefined
+      ADC2->CR1 |= ADC2_CR1_ADON;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",128  Error[Pe020]: 
+          identifier "ADC2" is undefined
+      ADC2->CR1 |= ADC2_CR1_ADON;
+                   ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",128  Error[Pe020]: 
+          identifier "ADC2_CR1_ADON" is undefined
+      ADC2->CR1 &= (uint8_t)(~ADC2_CR1_ADON);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",132  Error[Pe020]: 
+          identifier "ADC2" is undefined
+      ADC2->CR1 &= (uint8_t)(~ADC2_CR1_ADON);
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",132  Error[Pe020]: 
+          identifier "ADC2_CR1_ADON" is undefined
+      ADC2->CSR |= (uint8_t)ADC2_CSR_EOCIE;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",149  Error[Pe020]: 
+          identifier "ADC2" is undefined
+      ADC2->CSR |= (uint8_t)ADC2_CSR_EOCIE;
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",149  Error[Pe020]: 
+          identifier "ADC2_CSR_EOCIE" is undefined
+      ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOCIE);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",154  Error[Pe020]: 
+          identifier "ADC2" is undefined
+      ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOCIE);
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",154  Error[Pe020]: 
+          identifier "ADC2_CSR_EOCIE" is undefined
+    ADC2->CR1 &= (uint8_t)(~ADC2_CR1_SPSEL);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",170  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR1 &= (uint8_t)(~ADC2_CR1_SPSEL);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",170  Error[Pe020]: 
+          identifier "ADC2_CR1_SPSEL" is undefined
+        ADC2->TDRL &= (uint8_t)0x0;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",193  Error[Pe020]: 
+          identifier "ADC2" is undefined
+        ADC2->TDRL |= (uint8_t)0xFF;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",198  Error[Pe020]: 
+          identifier "ADC2" is undefined
+        ADC2->TDRL &= (uint8_t)(~(uint8_t)((uint8_t)0x01 << (uint8_t)ADC2_SchmittTriggerChannel));
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",206  Error[Pe020]: 
+          identifier "ADC2" is undefined
+        ADC2->TDRL |= (uint8_t)((uint8_t)0x01 << (uint8_t)ADC2_SchmittTriggerChannel);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",210  Error[Pe020]: 
+          identifier "ADC2" is undefined
+        ADC2->TDRH &= (uint8_t)(~(uint8_t)((uint8_t)0x01 << ((uint8_t)ADC2_SchmittTriggerChannel - (uint8_t)8)));
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",217  Error[Pe020]: 
+          identifier "ADC2" is undefined
+        ADC2->TDRH |= (uint8_t)((uint8_t)0x01 << ((uint8_t)ADC2_SchmittTriggerChannel - (uint8_t)8));
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",221  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR2 &= (uint8_t)(~ADC2_CR2_ALIGN);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",244  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR2 &= (uint8_t)(~ADC2_CR2_ALIGN);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",244  Error[Pe020]: 
+          identifier "ADC2_CR2_ALIGN" is undefined
+      ADC2->CR1 |= ADC2_CR1_CONT;
+                   ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",251  Error[Pe020]: 
+          identifier "ADC2_CR1_CONT" is undefined
+      ADC2->CR1 &= (uint8_t)(~ADC2_CR1_CONT);
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",256  Error[Pe020]: 
+          identifier "ADC2_CR1_CONT" is undefined
+    ADC2->CSR &= (uint8_t)(~ADC2_CSR_CH);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",260  Error[Pe020]: 
+          identifier "ADC2_CSR_CH" is undefined
+    ADC2->CR2 &= (uint8_t)(~ADC2_CR2_EXTSEL);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",282  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR2 &= (uint8_t)(~ADC2_CR2_EXTSEL);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",282  Error[Pe020]: 
+          identifier "ADC2_CR2_EXTSEL" is undefined
+      ADC2->CR2 |= (uint8_t)(ADC2_CR2_EXTTRIG);
+                             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",287  Error[Pe020]: 
+          identifier "ADC2_CR2_EXTTRIG" is undefined
+      ADC2->CR2 &= (uint8_t)(~ADC2_CR2_EXTTRIG);
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",292  Error[Pe020]: 
+          identifier "ADC2_CR2_EXTTRIG" is undefined
+    ADC2->CR1 |= ADC2_CR1_ADON;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",310  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR1 |= ADC2_CR1_ADON;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",310  Error[Pe020]: 
+          identifier "ADC2_CR1_ADON" is undefined
+    if ((ADC2->CR2 & ADC2_CR2_ALIGN) != 0) /* Right alignment */
+         ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",325  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    if ((ADC2->CR2 & ADC2_CR2_ALIGN) != 0) /* Right alignment */
+                     ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",325  Error[Pe020]: 
+          identifier "ADC2_CR2_ALIGN" is undefined
+    return (FlagStatus)(ADC2->CSR & ADC2_CSR_EOC);
+                        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",355  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    return (FlagStatus)(ADC2->CSR & ADC2_CSR_EOC);
+                                    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",355  Error[Pe020]: 
+          identifier "ADC2_CSR_EOC" is undefined
+    ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOC);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",365  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOC);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",365  Error[Pe020]: 
+          identifier "ADC2_CSR_EOC" is undefined
+    return (ITStatus)(ADC2->CSR & ADC2_CSR_EOC);
+                      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",376  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    return (ITStatus)(ADC2->CSR & ADC2_CSR_EOC);
+                                  ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",376  Error[Pe020]: 
+          identifier "ADC2_CSR_EOC" is undefined
+    ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOC);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",386  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOC);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",386  Error[Pe020]: 
+          identifier "ADC2_CSR_EOC" is undefined
+(void)UART1->SR;
+          ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",57  Error[Pe020]: 
+          identifier "UART1" is undefined
+    UART1->CR1 &= (uint8_t)(~UART1_CR1_M);  
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",105  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR1 &= (uint8_t)(~UART1_CR1_UARTD); 
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",189  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR1 |= UART1_CR1_UARTD;  
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",194  Error[Pe020]: 
+          identifier "UART1" is undefined
+        UART1->CR1 |= itpos;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",229  Error[Pe020]: 
+          identifier "UART1" is undefined
+        UART1->CR2 |= itpos;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",233  Error[Pe020]: 
+          identifier "UART1" is undefined
+        UART1->CR4 |= itpos;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",237  Error[Pe020]: 
+          identifier "UART1" is undefined
+        UART1->CR1 &= (uint8_t)(~itpos);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",245  Error[Pe020]: 
+          identifier "UART1" is undefined
+        UART1->CR2 &= (uint8_t)(~itpos);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",249  Error[Pe020]: 
+          identifier "UART1" is undefined
+        UART1->CR4 &= (uint8_t)(~itpos);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",253  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 |= UART1_CR5_HDSEL;  /**< UART1 Half Duplex Enable  */
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",271  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 &= (uint8_t)~UART1_CR5_HDSEL; /**< UART1 Half Duplex Disable */
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",275  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 |= UART1_CR5_IRLP;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",291  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 &= ((uint8_t)~UART1_CR5_IRLP);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",295  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 |= UART1_CR5_IREN;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",313  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 &= ((uint8_t)~UART1_CR5_IREN);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",318  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR4 |= UART1_CR4_LBDL;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",335  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR4 &= ((uint8_t)~UART1_CR4_LBDL);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",339  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR3 |= UART1_CR3_LINEN;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",356  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR3 &= ((uint8_t)~UART1_CR3_LINEN);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",361  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 |= UART1_CR5_SCEN;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",378  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 &= ((uint8_t)(~UART1_CR5_SCEN));
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",383  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 |= UART1_CR5_NACK;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",401  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 &= ((uint8_t)~(UART1_CR5_NACK));
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",406  Error[Pe020]: 
+          identifier "UART1" is undefined
+    UART1->CR1 &= ((uint8_t)~UART1_CR1_WAKE);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",420  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR2 |= UART1_CR2_RWU;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",437  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR2 &= ((uint8_t)~UART1_CR2_RWU);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",442  Error[Pe020]: 
+          identifier "UART1" is undefined
+    return ((uint8_t)UART1->DR);
+                     ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",453  Error[Pe020]: 
+          identifier "UART1" is undefined
+    temp = (uint16_t)(((uint16_t)( (uint16_t)UART1->CR1 & (uint16_t)UART1_CR1_R8)) << 1);
+                                             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",465  Error[Pe020]: 
+          identifier "UART1" is undefined
+    UART1->DR = Data;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",477  Error[Pe020]: 
+          identifier "UART1" is undefined
+    UART1->CR1 &= ((uint8_t)~UART1_CR1_T8);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",489  Error[Pe020]: 
+          identifier "UART1" is undefined
+    UART1->CR2 |= UART1_CR2_SBK;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",503  Error[Pe020]: 
+          identifier "UART1" is undefined
+    UART1->CR4 &= ((uint8_t)~UART1_CR4_ADD);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",517  Error[Pe020]: 
+          identifier "UART1" is undefined
+    UART1->GTR = UART1_GuardTime;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",531  Error[Pe020]: 
+          identifier "UART1" is undefined
+    UART1->PSCR = UART1_Prescaler;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",559  Error[Pe020]: 
+          identifier "UART1" is undefined
+      if ((UART1->CR4 & (uint8_t)UART1_FLAG) != (uint8_t)0x00)
+           ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",579  Error[Pe020]: 
+          identifier "UART1" is undefined
+      if ((UART1->CR2 & (uint8_t)UART1_FLAG) != (uint8_t)0x00)
+           ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",592  Error[Pe020]: 
+          identifier "UART1" is undefined
+      if ((UART1->SR & (uint8_t)UART1_FLAG) != (uint8_t)0x00)
+           ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",605  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->SR = (uint8_t)~(UART1_SR_RXNE);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",653  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR4 &= (uint8_t)~(UART1_CR4_LBDF);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",658  Error[Pe020]: 
+          identifier "UART1" is undefined
+      enablestatus = (uint8_t)((uint8_t)UART1->CR1 & itmask2);
+                                        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",698  Error[Pe020]: 
+          identifier "UART1" is undefined
+      enablestatus = (uint8_t)((uint8_t)UART1->CR4 & itmask2);
+                                        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",716  Error[Pe020]: 
+          identifier "UART1" is undefined
+      enablestatus = (uint8_t)((uint8_t)UART1->CR2 & itmask2);
+                                        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",732  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->SR = (uint8_t)~(UART1_SR_RXNE);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",782  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR4 &= (uint8_t)~(UART1_CR4_LBDF);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",787  Error[Pe020]: 
+          identifier "UART1" is undefined
+(void)UART4->SR;
+          ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",57  Error[Pe020]: 
+          identifier "UART4" is undefined
+    UART4->BRR2 = UART4_BRR2_RESET_VALUE;  /*  Set UART4_BRR2 to reset value 0x00 */
+                  ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",60  Error[Pe020]: 
+          identifier "UART4_BRR2_RESET_VALUE" is undefined
+    UART4->BRR1 = UART4_BRR1_RESET_VALUE;  /*  Set UART4_BRR1 to reset value 0x00 */
+                  ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",61  Error[Pe020]: 
+          identifier "UART4_BRR1_RESET_VALUE" is undefined
+    UART4->CR1 = UART4_CR1_RESET_VALUE; /*  Set UART4_CR1 to reset value 0x00  */
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",63  Error[Pe020]: 
+          identifier "UART4_CR1_RESET_VALUE" is undefined
+    UART4->CR2 = UART4_CR2_RESET_VALUE; /*  Set UART4_CR2 to reset value 0x00  */
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",64  Error[Pe020]: 
+          identifier "UART4_CR2_RESET_VALUE" is undefined
+    UART4->CR3 = UART4_CR3_RESET_VALUE; /*  Set UART4_CR3 to reset value 0x00  */
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",65  Error[Pe020]: 
+          identifier "UART4_CR3_RESET_VALUE" is undefined
+    UART4->CR4 = UART4_CR4_RESET_VALUE; /*  Set UART4_CR4 to reset value 0x00  */
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",66  Error[Pe020]: 
+          identifier "UART4_CR4_RESET_VALUE" is undefined
+    UART4->CR5 = UART4_CR5_RESET_VALUE; /*  Set UART4_CR5 to reset value 0x00  */
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",67  Error[Pe020]: 
+          identifier "UART4_CR5_RESET_VALUE" is undefined
+    UART4->CR6 = UART4_CR6_RESET_VALUE; /*  Set UART4_CR6 to reset value 0x00  */
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",68  Error[Pe020]: 
+          identifier "UART4_CR6_RESET_VALUE" is undefined
+    UART4->CR1 &= (uint8_t)(~UART4_CR1_M);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",99  Error[Pe020]: 
+          identifier "UART4" is undefined
+    UART4->CR1 &= (uint8_t)(~UART4_CR1_M);
+                             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",99  Error[Pe020]: 
+          identifier "UART4_CR1_M" is undefined
+    UART4->CR3 &= (uint8_t)(~UART4_CR3_STOP);
+                             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",104  Error[Pe020]: 
+          identifier "UART4_CR3_STOP" is undefined
+    UART4->CR1 &= (uint8_t)(~(UART4_CR1_PCEN | UART4_CR1_PS  ));
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",109  Error[Pe020]: 
+          identifier "UART4_CR1_PCEN" is undefined
+    UART4->CR1 &= (uint8_t)(~(UART4_CR1_PCEN | UART4_CR1_PS  ));
+                                               ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",109  Error[Pe020]: 
+          identifier "UART4_CR1_PS" is undefined
+    UART4->BRR1 &= (uint8_t)(~UART4_BRR1_DIVM);
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",114  Error[Pe020]: 
+          identifier "UART4_BRR1_DIVM" is undefined
+    UART4->BRR2 &= (uint8_t)(~UART4_BRR2_DIVM);
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",116  Error[Pe020]: 
+          identifier "UART4_BRR2_DIVM" is undefined
+    UART4->BRR2 &= (uint8_t)(~UART4_BRR2_DIVF);
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",118  Error[Pe020]: 
+          identifier "UART4_BRR2_DIVF" is undefined
+    UART4->CR2 &= (uint8_t)~(UART4_CR2_TEN | UART4_CR2_REN);
+                             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",135  Error[Pe020]: 
+          identifier "UART4_CR2_TEN" is undefined
+    UART4->CR2 &= (uint8_t)~(UART4_CR2_TEN | UART4_CR2_REN);
+                                             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",135  Error[Pe020]: 
+          identifier "UART4_CR2_REN" is undefined
+    UART4->CR3 &= (uint8_t)~(UART4_CR3_CPOL | UART4_CR3_CPHA | UART4_CR3_LBCL);
+                             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",137  Error[Pe020]: 
+          identifier "UART4_CR3_CPOL" is undefined
+    UART4->CR3 &= (uint8_t)~(UART4_CR3_CPOL | UART4_CR3_CPHA | UART4_CR3_LBCL);
+                                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",137  Error[Pe020]: 
+          identifier "UART4_CR3_CPHA" is undefined
+    UART4->CR3 &= (uint8_t)~(UART4_CR3_CPOL | UART4_CR3_CPHA | UART4_CR3_LBCL);
+                                                               ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",137  Error[Pe020]: 
+          identifier "UART4_CR3_LBCL" is undefined
+      UART4->CR3 &= (uint8_t)(~UART4_CR3_CKEN); 
+                               ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",167  Error[Pe020]: 
+          identifier "UART4_CR3_CKEN" is undefined
+      UART4->CR3 |= (uint8_t)((uint8_t)SyncMode & UART4_CR3_CKEN);
+                                                  ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",171  Error[Pe020]: 
+          identifier "UART4_CR3_CKEN" is undefined
+      UART4->CR1 &= (uint8_t)(~UART4_CR1_UARTD);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",186  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR1 &= (uint8_t)(~UART4_CR1_UARTD);
+                               ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",186  Error[Pe020]: 
+          identifier "UART4_CR1_UARTD" is undefined
+      UART4->CR1 |= UART4_CR1_UARTD; 
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",191  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR1 |= UART4_CR1_UARTD; 
+                    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",191  Error[Pe020]: 
+          identifier "UART4_CR1_UARTD" is undefined
+        UART4->CR1 |= itpos;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",229  Error[Pe020]: 
+          identifier "UART4" is undefined
+        UART4->CR2 |= itpos;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",233  Error[Pe020]: 
+          identifier "UART4" is undefined
+        UART4->CR4 |= itpos;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",237  Error[Pe020]: 
+          identifier "UART4" is undefined
+        UART4->CR6 |= itpos;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",241  Error[Pe020]: 
+          identifier "UART4" is undefined
+        UART4->CR1 &= (uint8_t)(~itpos);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",249  Error[Pe020]: 
+          identifier "UART4" is undefined
+        UART4->CR2 &= (uint8_t)(~itpos);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",253  Error[Pe020]: 
+          identifier "UART4" is undefined
+        UART4->CR4 &= (uint8_t)(~itpos);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",257  Error[Pe020]: 
+          identifier "UART4" is undefined
+        UART4->CR6 &= (uint8_t)(~itpos);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",261  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR5 |= UART4_CR5_HDSEL;  /**< UART4 Half Duplex Enable  */
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",278  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR5 |= UART4_CR5_HDSEL;  /**< UART4 Half Duplex Enable  */
+                    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",278  Error[Pe020]: 
+          identifier "UART4_CR5_HDSEL" is undefined
+      UART4->CR5 &= (uint8_t)~UART4_CR5_HDSEL; /**< UART4 Half Duplex Disable */
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",282  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR5 &= (uint8_t)~UART4_CR5_HDSEL; /**< UART4 Half Duplex Disable */
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",282  Error[Pe020]: 
+          identifier "UART4_CR5_HDSEL" is undefined
+      UART4->CR5 |= UART4_CR5_IRLP;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",298  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR5 |= UART4_CR5_IRLP;
+                    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",298  Error[Pe020]: 
+          identifier "UART4_CR5_IRLP" is undefined
+      UART4->CR5 &= ((uint8_t)~UART4_CR5_IRLP);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",302  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR5 &= ((uint8_t)~UART4_CR5_IRLP);
+                               ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",302  Error[Pe020]: 
+          identifier "UART4_CR5_IRLP" is undefined
+      UART4->CR5 |= UART4_CR5_IREN;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",320  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR5 |= UART4_CR5_IREN;
+                    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",320  Error[Pe020]: 
+          identifier "UART4_CR5_IREN" is undefined
+      UART4->CR5 &= ((uint8_t)~UART4_CR5_IREN);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",325  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR5 &= ((uint8_t)~UART4_CR5_IREN);
+                               ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",325  Error[Pe020]: 
+          identifier "UART4_CR5_IREN" is undefined
+      UART4->CR4 |= UART4_CR4_LBDL;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",343  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR4 |= UART4_CR4_LBDL;
+                    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",343  Error[Pe020]: 
+          identifier "UART4_CR4_LBDL" is undefined
+      UART4->CR4 &= ((uint8_t)~UART4_CR4_LBDL);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",347  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR4 &= ((uint8_t)~UART4_CR4_LBDL);
+                               ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",347  Error[Pe020]: 
+          identifier "UART4_CR4_LBDL" is undefined
+      UART4->CR6 |=  UART4_CR6_LSLV;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",372  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR6 |=  UART4_CR6_LSLV;
+                     ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",372  Error[Pe020]: 
+          identifier "UART4_CR6_LSLV" is undefined
+      UART4->CR6 &= ((uint8_t)~UART4_CR6_LSLV);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",376  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR6 &= ((uint8_t)~UART4_CR6_LSLV);
+                               ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",376  Error[Pe020]: 
+          identifier "UART4_CR6_LSLV" is undefined
+      UART4->CR6 |=  UART4_CR6_LASE ;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",381  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR6 |=  UART4_CR6_LASE ;
+                     ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",381  Error[Pe020]: 
+          identifier "UART4_CR6_LASE" is undefined
+      UART4->CR6 &= ((uint8_t)~ UART4_CR6_LASE );
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",385  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR6 &= ((uint8_t)~ UART4_CR6_LASE );
+                                ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",385  Error[Pe020]: 
+          identifier "UART4_CR6_LASE" is undefined
+      UART4->CR6 |=  UART4_CR6_LDUM;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",390  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR6 |=  UART4_CR6_LDUM;
+                     ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",390  Error[Pe020]: 
+          identifier "UART4_CR6_LDUM" is undefined
+      UART4->CR6 &= ((uint8_t)~ UART4_CR6_LDUM);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",394  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR6 &= ((uint8_t)~ UART4_CR6_LDUM);
+                                ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",394  Error[Pe020]: 
+          identifier "UART4_CR6_LDUM" is undefined
+      UART4->CR3 |= UART4_CR3_LINEN;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",411  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR3 |= UART4_CR3_LINEN;
+                    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",411  Error[Pe020]: 
+          identifier "UART4_CR3_LINEN" is undefined
+      UART4->CR3 &= ((uint8_t)~UART4_CR3_LINEN);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",416  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR3 &= ((uint8_t)~UART4_CR3_LINEN);
+                               ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",416  Error[Pe020]: 
+          identifier "UART4_CR3_LINEN" is undefined
+      UART4->CR5 |= UART4_CR5_SCEN;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",434  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR5 |= UART4_CR5_SCEN;
+                    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",434  Error[Pe020]: 
+          identifier "UART4_CR5_SCEN" is undefined
+      UART4->CR5 &= ((uint8_t)(~UART4_CR5_SCEN));
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",439  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR5 &= ((uint8_t)(~UART4_CR5_SCEN));
+                                ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",439  Error[Pe020]: 
+          identifier "UART4_CR5_SCEN" is undefined
+      UART4->CR5 |= UART4_CR5_NACK;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",457  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR5 |= UART4_CR5_NACK;
+                    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",457  Error[Pe020]: 
+          identifier "UART4_CR5_NACK" is undefined
+      UART4->CR5 &= ((uint8_t)~(UART4_CR5_NACK));
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",462  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR5 &= ((uint8_t)~(UART4_CR5_NACK));
+                                ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",462  Error[Pe020]: 
+          identifier "UART4_CR5_NACK" is undefined
+    UART4->CR1 &= ((uint8_t)~UART4_CR1_WAKE);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",476  Error[Pe020]: 
+          identifier "UART4" is undefined
+    UART4->CR1 &= ((uint8_t)~UART4_CR1_WAKE);
+                             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",476  Error[Pe020]: 
+          identifier "UART4_CR1_WAKE" is undefined
+      UART4->CR2 |= UART4_CR2_RWU;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",493  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR2 |= UART4_CR2_RWU;
+                    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",493  Error[Pe020]: 
+          identifier "UART4_CR2_RWU" is undefined
+      UART4->CR2 &= ((uint8_t)~UART4_CR2_RWU);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",498  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->CR2 &= ((uint8_t)~UART4_CR2_RWU);
+                               ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",498  Error[Pe020]: 
+          identifier "UART4_CR2_RWU" is undefined
+    return ((uint8_t)UART4->DR);
+                     ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",509  Error[Pe020]: 
+          identifier "UART4" is undefined
+    temp = ((uint16_t)(((uint16_t)((uint16_t)UART4->CR1 & (uint16_t)UART4_CR1_R8)) << 1));
+                                             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",521  Error[Pe020]: 
+          identifier "UART4" is undefined
+    temp = ((uint16_t)(((uint16_t)((uint16_t)UART4->CR1 & (uint16_t)UART4_CR1_R8)) << 1));
+                                                                    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",521  Error[Pe020]: 
+          identifier "UART4_CR1_R8" is undefined
+    UART4->DR = Data;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",534  Error[Pe020]: 
+          identifier "UART4" is undefined
+    UART4->CR1 &= ((uint8_t)~UART4_CR1_T8);                  
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",545  Error[Pe020]: 
+          identifier "UART4" is undefined
+    UART4->CR1 &= ((uint8_t)~UART4_CR1_T8);                  
+                             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",545  Error[Pe020]: 
+          identifier "UART4_CR1_T8" is undefined
+    UART4->CR2 |= UART4_CR2_SBK;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",561  Error[Pe020]: 
+          identifier "UART4" is undefined
+    UART4->CR2 |= UART4_CR2_SBK;
+                  ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",561  Error[Pe020]: 
+          identifier "UART4_CR2_SBK" is undefined
+    UART4->CR4 &= ((uint8_t)~UART4_CR4_ADD);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",575  Error[Pe020]: 
+          identifier "UART4" is undefined
+    UART4->CR4 &= ((uint8_t)~UART4_CR4_ADD);
+                             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",575  Error[Pe020]: 
+          identifier "UART4_CR4_ADD" is undefined
+    UART4->GTR = UART4_GuardTime;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",589  Error[Pe020]: 
+          identifier "UART4" is undefined
+    UART4->PSCR = UART4_Prescaler;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",617  Error[Pe020]: 
+          identifier "UART4" is undefined
+      if((UART4->CR4 & (uint8_t)UART4_FLAG) != (uint8_t)0x00)
+          ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",636  Error[Pe020]: 
+          identifier "UART4" is undefined
+      if((UART4->CR2 & (uint8_t)UART4_FLAG) != (uint8_t)0x00)
+          ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",649  Error[Pe020]: 
+          identifier "UART4" is undefined
+      if((UART4->CR6 & (uint8_t)UART4_FLAG) != (uint8_t)0x00)
+          ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",662  Error[Pe020]: 
+          identifier "UART4" is undefined
+      if((UART4->SR & (uint8_t)UART4_FLAG) != (uint8_t)0x00)
+          ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",675  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->SR = (uint8_t)~(UART4_SR_RXNE);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",726  Error[Pe020]: 
+          identifier "UART4" is undefined
+      UART4->SR = (uint8_t)~(UART4_SR_RXNE);
+                             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart4.c",726  Error[Pe020]: 
+          identifier "UART4_SR_RXNE" is undefined
+Fatal error[Ms016]: Error limit (100) reached
+Fatal error detected, aborting.
+
+[2022-01-17 01:32:25]	compilation failed at : "c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+ADC2->CSR  = ADC2_CSR_RESET_VALUE;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",56  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CSR  = ADC2_CSR_RESET_VALUE;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",56  Error[Pe020]: 
+          identifier "ADC2_CSR_RESET_VALUE" is undefined
+    ADC2->CR1  = ADC2_CR1_RESET_VALUE;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",57  Error[Pe020]: 
+          identifier "ADC2_CR1_RESET_VALUE" is undefined
+    ADC2->CR2  = ADC2_CR2_RESET_VALUE;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",58  Error[Pe020]: 
+          identifier "ADC2_CR2_RESET_VALUE" is undefined
+    ADC2->TDRH = ADC2_TDRH_RESET_VALUE;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",59  Error[Pe020]: 
+          identifier "ADC2_TDRH_RESET_VALUE" is undefined
+    ADC2->TDRL = ADC2_TDRL_RESET_VALUE;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",60  Error[Pe020]: 
+          identifier "ADC2_TDRL_RESET_VALUE" is undefined
+    ADC2->CR1 |= ADC2_CR1_ADON;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",113  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR1 |= ADC2_CR1_ADON;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",113  Error[Pe020]: 
+          identifier "ADC2_CR1_ADON" is undefined
+      ADC2->CR1 |= ADC2_CR1_ADON;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",128  Error[Pe020]: 
+          identifier "ADC2" is undefined
+      ADC2->CR1 |= ADC2_CR1_ADON;
+                   ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",128  Error[Pe020]: 
+          identifier "ADC2_CR1_ADON" is undefined
+      ADC2->CR1 &= (uint8_t)(~ADC2_CR1_ADON);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",132  Error[Pe020]: 
+          identifier "ADC2" is undefined
+      ADC2->CR1 &= (uint8_t)(~ADC2_CR1_ADON);
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",132  Error[Pe020]: 
+          identifier "ADC2_CR1_ADON" is undefined
+      ADC2->CSR |= (uint8_t)ADC2_CSR_EOCIE;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",149  Error[Pe020]: 
+          identifier "ADC2" is undefined
+      ADC2->CSR |= (uint8_t)ADC2_CSR_EOCIE;
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",149  Error[Pe020]: 
+          identifier "ADC2_CSR_EOCIE" is undefined
+      ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOCIE);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",154  Error[Pe020]: 
+          identifier "ADC2" is undefined
+      ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOCIE);
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",154  Error[Pe020]: 
+          identifier "ADC2_CSR_EOCIE" is undefined
+    ADC2->CR1 &= (uint8_t)(~ADC2_CR1_SPSEL);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",170  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR1 &= (uint8_t)(~ADC2_CR1_SPSEL);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",170  Error[Pe020]: 
+          identifier "ADC2_CR1_SPSEL" is undefined
+        ADC2->TDRL &= (uint8_t)0x0;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",193  Error[Pe020]: 
+          identifier "ADC2" is undefined
+        ADC2->TDRL |= (uint8_t)0xFF;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",198  Error[Pe020]: 
+          identifier "ADC2" is undefined
+        ADC2->TDRL &= (uint8_t)(~(uint8_t)((uint8_t)0x01 << (uint8_t)ADC2_SchmittTriggerChannel));
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",206  Error[Pe020]: 
+          identifier "ADC2" is undefined
+        ADC2->TDRL |= (uint8_t)((uint8_t)0x01 << (uint8_t)ADC2_SchmittTriggerChannel);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",210  Error[Pe020]: 
+          identifier "ADC2" is undefined
+        ADC2->TDRH &= (uint8_t)(~(uint8_t)((uint8_t)0x01 << ((uint8_t)ADC2_SchmittTriggerChannel - (uint8_t)8)));
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",217  Error[Pe020]: 
+          identifier "ADC2" is undefined
+        ADC2->TDRH |= (uint8_t)((uint8_t)0x01 << ((uint8_t)ADC2_SchmittTriggerChannel - (uint8_t)8));
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",221  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR2 &= (uint8_t)(~ADC2_CR2_ALIGN);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",244  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR2 &= (uint8_t)(~ADC2_CR2_ALIGN);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",244  Error[Pe020]: 
+          identifier "ADC2_CR2_ALIGN" is undefined
+      ADC2->CR1 |= ADC2_CR1_CONT;
+                   ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",251  Error[Pe020]: 
+          identifier "ADC2_CR1_CONT" is undefined
+      ADC2->CR1 &= (uint8_t)(~ADC2_CR1_CONT);
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",256  Error[Pe020]: 
+          identifier "ADC2_CR1_CONT" is undefined
+    ADC2->CSR &= (uint8_t)(~ADC2_CSR_CH);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",260  Error[Pe020]: 
+          identifier "ADC2_CSR_CH" is undefined
+    ADC2->CR2 &= (uint8_t)(~ADC2_CR2_EXTSEL);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",282  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR2 &= (uint8_t)(~ADC2_CR2_EXTSEL);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",282  Error[Pe020]: 
+          identifier "ADC2_CR2_EXTSEL" is undefined
+      ADC2->CR2 |= (uint8_t)(ADC2_CR2_EXTTRIG);
+                             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",287  Error[Pe020]: 
+          identifier "ADC2_CR2_EXTTRIG" is undefined
+      ADC2->CR2 &= (uint8_t)(~ADC2_CR2_EXTTRIG);
+                              ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",292  Error[Pe020]: 
+          identifier "ADC2_CR2_EXTTRIG" is undefined
+    ADC2->CR1 |= ADC2_CR1_ADON;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",310  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CR1 |= ADC2_CR1_ADON;
+                 ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",310  Error[Pe020]: 
+          identifier "ADC2_CR1_ADON" is undefined
+    if ((ADC2->CR2 & ADC2_CR2_ALIGN) != 0) /* Right alignment */
+         ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",325  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    if ((ADC2->CR2 & ADC2_CR2_ALIGN) != 0) /* Right alignment */
+                     ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",325  Error[Pe020]: 
+          identifier "ADC2_CR2_ALIGN" is undefined
+    return (FlagStatus)(ADC2->CSR & ADC2_CSR_EOC);
+                        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",355  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    return (FlagStatus)(ADC2->CSR & ADC2_CSR_EOC);
+                                    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",355  Error[Pe020]: 
+          identifier "ADC2_CSR_EOC" is undefined
+    ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOC);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",365  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOC);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",365  Error[Pe020]: 
+          identifier "ADC2_CSR_EOC" is undefined
+    return (ITStatus)(ADC2->CSR & ADC2_CSR_EOC);
+                      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",376  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    return (ITStatus)(ADC2->CSR & ADC2_CSR_EOC);
+                                  ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",376  Error[Pe020]: 
+          identifier "ADC2_CSR_EOC" is undefined
+    ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOC);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",386  Error[Pe020]: 
+          identifier "ADC2" is undefined
+    ADC2->CSR &= (uint8_t)(~ADC2_CSR_EOC);
+                            ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_adc2.c",386  Error[Pe020]: 
+          identifier "ADC2_CSR_EOC" is undefined
+(void)UART1->SR;
+          ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",57  Error[Pe020]: 
+          identifier "UART1" is undefined
+    UART1->CR1 &= (uint8_t)(~UART1_CR1_M);  
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",105  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR1 &= (uint8_t)(~UART1_CR1_UARTD); 
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",189  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR1 |= UART1_CR1_UARTD;  
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",194  Error[Pe020]: 
+          identifier "UART1" is undefined
+        UART1->CR1 |= itpos;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",229  Error[Pe020]: 
+          identifier "UART1" is undefined
+        UART1->CR2 |= itpos;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",233  Error[Pe020]: 
+          identifier "UART1" is undefined
+        UART1->CR4 |= itpos;
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",237  Error[Pe020]: 
+          identifier "UART1" is undefined
+        UART1->CR1 &= (uint8_t)(~itpos);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",245  Error[Pe020]: 
+          identifier "UART1" is undefined
+        UART1->CR2 &= (uint8_t)(~itpos);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",249  Error[Pe020]: 
+          identifier "UART1" is undefined
+        UART1->CR4 &= (uint8_t)(~itpos);
+        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",253  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 |= UART1_CR5_HDSEL;  /**< UART1 Half Duplex Enable  */
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",271  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 &= (uint8_t)~UART1_CR5_HDSEL; /**< UART1 Half Duplex Disable */
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",275  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 |= UART1_CR5_IRLP;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",291  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 &= ((uint8_t)~UART1_CR5_IRLP);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",295  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 |= UART1_CR5_IREN;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",313  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 &= ((uint8_t)~UART1_CR5_IREN);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",318  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR4 |= UART1_CR4_LBDL;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",335  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR4 &= ((uint8_t)~UART1_CR4_LBDL);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",339  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR3 |= UART1_CR3_LINEN;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",356  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR3 &= ((uint8_t)~UART1_CR3_LINEN);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",361  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 |= UART1_CR5_SCEN;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",378  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 &= ((uint8_t)(~UART1_CR5_SCEN));
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",383  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 |= UART1_CR5_NACK;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",401  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR5 &= ((uint8_t)~(UART1_CR5_NACK));
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",406  Error[Pe020]: 
+          identifier "UART1" is undefined
+    UART1->CR1 &= ((uint8_t)~UART1_CR1_WAKE);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",420  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR2 |= UART1_CR2_RWU;
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",437  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR2 &= ((uint8_t)~UART1_CR2_RWU);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",442  Error[Pe020]: 
+          identifier "UART1" is undefined
+    return ((uint8_t)UART1->DR);
+                     ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",453  Error[Pe020]: 
+          identifier "UART1" is undefined
+    temp = (uint16_t)(((uint16_t)( (uint16_t)UART1->CR1 & (uint16_t)UART1_CR1_R8)) << 1);
+                                             ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",465  Error[Pe020]: 
+          identifier "UART1" is undefined
+    UART1->DR = Data;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",477  Error[Pe020]: 
+          identifier "UART1" is undefined
+    UART1->CR1 &= ((uint8_t)~UART1_CR1_T8);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",489  Error[Pe020]: 
+          identifier "UART1" is undefined
+    UART1->CR2 |= UART1_CR2_SBK;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",503  Error[Pe020]: 
+          identifier "UART1" is undefined
+    UART1->CR4 &= ((uint8_t)~UART1_CR4_ADD);
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",517  Error[Pe020]: 
+          identifier "UART1" is undefined
+    UART1->GTR = UART1_GuardTime;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",531  Error[Pe020]: 
+          identifier "UART1" is undefined
+    UART1->PSCR = UART1_Prescaler;
+    ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",559  Error[Pe020]: 
+          identifier "UART1" is undefined
+      if ((UART1->CR4 & (uint8_t)UART1_FLAG) != (uint8_t)0x00)
+           ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",579  Error[Pe020]: 
+          identifier "UART1" is undefined
+      if ((UART1->CR2 & (uint8_t)UART1_FLAG) != (uint8_t)0x00)
+           ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",592  Error[Pe020]: 
+          identifier "UART1" is undefined
+      if ((UART1->SR & (uint8_t)UART1_FLAG) != (uint8_t)0x00)
+           ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",605  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->SR = (uint8_t)~(UART1_SR_RXNE);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",653  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR4 &= (uint8_t)~(UART1_CR4_LBDF);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",658  Error[Pe020]: 
+          identifier "UART1" is undefined
+      enablestatus = (uint8_t)((uint8_t)UART1->CR1 & itmask2);
+                                        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",698  Error[Pe020]: 
+          identifier "UART1" is undefined
+      enablestatus = (uint8_t)((uint8_t)UART1->CR4 & itmask2);
+                                        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",716  Error[Pe020]: 
+          identifier "UART1" is undefined
+      enablestatus = (uint8_t)((uint8_t)UART1->CR2 & itmask2);
+                                        ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",732  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->SR = (uint8_t)~(UART1_SR_RXNE);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",782  Error[Pe020]: 
+          identifier "UART1" is undefined
+      UART1->CR4 &= (uint8_t)~(UART1_CR4_LBDF);
+      ^
+"c:\source\stm8sdemo\lib\STM8S_StdPeriph_Driver\src\stm8s_uart1.c",787  Error[Pe020]: 
+          identifier "UART1" is undefined
+
+[2022-01-17 01:32:40]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li006]: duplicate definitions for "main"; in
+          "c:\source\stm8sdemo\build\Release\src\main.o", and
+          "c:\source\stm8sdemo\build\Release\src\oled.o"
+
+
+[2022-01-17 01:32:50]	[done]
+	build successfully !
+
+[2022-01-17 01:33:01]	[done]
+	build successfully !
+
+[2022-01-17 01:39:12]	[done]
+	build successfully !
+
+[2022-01-17 01:42:13]	[done]
+	build successfully !
+
+[2022-01-17 01:44:37]	[done]
+	build successfully !
+
+[2022-01-17 01:44:58]	compilation failed at : "c:\source\stm8sdemo\lib\kernel\atomkernel.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+uint32_t entry_param;7
+                           ^
+"c:\source\stm8sdemo\lib\kernel\atom.h",70  Error[Pe079]: expected a type
+          specifier
+      struct atom_tcb *prev_tcb;    /* Previous TCB in doubly-linked TCB list */
+                               ^
+"c:\source\stm8sdemo\lib\kernel\atom.h",73  Warning[Pe012]: parsing restarts
+          here after previous syntax error
+      uint32_t entry_param;7
+                           ^
+"c:\source\stm8sdemo\lib\kernel\atom.h",70  Warning[Pe064]: declaration does
+          not declare anything
+uint32_t entry_param;7
+                           ^
+"c:\source\stm8sdemo\lib\kernel\atom.h",70  Error[Pe079]: expected a type
+          specifier
+      struct atom_tcb *prev_tcb;    /* Previous TCB in doubly-linked TCB list */
+                               ^
+"c:\source\stm8sdemo\lib\kernel\atom.h",73  Warning[Pe012]: parsing restarts
+          here after previous syntax error
+      uint32_t entry_param;7
+                           ^
+"c:\source\stm8sdemo\lib\kernel\atom.h",70  Warning[Pe064]: declaration does
+          not declare anything
+uint32_t entry_param;7
+                           ^
+"c:\source\stm8sdemo\lib\kernel\atom.h",70  Error[Pe079]: expected a type
+          specifier
+      struct atom_tcb *prev_tcb;    /* Previous TCB in doubly-linked TCB list */
+                               ^
+"c:\source\stm8sdemo\lib\kernel\atom.h",73  Warning[Pe012]: parsing restarts
+          here after previous syntax error
+      uint32_t entry_param;7
+                           ^
+"c:\source\stm8sdemo\lib\kernel\atom.h",70  Warning[Pe064]: declaration does
+          not declare anything
+uint32_t entry_param;7
+                           ^
+"c:\source\stm8sdemo\lib\kernel\atom.h",70  Error[Pe079]: expected a type
+          specifier
+      struct atom_tcb *prev_tcb;    /* Previous TCB in doubly-linked TCB list */
+                               ^
+"c:\source\stm8sdemo\lib\kernel\atom.h",73  Warning[Pe012]: parsing restarts
+          here after previous syntax error
+      uint32_t entry_param;7
+                           ^
+"c:\source\stm8sdemo\lib\kernel\atom.h",70  Warning[Pe064]: declaration does
+          not declare anything
+          tcb_ptr->prev_tcb = NULL;
+                   ^
+"c:\source\stm8sdemo\lib\kernel\atomkernel.c",409  Error[Pe136]: struct
+          "atom_tcb" has no field "prev_tcb"
+                      tcb_ptr->prev_tcb = NULL;
+                               ^
+"c:\source\stm8sdemo\lib\kernel\atomkernel.c",826  Error[Pe136]: struct
+          "atom_tcb" has no field "prev_tcb"
+                          next_ptr->prev_tcb = tcb_ptr;
+                                    ^
+"c:\source\stm8sdemo\lib\kernel\atomkernel.c",829  Error[Pe136]: struct
+          "atom_tcb" has no field "prev_tcb"
+                      tcb_ptr->prev_tcb = prev_ptr;
+                               ^
+"c:\source\stm8sdemo\lib\kernel\atomkernel.c",834  Error[Pe136]: struct
+          "atom_tcb" has no field "prev_tcb"
+                          next_ptr->prev_tcb = tcb_ptr;
+                                    ^
+"c:\source\stm8sdemo\lib\kernel\atomkernel.c",838  Error[Pe136]: struct
+          "atom_tcb" has no field "prev_tcb"
+              (*tcb_queue_ptr)->prev_tcb = NULL;
+                                ^
+"c:\source\stm8sdemo\lib\kernel\atomkernel.c",906  Error[Pe136]: struct
+          "atom_tcb" has no field "prev_tcb"
+          ret_ptr->next_tcb = ret_ptr->prev_tcb = NULL;
+                                       ^
+"c:\source\stm8sdemo\lib\kernel\atomkernel.c",907  Error[Pe136]: struct
+          "atom_tcb" has no field "prev_tcb"
+                          (*tcb_queue_ptr)->prev_tcb = NULL;
+                                            ^
+"c:\source\stm8sdemo\lib\kernel\atomkernel.c",966  Error[Pe136]: struct
+          "atom_tcb" has no field "prev_tcb"
+                          next_ptr->next_tcb->prev_tcb = prev_ptr;
+                                              ^
+"c:\source\stm8sdemo\lib\kernel\atomkernel.c",973  Error[Pe136]: struct
+          "atom_tcb" has no field "prev_tcb"
+                  ret_ptr->prev_tcb = ret_ptr->next_tcb = NULL;
+                           ^
+"c:\source\stm8sdemo\lib\kernel\atomkernel.c",976  Error[Pe136]: struct
+          "atom_tcb" has no field "prev_tcb"
+              (*tcb_queue_ptr)->prev_tcb = NULL;
+                                ^
+"c:\source\stm8sdemo\lib\kernel\atomkernel.c",1040  Error[Pe136]: struct
+          "atom_tcb" has no field "prev_tcb"
+
+[2022-01-17 01:45:04]	[done]
+	build successfully !
+
+[2022-01-18 00:52:25]	compilation failed at : "c:\source\stm8sdemo\lib\ports\stm8\atomport.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+TIM4_TimeBaseInit(TIM4_PRESCALER_128, TIM1_COUNTERMODE_UP, 1, 0);
+                                                                 ^
+"c:\source\stm8sdemo\lib\ports\stm8\atomport.c",243  Error[Pe140]: too many
+          arguments in function call
+      TIM4_ITConfig(TIM1_IT_UPDATE, ENABLE);
+                    ^
+"c:\source\stm8sdemo\lib\ports\stm8\atomport.c",246  Warning[Pe188]: enumerated
+          type mixed with another type
+
+[2022-01-18 00:52:53]	[done]
+	build successfully !
+
+[2022-01-18 01:06:10]	[done]
+	build successfully !
+
+[2022-01-18 01:12:14]	[done]
+	build successfully !
+
+[2022-01-18 01:25:05]	[done]
+	build successfully !
+
+[2022-01-18 01:31:00]	[done]
+	build successfully !
+
+[2022-01-22 13:32:25]	[done]
+	build successfully !
+
+[2022-01-22 13:35:52]	[done]
+	build successfully !
+
+[2022-01-22 13:37:09]	[done]
+	build successfully !
+
+[2022-01-22 13:38:26]	[done]
+	build successfully !
+
+[2022-01-22 14:03:48]	[done]
+	build successfully !
+
+[2022-01-22 14:06:57]	[done]
+	build successfully !
+
+[2022-01-22 14:21:58]	[done]
+	build successfully !
+
+[2022-01-22 14:22:13]	[done]
+	build successfully !
+
+[2022-01-22 14:22:51]	[done]
+	build successfully !
+
+[2022-01-22 14:23:44]	[done]
+	build successfully !
+
+[2022-01-22 14:24:23]	[done]
+	build successfully !
+
+[2022-01-22 14:25:20]	[done]
+	build successfully !
+
+[2022-01-22 14:25:42]	[done]
+	build successfully !
+
+[2022-01-22 14:27:19]	[done]
+	build successfully !
+
+[2022-01-22 14:28:34]	[done]
+	build successfully !
+
+[2022-01-22 14:29:30]	[done]
+	build successfully !
+
+[2022-01-22 14:30:40]	[done]
+	build successfully !
+
+[2022-01-22 14:31:01]	[done]
+	build successfully !
+
+[2022-01-22 14:31:51]	[done]
+	build successfully !
+
+[2022-01-22 14:34:15]	[done]
+	build successfully !
+
+[2022-01-22 14:38:11]	[done]
+	build successfully !
+
+[2022-01-22 14:40:28]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "atomThreadStackCheck" [referenced from
+          c:\source\stm8sdemo\build\Release\src\main.o]
+
+
+[2022-01-22 14:40:44]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+Error[Li005]: no definition for "atomThreadStackCheck" [referenced from
+          c:\source\stm8sdemo\build\Release\src\main.o]
+
+
+[2022-01-22 14:41:22]	compilation failed at : "c:\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+if (uart_init(115200) != 0)
+          ^
+"c:\source\stm8sdemo\src\main.c",250  Warning[Pe223]: function "uart_init"
+          declared implicitly
+  #endif
+   ^
+"c:\source\stm8sdemo\src\main.c",284  Error[Pe036]: the #if for this directive
+          is missing
+
+[2022-01-22 14:41:31]	compilation failed at : "c:\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <bd848165df964d26b51d3d1ad263c7b0>:0 
+---
+if (uart_init(115200) != 0)
+          ^
+"c:\source\stm8sdemo\src\main.c",250  Warning[Pe223]: function "uart_init"
+          declared implicitly
+  #endif
+   ^
+"c:\source\stm8sdemo\src\main.c",284  Error[Pe036]: the #if for this directive
+          is missing
+
+[2022-01-22 14:41:48]	[done]
+	build successfully !
+
+[2022-01-22 15:56:53]	[done]
+	build successfully !
+
