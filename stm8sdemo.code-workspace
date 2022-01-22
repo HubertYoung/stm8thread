@@ -27,7 +27,11 @@
             "stm8s_tim3.h": "c",
             "atomtimer.h": "c",
             "key.h": "c",
-            "delay.h": "c"
+            "delay.h": "c",
+            "stm8s_clk.h": "c",
+            "stm8s_flash.h": "c",
+            "eeprom.h": "c",
+            "button_debounce.h": "c"
         },
         "[yaml]": {
             "editor.insertSpaces": true,

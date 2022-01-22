@@ -1,43 +1,3 @@
-/*
- * Copyright (c) 2010, Kelvin Lawson. All rights reserved.
- *
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions
- * are met:
- *
- * 1. Redistributions of source code must retain the above copyright
- *    notice, this list of conditions and the following disclaimer.
- * 2. Redistributions in binary form must reproduce the above copyright
- *    notice, this list of conditions and the following disclaimer in the
- *    documentation and/or other materials provided with the distribution.
- * 3. No personal names or organizations' names associated with the
- *    Atomthreads project may be used to endorse or promote products
- *    derived from this software without specific prior written permission.
- *
- * THIS SOFTWARE IS PROVIDED BY THE ATOMTHREADS PROJECT AND CONTRIBUTORS
- * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
- * TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
- * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE PROJECT OR CONTRIBUTORS BE
- * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
- * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
- * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
- * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
- * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
- * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
- * POSSIBILITY OF SUCH DAMAGE.
- */
-/*
- * Copyright (c) 2013 Wei Shuai <cpuwolf@gmail.com>
- *     Modify to adapt STM8L
- *
- * Code is designed for
- *     STM8L mini system board
- *     get one from http://cpuwolf.taobao.com
- *
- * STM8L mini system board:
- * PB0: on-board LED
- *
- */
 
 #include <stdio.h>
 #include <atom.h>
@@ -47,6 +7,7 @@
 #include <stm8s_gpio.h>
 #include <pwm.h>
 #include <key.h>
+#include <eeprom.h>
 #include "atomport-private.h"
 
 /* Constants */
@@ -146,6 +107,9 @@ NO_REG_SAVE void main(void)
 
     /* CLK configuration */
     CLK_Config();
+
+    eeprom_init();
+
     /* GPIO configuration */
     GPIO_Config();
 
@@ -276,27 +240,29 @@ static void system_status(uint32_t param)
 
 static void at_thread_func(uint32_t param)
 {
-    volatile uint8_t keyPassValue = 0; //长按短按状态
     while (1)
     {
         //一个系统周期检测一次键盘
-        atomTimerDelay(10);
-        // keyPassValue = keyRead();
+        atomTimerDelay(500);
+        uint8_t duty_cycle = eeprom_read_data8(PWM_CYCLE_ADD);
+        uint16_t pwm1_period = eeprom_read_data16(PWM_PERIOD_ADD);
+        printf("duty_cycle${%d}\n", duty_cycle);
+        printf("pwm1_period${%d}\n", pwm1_period);
+        // keyLoadRun();
         // keyPassValue = keyScan();
-        switch (keyPassValue)
-        {
-        case KEY_UP:
-            printf("KEY_UP keyPassOne\n");
-            break;
-        case KEY_DOWN:
-            printf("KEY_UP KeyPassLong\n");
-            break;
-        default:
-            break;
-        }
-       
+        // switch (keyPassValue)
+        // {
+        // case KEY_UP:
+        //     printf("KEY_UP keyPassOne\n");
+        //     break;
+        // case KEY_DOWN:
+        //     printf("KEY_UP KeyPassLong\n");
+        //     break;
+        // default:
+        //     break;
+        // }
+
         // printf("KEY_UP keyPassValue${%d}\n", keyPassValue);
         // printf("KEY_UP uint8_t{%d}\n", (KEY_UP != RESET && GPIO_ReadInputPin(KEY_GPIO, KEY1_GPIO_PIN) == RESET));
-        
     }
 }

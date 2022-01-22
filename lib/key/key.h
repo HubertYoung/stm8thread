@@ -19,6 +19,7 @@
 
 void keyInit(void);
 uint8_t keyRead(uint8_t key_map);
+void keyLoadRun(void);
 
 INTERRUPT void EXTI_PORTB_IRQHandler(void);
 
