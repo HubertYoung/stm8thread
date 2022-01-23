@@ -10612,3 +10612,234 @@ void delay_1us(uint16_t n_1us)
 [2022-01-24 00:38:23]	[done]
 	build successfully !
 
+[2022-01-24 00:41:51]	[done]
+	build successfully !
+
+[2022-01-24 00:42:27]	[done]
+	build successfully !
+
+[2022-01-24 00:43:19]	[done]
+	build successfully !
+
+[2022-01-24 00:43:51]	[done]
+	build successfully !
+
+[2022-01-24 00:44:53]	[done]
+	build successfully !
+
+[2022-01-24 00:45:47]	[done]
+	build successfully !
+
+[2022-01-24 00:46:12]	[done]
+	build successfully !
+
+[2022-01-24 00:47:32]	[done]
+	build successfully !
+
+[2022-01-24 00:55:22]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\gui\gui.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include "stm8s_it.h"
+                       ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.h",23  Fatal error[Pe1696]: 
+          cannot open source file "stm8s_it.h"
+            searched: "c:\Users\13443\source\stm8sdemo\src\"
+            searched: "c:\Users\13443\source\stm8sdemo\lib\gui\"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\uart\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\oled\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-24 00:55:39]	[done]
+	build successfully !
+
+[2022-01-24 00:58:58]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\hw_setup.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#define SSD1306_I2C_CONTROL
+          ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.h",82  Warning[Pe047]: 
+          incompatible redefinition of macro "SSD1306_I2C_CONTROL"
+    while (CLK_GetFlagStatus(CLK_FLAG_HSIRDY) == FALSE)
+                                              ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.c",36  Warning[Pa089]: enumerated
+          type mixed with another enumerated type
+    GPIO_Init(GPIOB, GPIO_PIN_0 | GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3, GPIO_MODE_IN_PU_NO_IT); //KEY_UP
+                     ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.c",113  Warning[Pe188]: 
+          enumerated type mixed with another type
+  }
+  ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.c",185  Error[Pe065]: expected a
+          ";"
+
+[2022-01-24 00:59:08]	[done]
+	build successfully !
+
+[2022-01-24 01:00:11]	[done]
+	build successfully !
+
+[2022-01-24 01:01:14]	[done]
+	build successfully !
+
+[2022-01-24 01:01:56]	[done]
+	build successfully !
+
+[2022-01-24 01:04:13]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\ports\stm8\atomport.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+ATOM_TCB *curr_tcb;
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\ports\stm8\atomport.c",83  Error[Pe020]: 
+          identifier "ATOM_TCB" is undefined
+      ATOM_TCB *curr_tcb;
+                ^
+"c:\Users\13443\source\stm8sdemo\lib\ports\stm8\atomport.c",83  Error[Pe020]: 
+          identifier "curr_tcb" is undefined
+      curr_tcb = atomCurrentContext();
+                 ^
+"c:\Users\13443\source\stm8sdemo\lib\ports\stm8\atomport.c",86  Warning[Pe223]: 
+          function "atomCurrentContext" declared implicitly
+  void archThreadContextInit (ATOM_TCB *tcb_ptr, void *stack_top, void (*entry_point)(uint32_t), uint32_t entry_param)
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\ports\stm8\atomport.c",166  Error[Pe020]: 
+          identifier "ATOM_TCB" is undefined
+
+[2022-01-24 01:04:55]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\ports\stm8\atomport.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void archThreadContextInit (ATOM_TCB *tcb_ptr, void *stack_top, void (*entry_point)(uint32_t), uint32_t entry_param)
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\ports\stm8\atomport.c",166  Error[Pe020]: 
+          identifier "ATOM_TCB" is undefined
+
+[2022-01-24 01:05:20]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\ports\stm8\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include "atom.h"
+                   ^
+"c:\Users\13443\source\stm8sdemo\lib\ports\stm8\uart.c",5  Fatal error[Pe1696]: 
+          cannot open source file "atom.h"
+            searched: "c:\Users\13443\source\stm8sdemo\lib\ports\stm8\"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\ports\stm8\"
+            searched: ".\lib\oled\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-24 01:05:58]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\ports\stm8\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include "atom.h"
+                   ^
+"c:\Users\13443\source\stm8sdemo\lib\ports\stm8\uart.h",2  Fatal error[Pe1696]: 
+          cannot open source file "atom.h"
+            searched: "c:\Users\13443\source\stm8sdemo\lib\ports\stm8\"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\ports\stm8\"
+            searched: ".\lib\oled\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-24 01:06:22]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "TIM3_UPD_OVF_BRK_IRQHandler"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\delay\delay.o",
+          and "c:\Users\13443\source\stm8sdemo\build\Release\lib\ports\stm8\ato
+          mport.o"
+Error[Li006]: duplicate definitions for "_interrupt_17"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\delay\delay.o",
+          and "c:\Users\13443\source\stm8sdemo\build\Release\lib\ports\stm8\ato
+          mport.o"
+Error[Li006]: duplicate definitions for "archInitSystemTickTimer"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\delay\delay.o",
+          and "c:\Users\13443\source\stm8sdemo\build\Release\lib\ports\stm8\ato
+          mport.o"
+
+
+[2022-01-24 01:07:00]	[done]
+	build successfully !
+
+[2022-01-24 01:09:39]	[done]
+	build successfully !
+
+[2022-01-24 01:10:34]	[done]
+	build successfully !
+
+[2022-01-24 01:10:59]	[done]
+	build successfully !
+
+[2022-01-24 01:13:57]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\ports\stm8\atomport.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+LED1_REVERSE;
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\ports\stm8\atomport.c",322  Error[Pe020]: 
+          identifier "LED1_REVERSE" is undefined
+
+[2022-01-24 01:14:14]	[done]
+	build successfully !
+
+[2022-01-24 01:14:25]	[done]
+	build successfully !
+
+[2022-01-24 01:15:03]	[done]
+	build successfully !
+
+[2022-01-24 01:17:29]	[done]
+	build successfully !
+

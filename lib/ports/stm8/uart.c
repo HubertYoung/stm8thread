@@ -2,14 +2,14 @@
 
 #include "stm8s.h"
 
-#include "atom.h"
-#include "atommutex.h"
+// #include "atom.h"
+// #include "atommutex.h"
 #include "uart.h"
 
 /*
  * Semaphore for single-threaded access to UART device
  */
-static ATOM_MUTEX uart_mutex;
+// static ATOM_MUTEX uart_mutex;
 
 
 /*
@@ -27,15 +27,15 @@ int uart_init(uint32_t baudrate)
   UART2_Init (baudrate, UART2_WORDLENGTH_8D, UART2_STOPBITS_1, UART2_PARITY_NO,
               UART2_SYNCMODE_CLOCK_DISABLE, UART2_MODE_TXRX_ENABLE);
 
-  /* Create a mutex for single-threaded putchar() access */
-  if (atomMutexCreate (&uart_mutex) != ATOM_OK)
-  {
-    status = -1;
-  }
-  else
-  {
-    status = 0;
-  }
+  // /* Create a mutex for single-threaded putchar() access */
+  // if (atomMutexCreate (&uart_mutex) != ATOM_OK)
+  // {
+  //   status = -1;
+  // }
+  // else
+  // {
+  //   status = 0;
+  // }
 
   /* Finished */
   return (status);
@@ -54,8 +54,8 @@ int uart_init(uint32_t baudrate)
 char uart_putchar (char c)
 {
     /* Block on private access to the UART */
-    if (atomMutexGet(&uart_mutex, 0) == ATOM_OK)
-    {
+    // if (atomMutexGet(&uart_mutex, 0) == ATOM_OK)
+    // {
         /* Convert \n to \r\n */
         if (c == '\n')
             putchar('\r');
@@ -67,10 +67,10 @@ char uart_putchar (char c)
         while (UART2_GetFlagStatus(UART2_FLAG_TXE) == RESET)
             ;
 
-        /* Return mutex access */
-        atomMutexPut(&uart_mutex);
+    //     /* Return mutex access */
+    //     atomMutexPut(&uart_mutex);
 
-    }
+    // }
 
     return (c);
 }

@@ -73,7 +73,7 @@ void system_status(uint32_t param)
     /* Test finished, flash slowly for pass, fast for fail */
     while (1)
     {
-        time_loop(1000);
+        time_loop(1);
         GUI_Refresh();
         // atomTimerDelay(1);
 

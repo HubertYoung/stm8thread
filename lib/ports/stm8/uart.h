@@ -1,5 +1,6 @@
 
-#include "atom.h"
+// #include "atom.h"
+#include "stm8s.h"
 
 /*
  * Perform UART startup initialization.

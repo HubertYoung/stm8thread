@@ -28,9 +28,9 @@
  */
 
 
-#include "atom.h"
+// #include "atom.h"
 #include "atomport-private.h"
-#include "stm8s_tim3.h"
+#include "stm8s.h"
 #if defined(__RCSTM8__)
 #include <intrins.h>
 #endif
@@ -80,28 +80,28 @@ static NO_REG_SAVE void thread_shell (void);
  */
 static NO_REG_SAVE void thread_shell (void)
 {
-    ATOM_TCB *curr_tcb;
+//     ATOM_TCB *curr_tcb;
 
-    /* Get the TCB of the thread being started */
-    curr_tcb = atomCurrentContext();
+//     /* Get the TCB of the thread being started */
+//     curr_tcb = atomCurrentContext();
 
-    /**
-     * Enable interrupts - these will not be enabled when a thread
-     * is first restored.
-     */
-#if defined(__CSMC__)
-    _asm("rim");
-#elif defined(__IAR_SYSTEMS_ICC__)
-    rim();
-#elif defined(__RCSTM8__)
-    _rim_();
-#endif
+//     /**
+//      * Enable interrupts - these will not be enabled when a thread
+//      * is first restored.
+//      */
+// #if defined(__CSMC__)
+//     _asm("rim");
+// #elif defined(__IAR_SYSTEMS_ICC__)
+//     rim();
+// #elif defined(__RCSTM8__)
+//     _rim_();
+// #endif
 
-    /* Call the thread entry point */
-    if (curr_tcb && curr_tcb->entry_point)
-    {
-        curr_tcb->entry_point(curr_tcb->entry_param);
-    }
+//     /* Call the thread entry point */
+//     if (curr_tcb && curr_tcb->entry_point)
+//     {
+//         curr_tcb->entry_point(curr_tcb->entry_param);
+//     }
 
     /* Not reached - threads should never return from the entry point */
 
@@ -163,68 +163,68 @@ static NO_REG_SAVE void thread_shell (void)
  *
  * @return None
  */
-void archThreadContextInit (ATOM_TCB *tcb_ptr, void *stack_top, void (*entry_point)(uint32_t), uint32_t entry_param)
-{
-    uint8_t *stack_ptr;
+// void archThreadContextInit (ATOM_TCB *tcb_ptr, void *stack_top, void (*entry_point)(uint32_t), uint32_t entry_param)
+// {
+//     uint8_t *stack_ptr;
 
-    /** Start at stack top */
-    stack_ptr = (uint8_t *)stack_top;
+//     /** Start at stack top */
+//     stack_ptr = (uint8_t *)stack_top;
 
-    /**
-     * The thread restore routines will perform a RET which expects to
-     * find the address of the calling routine on the stack. In this case
-     * (the first time a thread is run) we "return" to the entry point for
-     * the thread. That is, we store the thread entry point in the
-     * place that RET will look for the return address: the stack.
-     *
-     * Note that we are using the thread_shell() routine to start all
-     * threads, so we actually store the address of thread_shell()
-     * here. Other ports may store the real thread entry point here
-     * and call it directly from the thread restore routines.
-     *
-     * Because we are filling the stack from top to bottom, this goes
-     * on the stack first (at the top).
-     */
-    *stack_ptr-- = (uint8_t)((uint16_t)thread_shell & 0xFF);
-    *stack_ptr-- = (uint8_t)(((uint16_t)thread_shell >> 8) & 0xFF);
+//     /**
+//      * The thread restore routines will perform a RET which expects to
+//      * find the address of the calling routine on the stack. In this case
+//      * (the first time a thread is run) we "return" to the entry point for
+//      * the thread. That is, we store the thread entry point in the
+//      * place that RET will look for the return address: the stack.
+//      *
+//      * Note that we are using the thread_shell() routine to start all
+//      * threads, so we actually store the address of thread_shell()
+//      * here. Other ports may store the real thread entry point here
+//      * and call it directly from the thread restore routines.
+//      *
+//      * Because we are filling the stack from top to bottom, this goes
+//      * on the stack first (at the top).
+//      */
+//     *stack_ptr-- = (uint8_t)((uint16_t)thread_shell & 0xFF);
+//     *stack_ptr-- = (uint8_t)(((uint16_t)thread_shell >> 8) & 0xFF);
 
-    /**
-     * Because we are using a thread shell which is responsible for
-     * calling the real entry point, it also passes the parameters
-     * to entry point and we need not stack the entry parameter here.
-     *
-     * Other ports may wish to store entry_param in the appropriate
-     * parameter registers when creating a thread's context,
-     * particularly if that port saves those registers anyway.
-     */
+//     /**
+//      * Because we are using a thread shell which is responsible for
+//      * calling the real entry point, it also passes the parameters
+//      * to entry point and we need not stack the entry parameter here.
+//      *
+//      * Other ports may wish to store entry_param in the appropriate
+//      * parameter registers when creating a thread's context,
+//      * particularly if that port saves those registers anyway.
+//      */
 
-    /**
-     * (IAR) Set up initial values for ?b8 to ?b15.
-     */
-#if defined(__IAR_SYSTEMS_ICC__)
-    *stack_ptr-- = 0;    // ?b8
-    *stack_ptr-- = 0;    // ?b9
-    *stack_ptr-- = 0;    // ?b10
-    *stack_ptr-- = 0;    // ?b11
-    *stack_ptr-- = 0;    // ?b12
-    *stack_ptr-- = 0;    // ?b13
-    *stack_ptr-- = 0;    // ?b14
-    *stack_ptr-- = 0;    // ?b15
-#endif
+//     /**
+//      * (IAR) Set up initial values for ?b8 to ?b15.
+//      */
+// #if defined(__IAR_SYSTEMS_ICC__)
+//     *stack_ptr-- = 0;    // ?b8
+//     *stack_ptr-- = 0;    // ?b9
+//     *stack_ptr-- = 0;    // ?b10
+//     *stack_ptr-- = 0;    // ?b11
+//     *stack_ptr-- = 0;    // ?b12
+//     *stack_ptr-- = 0;    // ?b13
+//     *stack_ptr-- = 0;    // ?b14
+//     *stack_ptr-- = 0;    // ?b15
+// #endif
 
-    /**
-     * (COSMIC & RAISONANCE) We do not initialise any registers via the
-     * initial stack context at all.
-     */
+//     /**
+//      * (COSMIC & RAISONANCE) We do not initialise any registers via the
+//      * initial stack context at all.
+//      */
 
-    /**
-     * All thread context has now been initialised. All that is left
-     * is to save the current stack pointer to the thread's TCB so
-     * that it knows where to start looking when the thread is started.
-     */
-    tcb_ptr->sp_save_ptr = stack_ptr;
+//     /**
+//      * All thread context has now been initialised. All that is left
+//      * is to save the current stack pointer to the thread's TCB so
+//      * that it knows where to start looking when the thread is started.
+//      */
+//     tcb_ptr->sp_save_ptr = stack_ptr;
 
-}
+// }
 
 
 /**
@@ -298,6 +298,8 @@ void archInitSystemTickTimer ( void )
  *
  * @return None
  */
+extern void delay_isr(void);
+
 #if defined(__IAR_SYSTEMS_ICC__)
 #pragma vector = 17
 #endif
@@ -307,14 +309,15 @@ interrupt 15
 #endif
 {
     /* Call the interrupt entry routine */
-    atomIntEnter();
+    // atomIntEnter();
 
-    /* Call the OS system tick handler */
-    atomTimerTick();
+    // /* Call the OS system tick handler */
+    // atomTimerTick();
 
     /* Ack the interrupt (Clear TIM1:SR1 register bit 0) */
     TIM3->SR1 = (uint8_t)(~(uint8_t)TIM3_IT_UPDATE);
-
+    delay_isr();
     /* Call the interrupt exit routine */
-    atomIntExit(TRUE);
+    // atomIntExit(TRUE);
+    printf("Sys Init delay_isr\n");
 }

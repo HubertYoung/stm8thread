@@ -13,8 +13,11 @@ void time_loop(uint16_t ms)
 {
   if (!timer_1s)
   {
-    timer_1s = ms * 1000;
-    LED_SYS_REVERSE;
+    timer_1s = ms;
+    // LED_SYS_REVERSE;
+
+    LED1_REVERSE;
+    printf("Sys Init LED1_REVERSE\n");
   }
 };
 /** @brief  Inserts a delay time.
@@ -83,7 +86,8 @@ void delay_ms(uint16_t n_ms)
 
   while (n_ms--)
   {
-    while ((TIM4->SR1 & TIM4_SR1_UIF) == 0) ;
+    while ((TIM4->SR1 & TIM4_SR1_UIF) == 0)
+      ;
     TIM4->SR1 &= ~TIM4_SR1_UIF;
   }
 
@@ -133,14 +137,14 @@ void delay_us(uint16_t n_1us)
 
   while (n_1us--)
   {
-    while ((TIM4->SR1 & TIM4_SR1_UIF) == 0) ;
+    while ((TIM4->SR1 & TIM4_SR1_UIF) == 0)
+      ;
     TIM4->SR1 &= ~TIM4_SR1_UIF;
   }
 
   // Disable Counter
   TIM4->CR1 &= ~TIM4_CR1_CEN;
   CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER4, DISABLE);
-
 }
 
 void delay_isr(void)
@@ -149,4 +153,5 @@ void delay_isr(void)
   --delay_1us;
   /* Benchmark ticks */
   if(timer_1s) --timer_1s;
+  LED1_REVERSE;
 }

@@ -173,24 +173,15 @@ static void SPI_Config(void)
   */
 static void TIM4_Config(void)
 {
-  // TIM4_DeInit();
+  archInitSystemTickTimer();
+  // TIM3_DeInit();
 
   // /* Time period is 1ms, 1/((16MHz/16) * 1000) */
-  // TIM4_TimeBaseInit(TIM4_PRESCALER_64, 3);
+  // TIM3_TimeBaseInit(TIM3_PRESCALER_64, 3);
   // /* Enable the OVF interrupts from TIM2 */
-  // TIM4_ITConfig(TIM4_IT_UPDATE, ENABLE);
+  // TIM3_ITConfig(TIM3_IT_UPDATE, ENABLE);
   // /* Start Timer */
-  // TIM4_Cmd(ENABLE);
-
-  // TIM4_DeInit();
-
-  // /* Time period is 1ms, 1/((16MHz/16) * 1000) */
-  // TIM4_TimeBaseInit(TIM4_PRESCALER_64, 3);
-  // /* Enable the OVF interrupts from TIM2 */
-  // TIM4_ITConfig(TIM4_IT_UPDATE, ENABLE);
-  // /* Start Timer */
-  // TIM4_Cmd(ENABLE);
-  // enableInterrupts();
+  // TIM3_Cmd(ENABLE);
 }
 
 /* Exported user code --------------------------------------------------------*/
@@ -204,8 +195,9 @@ void MCU_Config(void)
   /* Configure the system clock */
   SystemClock_Config();
 
+  TIM4_Config();
+
   GPIO_Config();
-  // TIM4_Config();
 #ifdef SSD1306_I2C_CONTROL
   I2C_Config();
 #endif
