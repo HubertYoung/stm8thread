@@ -5,8 +5,8 @@
 #include <delay.h>
 #include <sys.h>
 
-#include "atomport-private.h"
-#include "atomport.h"
+// #include "atomport-private.h"
+// #include "atomport.h"
 
 #define KEY_UP 		PBin(0)
 #define KEY_DOWN 	PBin(1)

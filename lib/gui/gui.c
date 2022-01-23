@@ -74,11 +74,12 @@ void GUI_Refresh(void)
         default:
             break;
         }
-        // LED1_REVERSE;
+        LED1_REVERSE;
         // delay_ms(500);
         // OLED_Clear(0); //清屏
     }
-    LED1_REVERSE;
+    LED_SYS_REVERSE;
+    // delay_ms(500);
     current_operation_func = table[func_index].current_operation;
     (*current_operation_func)(func_index, key_val); //执行当前索引对应的函数
 }

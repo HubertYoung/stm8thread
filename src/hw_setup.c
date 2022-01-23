@@ -106,8 +106,8 @@ static void GPIO_Config(void)
   // GPIO_ExternalPullUpConfig(GPIOC, GPIO_PIN_2, ENABLE);
 
   GPIO_Init(TEST_Port, TEST_Pin, GPIO_MODE_OUT_PP_LOW_SLOW);
-  // GPIO_Init(GPIOA, GPIO_PIN_1, GPIO_MODE_OUT_PP_LOW_FAST);
-  // GPIO_Init(GPIOA, GPIO_PIN_2, GPIO_MODE_OUT_PP_LOW_FAST);
+  GPIO_Init(GPIOA, GPIO_PIN_1, GPIO_MODE_OUT_PP_LOW_FAST);
+  GPIO_Init(GPIOA, GPIO_PIN_2, GPIO_MODE_OUT_PP_LOW_FAST);
   // key
   GPIO_Init(GPIOB, GPIO_PIN_0 | GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3, GPIO_MODE_IN_PU_NO_IT); //KEY_UP
 }
@@ -202,52 +202,52 @@ void MCU_Config(void)
 void I2C_CWrite(uint8_t Address, uint8_t ControlByte, uint8_t *pData, uint16_t DataSize)
 {
   /* Check the params */
-  if ((pData == NULL) || (DataSize == 0U))
-    return;
+  // if ((pData == NULL) || (DataSize == 0U))
+  //   return;
 
-  /* Check the busy flag */
-  while (I2C_GetFlagStatus(I2C_FLAG_BUSBUSY))
-  {
-  };
+  // /* Check the busy flag */
+  // while (I2C_GetFlagStatus(I2C_FLAG_BUSBUSY))
+  // {
+  // };
 
-  /* Send START condition and check if uC act as a Master */
-  I2C_GenerateSTART(ENABLE);
-  while (!I2C_CheckEvent(I2C_EVENT_MASTER_MODE_SELECT))
-  {
-  };
+  // /* Send START condition and check if uC act as a Master */
+  // I2C_GenerateSTART(ENABLE);
+  // while (!I2C_CheckEvent(I2C_EVENT_MASTER_MODE_SELECT))
+  // {
+  // };
 
-  /* Send slave address and wait for Slave ACK */
-  I2C_Send7bitAddress(Address, I2C_DIRECTION_TX);
-  while (!I2C_CheckEvent(I2C_EVENT_MASTER_TRANSMITTER_MODE_SELECTED))
-  {
-  };
+  // /* Send slave address and wait for Slave ACK */
+  // I2C_Send7bitAddress(Address, I2C_DIRECTION_TX);
+  // while (!I2C_CheckEvent(I2C_EVENT_MASTER_TRANSMITTER_MODE_SELECTED))
+  // {
+  // };
 
-  /* If TX buffer is empty, send a control byte to the Slave
-   * and wait for end of transmission
-   */
-  while ((I2C_GetFlagStatus(I2C_FLAG_TXEMPTY) == RESET))
-  {
-  };
-  I2C_SendData(ControlByte);
-  while ((I2C_GetFlagStatus(I2C_FLAG_TRANSFERFINISHED) == RESET))
-  {
-  };
+  // /* If TX buffer is empty, send a control byte to the Slave
+  //  * and wait for end of transmission
+  //  */
+  // while ((I2C_GetFlagStatus(I2C_FLAG_TXEMPTY) == RESET))
+  // {
+  // };
+  // I2C_SendData(ControlByte);
+  // while ((I2C_GetFlagStatus(I2C_FLAG_TRANSFERFINISHED) == RESET))
+  // {
+  // };
 
-  /* Start sending data stream */
-  while (DataSize--)
-  {
-    /* In case of last byte send NACK */
-    if (!DataSize)
-    {
-      I2C_AcknowledgeConfig(I2C_ACK_NONE);
-    }
-    I2C_SendData(*pData++);
-    while ((I2C_GetFlagStatus(I2C_FLAG_TRANSFERFINISHED) == RESET))
-    {
-    };
-  }
-  /* End of transaction, put STOP condition */
-  I2C_GenerateSTOP(ENABLE);
+  // /* Start sending data stream */
+  // while (DataSize--)
+  // {
+  //   /* In case of last byte send NACK */
+  //   if (!DataSize)
+  //   {
+  //     I2C_AcknowledgeConfig(I2C_ACK_NONE);
+  //   }
+  //   I2C_SendData(*pData++);
+  //   while ((I2C_GetFlagStatus(I2C_FLAG_TRANSFERFINISHED) == RESET))
+  //   {
+  //   };
+  // }
+  // /* End of transaction, put STOP condition */
+  // I2C_GenerateSTOP(ENABLE);
 }
 #endif
 

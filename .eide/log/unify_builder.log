@@ -6938,3 +6938,439 @@ Error[Lp011]: section placement failed
             [0x000100-0x0003ff]: 0x100
 
 
+[2022-01-23 21:19:24]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x5f4 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-23 21:21:05]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x5f4 bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+
+
+[2022-01-23 21:21:21]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x5f4 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-23 21:22:11]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x5f4 bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-23 21:22:17]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x5fa bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-23 21:25:42]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\kernel\atomqueue.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+.\lib\kernel\atomkernel.c:241: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomkernel.c:314: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomkernel.c:225: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomkernel.c:472: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomkernel.c:478: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomkernel.c:486: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomkernel.c:389: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomqueue.c:226: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:241: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:255: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:268: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:278: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:207: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomqueue.c:353: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:422: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:452: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:458: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:465: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:472: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:479: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:489: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:338: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomqueue.c:559: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:630: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:660: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:666: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:673: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:680: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:687: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:697: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:544: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomqueue.c:737: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:755: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:728: error 20: Undefined identifier 'CRITICAL_STORE'
+
+[2022-01-23 21:25:58]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x5fa bytes (max align 0x1) in
+                      <[0x000000-0x0003ff]> (total uncommitted space 0x1f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0003ff]: 0x100
+
+
+[2022-01-23 21:34:16]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x5fa bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+
+
+[2022-01-23 21:35:30]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x5fa bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x3f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x300
+
+
+[2022-01-23 21:35:50]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+  place at end of NearData        { block CSTACK };
+  ^
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\config\lnkstm8s105k4.icf",65  Error[Lp022]: 
+          absolute placement (in [0x000000-0x0007ff]) overlaps with previous
+          absolute placement A0 rw (in [0x000000-0x0000ff]), at line 59
+Error[Lp011]: section placement failed
+            unable to complete "place at" directives with a total estimated
+                      minimum size of 0x810 bytes in <[0x000000-0x0007ff]>
+                      (total space 0x800).
+            Needed:
+            [0x000000-0x0000ff]:  0x10 min, align 0x1 (size: 0x100)
+            [0x000000-0x0007ff]: 0x800 min, align 0x1 (size: 0x800)
+
+
+[2022-01-23 21:35:56]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+  place at end of NearData        { block CSTACK };
+  ^
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\config\lnkstm8s105k4.icf",65  Error[Lp022]: 
+          absolute placement (in [0x000000-0x0007ff]) overlaps with previous
+          absolute placement A0 rw (in [0x000000-0x0000ff]), at line 59
+Error[Lp011]: section placement failed
+            unable to complete "place at" directives with a total estimated
+                      minimum size of 0x810 bytes in <[0x000000-0x0007ff]>
+                      (total space 0x800).
+            Needed:
+            [0x000000-0x0000ff]:  0x10 min, align 0x1 (size: 0x100)
+            [0x000000-0x0007ff]: 0x800 min, align 0x1 (size: 0x800)
+
+
+[2022-01-23 21:36:08]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x5fa bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+
+
+[2022-01-23 21:39:57]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x5fa bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+
+
+[2022-01-23 21:41:01]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x5fa bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+
+
+[2022-01-23 21:43:19]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x5f4 bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x3f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x300
+
+
+[2022-01-23 21:43:33]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+  place at end of NearData        { block CSTACK };
+  ^
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\config\lnkstm8s105k4.icf",65  Error[Lp022]: 
+          absolute placement (in [0x000000-0x0007ff]) overlaps with previous
+          absolute placement A0 rw (in [0x000000-0x0000ff]), at line 59
+Error[Lp011]: section placement failed
+            unable to complete "place at" directives with a total estimated
+                      minimum size of 0x810 bytes in <[0x000000-0x0007ff]>
+                      (total space 0x800).
+            Needed:
+            [0x000000-0x0000ff]:  0x10 min, align 0x1 (size: 0x100)
+            [0x000000-0x0007ff]: 0x800 min, align 0x1 (size: 0x800)
+
+
+[2022-01-23 21:43:45]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+  place at end of NearData        { block CSTACK };
+  ^
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\config\lnkstm8s105k4.icf",65  Error[Lp022]: 
+          absolute placement (in [0x000000-0x0007ff]) overlaps with previous
+          absolute placement A0 rw (in [0x000000-0x0000ff]), at line 59
+Error[Lp011]: section placement failed
+            unable to complete "place at" directives with a total estimated
+                      minimum size of 0x810 bytes in <[0x000000-0x0007ff]>
+                      (total space 0x800).
+            Needed:
+            [0x000000-0x0000ff]:  0x10 min, align 0x1 (size: 0x100)
+            [0x000000-0x0007ff]: 0x800 min, align 0x1 (size: 0x800)
+
+
+[2022-01-23 21:43:55]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+  place at end of NearData        { block CSTACK };
+  ^
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\config\lnkstm8s105k4.icf",65  Error[Lp022]: 
+          absolute placement (in [0x000000-0x0007ff]) overlaps with previous
+          absolute placement A0 rw (in [0x000000-0x0000ff]), at line 59
+Error[Lp011]: section placement failed
+            unable to complete "place at" directives with a total estimated
+                      minimum size of 0x810 bytes in <[0x000000-0x0007ff]>
+                      (total space 0x800).
+            Needed:
+            [0x000000-0x0000ff]:  0x10 min, align 0x1 (size: 0x100)
+            [0x000000-0x0007ff]: 0x800 min, align 0x1 (size: 0x800)
+
+
+[2022-01-23 21:44:02]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+
+
+[2022-01-23 21:48:06]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+
+
+[2022-01-23 21:48:37]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+
+
+[2022-01-23 21:49:53]	[done]
+	build successfully !
+
+[2022-01-23 21:50:28]	[done]
+	build successfully !
+
+[2022-01-23 21:50:44]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\kernel\atomqueue.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+.\lib\kernel\atomkernel.c:241: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomkernel.c:314: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomkernel.c:225: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomkernel.c:472: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomkernel.c:478: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomkernel.c:486: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomkernel.c:389: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomqueue.c:226: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:241: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:255: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:268: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:278: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:207: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomqueue.c:353: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:422: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:452: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:458: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:465: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:472: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:479: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:489: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:338: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomqueue.c:559: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:630: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:660: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:666: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:673: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:680: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:687: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:697: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:544: error 20: Undefined identifier 'CRITICAL_STORE'
+.\lib\kernel\atomqueue.c:737: warning 112: function 'CRITICAL_START' implicit declaration
+.\lib\kernel\atomqueue.c:755: warning 112: function 'CRITICAL_END' implicit declaration
+.\lib\kernel\atomqueue.c:728: error 20: Undefined identifier 'CRITICAL_STORE'
+
+[2022-01-23 21:50:51]	[done]
+	build successfully !
+
+[2022-01-23 21:51:16]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x5f4 bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+
+
+[2022-01-23 21:52:26]	[done]
+	build successfully !
+
+[2022-01-23 21:53:33]	[done]
+	build successfully !
+
+[2022-01-23 21:54:46]	[done]
+	build successfully !
+
+[2022-01-23 21:55:03]	[done]
+	build successfully !
+
+[2022-01-23 21:55:55]	[done]
+	build successfully !
+
+[2022-01-23 21:56:00]	[done]
+	build successfully !
+
+[2022-01-23 21:56:21]	[done]
+	build successfully !
+
+[2022-01-23 21:57:40]	[done]
+	build successfully !
+
+[2022-01-23 21:58:31]	[done]
+	build successfully !
+
+[2022-01-23 21:59:15]	[done]
+	build successfully !
+
+[2022-01-23 21:59:58]	[done]
+	build successfully !
+

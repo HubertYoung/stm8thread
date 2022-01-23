@@ -5,7 +5,7 @@
 #include "key.h"
 // #include "oled.h"
 #include "gfx_bw.h"
-#include "fonts.h"
+#include "font_6x4.h"
 #include "hw_setup.h"
 
 #define ON 1
