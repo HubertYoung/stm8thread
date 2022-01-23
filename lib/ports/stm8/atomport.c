@@ -250,7 +250,8 @@ void archInitSystemTickTimer ( void )
 // 41   - In this example we need to generate a time base equal to 1 ms
 // 42    so TIM4_PERIOD = (0.001 * 125000 - 1) = 124 */
     /* Configure a 10ms tick */
-    TIM3_TimeBaseInit(TIM3_PRESCALER_1024, 155); //9.984ms
+    // TIM3_TimeBaseInit(TIM3_PRESCALER_1024, 155); //9.984ms
+    TIM3_TimeBaseInit(TIM3_PRESCALER_128, 124); //9.984ms
 
     /* Generate an interrupt on timer count overflow */
     TIM3_ITConfig(TIM3_IT_UPDATE, ENABLE);

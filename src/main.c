@@ -1,5 +1,4 @@
 
-#include <stdio.h>
 #include <atom.h>
 #include <uart.h>
 #include <atomtimer.h>
@@ -8,8 +7,11 @@
 #include <pwm.h>
 #include <key.h>
 #include <eeprom.h>
+#include <gui.h>
+// #include <oled.h>
+#include "oled_ssd1306.h"
 #include "atomport-private.h"
-
+#include "hw_setup.h"
 /* Constants */
 
 /*
@@ -49,6 +51,7 @@
  * cope with all of the automated tests.
  */
 #define MAIN_STACK_SIZE_BYTES 128
+#define SCAN_STACK_SIZE_BYTES 128
 
 /*
  * Startup code stack
@@ -76,15 +79,15 @@ static ATOM_TCB at_thread;
 /* Main thread's stack area (large so place outside of the small page0 area on STM8) */
 NEAR static uint8_t main_thread_stack[MAIN_STACK_SIZE_BYTES];
 
-NEAR static uint8_t at_thread_stack[IDLE_STACK_SIZE_BYTES];
+NEAR static uint8_t at_thread_stack[SCAN_STACK_SIZE_BYTES];
 /* Idle thread's stack area (large so place outside of the small page0 area on STM8) */
 NEAR static uint8_t idle_thread_stack[IDLE_STACK_SIZE_BYTES];
 
 /* Forward declarations */
 static void system_status(uint32_t param);
 static void at_thread_func(uint32_t param);
-static void CLK_Config(void);
-static void GPIO_Config(void);
+
+void idel_hook_system_status();
 
 /**
  * \b main
@@ -105,17 +108,27 @@ NO_REG_SAVE void main(void)
 {
     int8_t status;
 
-    /* CLK configuration */
-    CLK_Config();
+    /* STM8 configuration */
+    MCU_Config();
 
     eeprom_init();
 
-    /* GPIO configuration */
-    GPIO_Config();
-
     keyInit();
+    // IIC_Init();
+    /* SSD1306 configuration */
+#ifdef SSD1306_I2C_CONTROL
+    SSD1306_I2cInit();
+#endif
+#ifdef SSD1306_SPI_CONTROL
+    SSD1306_SpiInit();
+#endif
 
     PWM_Init();
+
+    // OLED_Init(); //初始化OLED
+    // OLED_Clear();
+
+    GUI_Init();
     /**
      * Note: to protect OS structures and data during initialisation,
      * interrupts must remain disabled until the first thread
@@ -137,9 +150,9 @@ NO_REG_SAVE void main(void)
                                   MAIN_STACK_SIZE_BYTES,
                                   FALSE);
         status = atomThreadCreate(&at_thread,
-                                  16, at_thread_func, 0,
-                                  &at_thread_stack[IDLE_STACK_SIZE_BYTES - 1],
-                                  IDLE_STACK_SIZE_BYTES,
+                                  32, at_thread_func, 0,
+                                  &at_thread_stack[SCAN_STACK_SIZE_BYTES - 1],
+                                  SCAN_STACK_SIZE_BYTES,
                                   FALSE);
         if (status == ATOM_OK)
         {
@@ -163,49 +176,6 @@ NO_REG_SAVE void main(void)
 }
 
 /**
-  * \b  Configure peripherals Clock
-  * STM8L peripherals clock are disabled by default
-  * @param  None
-  * @retval None
-  */
-static void CLK_Config(void)
-{
-    CLK_HSICmd(ENABLE);
-    // CLK_HSECmd(ENABLE);
-    CLK_HSIPrescalerConfig(CLK_PRESCALER_HSIDIV1);
-    CLK_SYSCLKConfig(CLK_PRESCALER_HSIDIV1);
-
-    // ErrorStatus clk_return_status;
-    // clk_return_status = CLK_ClockSwitchConfig(CLK_SWITCHMODE_AUTO, CLK_SOURCE_HSI, ENABLE, CLK_CURRENTCLOCKSTATE_DISABLE);
-    // if (clk_return_status == SUCCESS)  //SUCCESS or ERROR
-    // {};
-    /* Enable TIM1 clock */
-    CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER1, ENABLE);
-    /* Enable TIM2 clock */
-    CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER3, ENABLE);
-
-    CLK_PeripheralClockConfig(CLK_PERIPHERAL_UART2, ENABLE);
-}
-/**
-  * \b  Configure GPIOs
-  * @param  None
-  * @retval None
-  */
-static void GPIO_Config(void)
-{
-    /* Configure GPIO for flashing STM8L mini system board GPIO B0 */
-    GPIO_DeInit(GPIOE);
-    GPIO_DeInit(GPIOA);
-    GPIO_Init(GPIOE, GPIO_PIN_5, GPIO_MODE_OUT_PP_LOW_FAST);
-    GPIO_Init(GPIOA, GPIO_PIN_1, GPIO_MODE_OUT_PP_LOW_FAST);
-    GPIO_Init(GPIOA, GPIO_PIN_2, GPIO_MODE_OUT_PP_LOW_FAST);
-    /* Configure USART Tx as alternate function push-pull  (software pull up)*/
-    GPIO_ExternalPullUpConfig(GPIOC, GPIO_PIN_3, ENABLE);
-    /* Configure USART Rx as alternate function push-pull  (software pull up)*/
-    GPIO_ExternalPullUpConfig(GPIOC, GPIO_PIN_2, ENABLE);
-}
-
-/**
  * \b main_thread_func
  *
  * Entry point for main application thread.
@@ -218,23 +188,26 @@ static void GPIO_Config(void)
  */
 static void system_status(uint32_t param)
 {
-    uint32_t test_status;
     /* Compiler warnings */
     param = param;
     /* Initialise UART (115200bps) */
-    if (uart_init(115200) != 0)
-    {
-        /* Error initialising UART */
-    }
-    /* Put a message out on the UART */
-    printf("Go\n");
+    // if (uart_init(115200) != 0)
+    // {
+    //     /* Error initialising UART */
+    // }
+    // /* Put a message out on the UART */
+    // printf("Sys Init Over\n");
     /* Test finished, flash slowly for pass, fast for fail */
     while (1)
     {
-        /* Toggle LED on pin B0 (STM8L mini board-specific) */
-        GPIO_WriteReverse(GPIOE, GPIO_PIN_5);
+
         /* Sleep then toggle LED again */
-        atomTimerDelay(10);
+        atomTimerDelay(500);
+        LED_SYS_REVERSE;
+        // uint8_t duty_cycle = eeprom_read_data8(PWM_CYCLE_ADD);
+        // uint16_t pwm1_period = eeprom_read_data16(PWM_PERIOD_ADD);
+        // printf("duty_cycle${%d}\n", duty_cycle);
+        // printf("pwm1_period${%d}\n", pwm1_period);
     }
 }
 
@@ -242,27 +215,7 @@ static void at_thread_func(uint32_t param)
 {
     while (1)
     {
-        //一个系统周期检测一次键盘
-        atomTimerDelay(500);
-        uint8_t duty_cycle = eeprom_read_data8(PWM_CYCLE_ADD);
-        uint16_t pwm1_period = eeprom_read_data16(PWM_PERIOD_ADD);
-        printf("duty_cycle${%d}\n", duty_cycle);
-        printf("pwm1_period${%d}\n", pwm1_period);
-        // keyLoadRun();
-        // keyPassValue = keyScan();
-        // switch (keyPassValue)
-        // {
-        // case KEY_UP:
-        //     printf("KEY_UP keyPassOne\n");
-        //     break;
-        // case KEY_DOWN:
-        //     printf("KEY_UP KeyPassLong\n");
-        //     break;
-        // default:
-        //     break;
-        // }
-
-        // printf("KEY_UP keyPassValue${%d}\n", keyPassValue);
-        // printf("KEY_UP uint8_t{%d}\n", (KEY_UP != RESET && GPIO_ReadInputPin(KEY_GPIO, KEY1_GPIO_PIN) == RESET));
+        atomTimerDelay(1);
+        GUI_Refresh();
     }
 }
