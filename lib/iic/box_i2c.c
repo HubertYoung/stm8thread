@@ -30,8 +30,8 @@ void delay_1ms(uint32_t num)
 //初始化
 void box_I2C_Init(void)
 {
-    GPIO_Init(IIC_GPIO, IIC_SCLPIN, GPIO_MODE_OUT_PP_HIGH_FAST);
-    GPIO_Init(IIC_GPIO, IIC_SDAPIN, GPIO_MODE_OUT_PP_HIGH_FAST);
+    GPIO_Init(IIC_GPIO, IIC_SCLPIN, GPIO_MODE_OUT_PP_HIGH_SLOW);
+    GPIO_Init(IIC_GPIO, IIC_SDAPIN, GPIO_MODE_OUT_PP_HIGH_SLOW);
 }
  
 //发送开始信号

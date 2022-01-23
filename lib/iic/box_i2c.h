@@ -8,6 +8,7 @@
   */
 
 #include "sys.h"
+
 #define IIC_GPIO GPIOB
 #define IIC_SDAPIN GPIO_PIN_5
 #define IIC_SCLPIN GPIO_PIN_4

@@ -21,7 +21,7 @@
 
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm8s.h"
+// #include "stm8s.h"
 #include "sys.h"
 #include "hw_setup.h"
 
@@ -44,7 +44,8 @@ void SSD1306_Command(uint8_t com)
 {
 #ifdef SSD1306_I2C_CONTROL
   /* ***I2C*** */
-  I2C_CWrite(SSD1306_I2C_ADDRESS, 0x00, &com, sizeof(com));
+  // I2C_CWrite(SSD1306_I2C_ADDRESS, 0x00, &com, sizeof(com));
+  box_I2C_Write(0x00, com);
 #endif
 #ifdef SSD1306_SPI_CONTROL
   /* ***SPI*** */
@@ -68,7 +69,8 @@ void SSD1306_Data(uint8_t dat)
 {
 #ifdef SSD1306_I2C_CONTROL
   /* ***I2C*** */
-  I2C_CWrite(SSD1306_I2C_ADDRESS, 0x40, &dat, sizeof(dat));
+  // I2C_CWrite(SSD1306_I2C_ADDRESS, 0x40, &dat, sizeof(dat));
+  box_I2C_Write(0x40, dat);
 #endif
 #ifdef SSD1306_SPI_CONTROL
   /* ***SPI*** */
@@ -318,7 +320,7 @@ void SSD1306_ZoomIn(uint8_t Zoom)
   */
 void SSD1306_Init(void)
 {
-  delay_ms(200);
+  delay_ms(500);
   
   /* Display Off */
   SSD1306_Command(SSD1306_DISPLAYOFF);
@@ -469,8 +471,8 @@ void SSD1306_Display(void)
   SSD1306_Command(0x07);
 
 #ifdef SSD1306_I2C_CONTROL
-  I2C_CWrite(SSD1306_I2C_ADDRESS, 0x40, (uint8_t*)&buffer,
-            (SSD1306_LCDHEIGHT * SSD1306_LCDWIDTH / 8));
+  // I2C_CWrite(SSD1306_I2C_ADDRESS, 0x40, (uint8_t*)&buffer,
+  //           (SSD1306_LCDHEIGHT * SSD1306_LCDWIDTH / 8));
 #endif
 
 #ifdef SSD1306_SPI_CONTROL
@@ -497,8 +499,8 @@ void SSD1306_Bitmap(uint8_t *bitmap)
   SSD1306_Command(0x07);
 
 #ifdef SSD1306_I2C_CONTROL
-  I2C_CWrite(SSD1306_I2C_ADDRESS, 0x40, bitmap,
-            (SSD1306_LCDHEIGHT * SSD1306_LCDWIDTH / 8));
+  // I2C_CWrite(SSD1306_I2C_ADDRESS, 0x40, bitmap,
+  //           (SSD1306_LCDHEIGHT * SSD1306_LCDWIDTH / 8));
 #endif
 
 #ifdef SSD1306_SPI_CONTROL

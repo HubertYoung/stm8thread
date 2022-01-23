@@ -317,4 +317,6 @@ interrupt 15
 
     /* Call the interrupt exit routine */
     atomIntExit(TRUE);
+
+    GPIO_WriteReverse(GPIOA, GPIO_PIN_1);
 }

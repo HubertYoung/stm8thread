@@ -44,8 +44,8 @@ char fps_c[15];
 
 void GUI_Init(void)
 {
-    GFX_SetFont(font_6x4);
-    GFX_SetFontSize(1);
+    // GFX_SetFont(font_6x4);
+    // GFX_SetFontSize(1);
 
     duty_cycle = eeprom_read_data16(PWM_CYCLE_ADD);
     pwm1_period = eeprom_read_data16(PWM_PERIOD_ADD);
@@ -78,7 +78,7 @@ void GUI_Refresh(void)
         // delay_ms(500);
         // OLED_Clear(0); //清屏
     }
-    LED_SYS_REVERSE;
+    // LED_SYS_REVERSE;
     // delay_ms(500);
     current_operation_func = table[func_index].current_operation;
     (*current_operation_func)(func_index, key_val); //执行当前索引对应的函数
@@ -91,6 +91,7 @@ void GUI_Refresh(void)
 */
 void Main_UI(u8 page_index, u8 key_val)
 {
+    LED_SYS_REVERSE;
     // if (!timer_1s)
     // {
     //     timer_1s = 1000;
@@ -99,18 +100,19 @@ void Main_UI(u8 page_index, u8 key_val)
     loops_overal = loops;
     loops = 0;
     // }
-
+OLED_Clear();
+	   OLED_ShowString(0,0,"0.91OLEDTEST",8);
     // sprintf(fps_c, "LOOP: %04d", loops_overal);
-    SSD1306_Clear(WHITE);
-    GFX_DrawString(0, 0, fps_c, WHITE, BLACK);
-    // sprintf(fps_c, " FPS: %02d", fps);
-    GFX_DrawString(0, 8, fps_c, WHITE, BLACK);
-    frames++;
+    // SSD1306_Clear(WHITE);
+    // GFX_DrawString(0, 0, fps_c, WHITE, BLACK);
+    // // sprintf(fps_c, " FPS: %02d", fps);
+    // GFX_DrawString(0, 8, fps_c, WHITE, BLACK);
+    // frames++;
 
-    GPIO_WriteHigh(TEST_Port, TEST_Pin);
-    SSD1306_Display();
-    GPIO_WriteLow(TEST_Port, TEST_Pin);
-    loops++;
+    // GPIO_WriteHigh(TEST_Port, TEST_Pin);
+    // SSD1306_Display();
+    // GPIO_WriteLow(TEST_Port, TEST_Pin);
+    // loops++;
     // uint8_t duty_cycle = eeprom_read_data8(PWM_CYCLE_ADD);
     // uint16_t pwm1_period = eeprom_read_data16(PWM_PERIOD_ADD);
     // printf("duty_cycle${%d}\n", duty_cycle);

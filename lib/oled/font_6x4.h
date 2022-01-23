@@ -8,7 +8,7 @@
 
 #ifndef FONT_6X4_H_
 #define FONT_6X4_H_
-#include <sys.h>
+// #include <sys.h>
 /* Constants -----------------------------------------------------------------*/
 
 /* Font definition */

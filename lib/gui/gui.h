@@ -4,9 +4,8 @@
 #include "stm8s.h"
 #include "key.h"
 // #include "oled.h"
-#include "gfx_bw.h"
-#include "font_6x4.h"
-#include "hw_setup.h"
+// #include "gfx_bw.h"
+// #include "hw_setup.h"
 
 #define ON 1
 #define OFF 0

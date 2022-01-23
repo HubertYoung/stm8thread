@@ -12,6 +12,8 @@
 /* Private includes ----------------------------------------------------------*/
 #include <stdint.h>
 #include <stdlib.h>
+#include <box_i2c.h>
+#include <oled.h>
 
 /* Privatefunctions prototypes -----------------------------------------------*/
 static void SystemClock_Config(void);
@@ -97,10 +99,11 @@ static void GPIO_Config(void)
 
 #ifdef SSD1306_I2C_CONTROL
   /* Configure the SCL and SDA pins */
-  GPIO_Init(SSD1306_SCL_Port, SSD1306_SCL_Pin, GPIO_MODE_OUT_OD_HIZ_FAST);
-  GPIO_Init(SSD1306_SDA_Port, SSD1306_SDA_Pin, GPIO_MODE_OUT_OD_HIZ_FAST);
+  // GPIO_Init(SSD1306_SCL_Port, SSD1306_SCL_Pin, GPIO_MODE_OUT_PP_HIGH_SLOW);
+  // GPIO_Init(SSD1306_SDA_Port, SSD1306_SDA_Pin, GPIO_MODE_OUT_PP_HIGH_SLOW);
+  box_I2C_Init();
 #endif
-  // /* Configure USART Tx as alternate function push-pull  (software pull up)*/
+  /* Configure USART Tx as alternate function push-pull  (software pull up)*/
   // GPIO_ExternalPullUpConfig(GPIOC, GPIO_PIN_3, ENABLE);
   // /* Configure USART Rx as alternate function push-pull  (software pull up)*/
   // GPIO_ExternalPullUpConfig(GPIOC, GPIO_PIN_2, ENABLE);
@@ -119,16 +122,16 @@ static void GPIO_Config(void)
   */
 static void I2C_Config(void)
 {
-  I2C_DeInit();
+  // I2C_DeInit();
 
-  /* Set the I2C transmit parameters */
-  I2C_Init(SSD1306_I2C_SPEED,
-           1,
-           I2C_DUTYCYCLE_2,
-           I2C_ACK_CURR,
-           I2C_ADDMODE_7BIT,
-           I2C_MAX_INPUT_FREQ);
-  I2C_Cmd(ENABLE);
+  // /* Set the I2C transmit parameters */
+  // I2C_Init(SSD1306_I2C_SPEED,
+  //          1,
+  //          I2C_DUTYCYCLE_2,
+  //          I2C_ACK_CURR,
+  //          I2C_ADDMODE_7BIT,
+  //          I2C_MAX_INPUT_FREQ);
+  // I2C_Cmd(ENABLE);
 }
 #endif
 
@@ -201,14 +204,14 @@ void MCU_Config(void)
   */
 void I2C_CWrite(uint8_t Address, uint8_t ControlByte, uint8_t *pData, uint16_t DataSize)
 {
-  /* Check the params */
+  // /* Check the params */
   // if ((pData == NULL) || (DataSize == 0U))
   //   return;
 
-  // /* Check the busy flag */
-  // while (I2C_GetFlagStatus(I2C_FLAG_BUSBUSY))
-  // {
-  // };
+  /* Check the busy flag */
+  while (I2C_GetFlagStatus(I2C_FLAG_BUSBUSY))
+  {
+  };
 
   // /* Send START condition and check if uC act as a Master */
   // I2C_GenerateSTART(ENABLE);

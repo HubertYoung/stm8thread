@@ -7374,3 +7374,613 @@ Error[Lp011]: section placement failed
 [2022-01-23 21:59:58]	[done]
 	build successfully !
 
+[2022-01-24 01:18:29]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "delay_1us"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\delay\delay.o",
+          and "c:\Users\13443\source\stm8sdemo\build\Release\lib\iic\box_i2c.o"
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x5f4 bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+
+
+[2022-01-24 01:18:55]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x5f4 bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+
+
+[2022-01-24 01:22:16]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+
+
+[2022-01-24 01:23:29]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+
+
+[2022-01-24 01:24:39]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "font_6x4"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\gui\gui.o", and
+          "c:\Users\13443\source\stm8sdemo\build\Release\src\main.o"
+
+
+[2022-01-24 01:25:16]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\gui\gui.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#define SSD1306_I2C_CONTROL
+          ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.h",77  Warning[Pe047]: 
+          incompatible redefinition of macro "SSD1306_I2C_CONTROL"
+      GFX_SetFont(font_6x4);
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",47  Error[Pe020]: identifier
+          "font_6x4" is undefined
+  static u8 last_index = _Main_UI; //涓婁竴涓?晫闈㈢储寮曞惶
+            ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",6  Warning[Pe550]: variable
+          "last_index" was set but never used
+
+[2022-01-24 01:25:30]	[done]
+	build successfully !
+
+[2022-01-24 01:26:28]	[done]
+	build successfully !
+
+[2022-01-24 01:27:03]	[done]
+	build successfully !
+
+[2022-01-24 01:28:16]	[done]
+	build successfully !
+
+[2022-01-24 01:29:46]	[done]
+	build successfully !
+
+[2022-01-24 01:30:11]	[done]
+	build successfully !
+
+[2022-01-24 01:30:21]	[done]
+	build successfully !
+
+[2022-01-24 01:31:38]	[done]
+	build successfully !
+
+[2022-01-24 01:35:48]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\gui\gui.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#define SSD1306_I2C_CONTROL
+          ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.h",77  Warning[Pe047]: 
+          incompatible redefinition of macro "SSD1306_I2C_CONTROL"
+      GFX_SetFont(font_6x4);
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",47  Error[Pe020]: identifier
+          "font_6x4" is undefined
+  static u8 last_index = _Main_UI; //涓婁竴涓?晫闈㈢储寮曞惶
+            ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",6  Warning[Pe550]: variable
+          "last_index" was set but never used
+
+[2022-01-24 01:36:30]	[done]
+	build successfully !
+
+[2022-01-24 01:37:30]	[done]
+	build successfully !
+
+[2022-01-24 01:38:08]	[done]
+	build successfully !
+
+[2022-01-24 01:41:06]	[done]
+	build successfully !
+
+[2022-01-24 01:42:59]	[done]
+	build successfully !
+
+[2022-01-24 01:50:39]	[done]
+	build successfully !
+
+[2022-01-24 01:52:57]	[done]
+	build successfully !
+
+[2022-01-24 01:53:20]	[done]
+	build successfully !
+
+[2022-01-24 01:55:06]	[done]
+	build successfully !
+
+[2022-01-24 01:56:13]	[done]
+	build successfully !
+
+[2022-01-24 02:00:49]	[done]
+	build successfully !
+
+[2022-01-24 02:09:32]	[done]
+	build successfully !
+
+[2022-01-24 02:13:40]	[done]
+	build successfully !
+
+[2022-01-24 02:15:33]	[done]
+	build successfully !
+
+[2022-01-24 02:17:02]	[done]
+	build successfully !
+
+[2022-01-24 02:21:56]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include "box_i2c.h"
+                      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.h",11  Fatal error[Pe003]: 
+          #include file "c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.h"
+          includes itself
+Fatal error detected, aborting.
+
+[2022-01-24 02:23:14]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include "box_i2c.h"
+                      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.h",11  Fatal error[Pe003]: 
+          #include file "c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.h"
+          includes itself
+Fatal error detected, aborting.
+
+[2022-01-24 02:26:46]	[done]
+	build successfully !
+
+[2022-01-24 02:30:23]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\gui\gui.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include "gfx_bw.h"
+                     ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.h",7  Fatal error[Pe1696]: cannot
+          open source file "gfx_bw.h"
+            searched: "c:\Users\13443\source\stm8sdemo\lib\gui\"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\ports\stm8\"
+            searched: ".\lib\key\"
+            searched: ".\lib\kernel\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-24 02:30:39]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\gui\gui.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include "fonts.h"
+                    ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",4  Fatal error[Pe1696]: cannot
+          open source file "fonts.h"
+            searched: "c:\Users\13443\source\stm8sdemo\lib\gui\"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\ports\stm8\"
+            searched: ".\lib\key\"
+            searched: ".\lib\kernel\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-24 02:36:16]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\gui\gui.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include "fonts.h"
+                    ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",4  Fatal error[Pe1696]: cannot
+          open source file "fonts.h"
+            searched: "c:\Users\13443\source\stm8sdemo\lib\gui\"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\ports\stm8\"
+            searched: ".\lib\lcd\"
+            searched: ".\lib\key\"
+            searched: ".\lib\kernel\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-24 02:36:31]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\gui\gui.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+GFX_SetFont(font_6x4);
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",47  Warning[Pe223]: function
+          "GFX_SetFont" declared implicitly
+      GFX_SetFont(font_6x4);
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",47  Error[Pe020]: identifier
+          "font_6x4" is undefined
+      GFX_SetFontSize(1);
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",48  Warning[Pe223]: function
+          "GFX_SetFontSize" declared implicitly
+      SSD1306_Clear(WHITE);
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",104  Warning[Pe223]: function
+          "SSD1306_Clear" declared implicitly
+      SSD1306_Clear(WHITE);
+                    ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",104  Error[Pe020]: identifier
+          "WHITE" is undefined
+      GFX_DrawString(0, 0, fps_c, WHITE, BLACK);
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",105  Warning[Pe223]: function
+          "GFX_DrawString" declared implicitly
+      GFX_DrawString(0, 0, fps_c, WHITE, BLACK);
+                                         ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",105  Error[Pe020]: identifier
+          "BLACK" is undefined
+      GPIO_WriteHigh(TEST_Port, TEST_Pin);
+                     ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",110  Error[Pe020]: identifier
+          "TEST_Port" is undefined
+      GPIO_WriteHigh(TEST_Port, TEST_Pin);
+                                ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",110  Error[Pe020]: identifier
+          "TEST_Pin" is undefined
+      SSD1306_Display();
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",111  Warning[Pe223]: function
+          "SSD1306_Display" declared implicitly
+  static u8 last_index = _Main_UI; //涓婁竴涓?晫闈㈢储寮曞惶
+            ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",6  Warning[Pe550]: variable
+          "last_index" was set but never used
+
+[2022-01-24 02:36:47]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+OLED_WR_Byte(F8X16[c * 16 + i], OLED_DATA);
+  			             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",254  Error[Pe020]: identifier
+          "F8X16" is undefined
+  			OLED_WR_Byte(F8X16[c * 16 + i + 8], OLED_DATA);
+  			             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",257  Error[Pe020]: identifier
+          "F8X16" is undefined
+  		OLED_WR_Byte(Hzk[2 * no][t], OLED_DATA);
+  		             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",323  Error[Pe020]: identifier
+          "Hzk" is undefined
+  		OLED_WR_Byte(Hzk[2 * no + 1][t], OLED_DATA);
+  		             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",329  Error[Pe020]: identifier
+          "Hzk" is undefined
+
+[2022-01-24 02:37:05]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+OLED_WR_Byte(Hzk[2 * no][t], OLED_DATA);
+  		             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",323  Error[Pe020]: identifier
+          "Hzk" is undefined
+  		OLED_WR_Byte(Hzk[2 * no + 1][t], OLED_DATA);
+  		             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",329  Error[Pe020]: identifier
+          "Hzk" is undefined
+
+[2022-01-24 02:37:24]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include "oled_ssd1306.h"
+                           ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",11  Fatal error[Pe1696]: cannot
+          open source file "oled_ssd1306.h"
+            searched: "c:\Users\13443\source\stm8sdemo\src\"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\ports\stm8\"
+            searched: ".\lib\lcd\"
+            searched: ".\lib\key\"
+            searched: ".\lib\kernel\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-24 02:37:39]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li005]: no definition for "SSD1306_I2cInit" [referenced from
+          c:\Users\13443\source\stm8sdemo\build\Release\src\main.o]
+
+
+[2022-01-24 02:38:02]	[done]
+	build successfully !
+
+[2022-01-24 02:39:36]	[done]
+	build successfully !
+
+[2022-01-24 02:40:26]	[done]
+	build successfully !
+
+[2022-01-24 02:53:37]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+sbit OLED_SCL=P1^0;//鏃堕挓 D0锛圫CLK锟继
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.h",35  Error[Pe020]: identifier
+          "sbit" is undefined
+  sbit OLED_SCL=P1^0;//鏃堕挓 D0锛圫CLK锟继
+                ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.h",35  Error[Pe020]: identifier
+          "P1" is undefined
+  sbit OLED_SDIN=P1^1;//D1锛圡OSI锛堖鏁版嵁
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.h",36  Error[Pe020]: identifier
+          "sbit" is undefined
+  const unsigned char code F6x8[][6] =		
+                           ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oledfont.h",9  Error[Pe065]: expected
+          a ";"
+  };
+   ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oledfont.h",103  Warning[Pe012]: 
+          parsing restarts here after previous syntax error
+  			OLED_WR_Byte(F8X16[c*16+i],OLED_DATA);
+  			             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",264  Error[Pe020]: identifier
+          "F8X16" is undefined
+  			OLED_WR_Byte(F8X16[c*16+i+8],OLED_DATA);
+  			             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",267  Error[Pe020]: identifier
+          "F8X16" is undefined
+  				OLED_WR_Byte(F6x8[c][i],OLED_DATA);
+  				             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",272  Error[Pe020]: identifier
+          "F6x8" is undefined
+  				OLED_WR_Byte(Hzk[2*no][t],OLED_DATA);
+  				             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",326  Error[Pe020]: identifier
+          "Hzk" is undefined
+  				OLED_WR_Byte(Hzk[2*no+1][t],OLED_DATA);
+  				             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",332  Error[Pe020]: identifier
+          "Hzk" is undefined
+
+[2022-01-24 02:53:54]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+sbit OLED_SCL=P1^0;//鏃堕挓 D0锛圫CLK锟继
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.h",35  Error[Pe020]: identifier
+          "sbit" is undefined
+  sbit OLED_SCL=P1^0;//鏃堕挓 D0锛圫CLK锟继
+                ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.h",35  Error[Pe020]: identifier
+          "P1" is undefined
+  sbit OLED_SDIN=P1^1;//D1锛圡OSI锛堖鏁版嵁
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.h",36  Error[Pe020]: identifier
+          "sbit" is undefined
+  const unsigned char code F6x8[][6] =		
+                           ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oledfont.h",9  Error[Pe065]: expected
+          a ";"
+  };
+   ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oledfont.h",103  Warning[Pe012]: 
+          parsing restarts here after previous syntax error
+  			OLED_WR_Byte(F8X16[c*16+i],OLED_DATA);
+  			             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",264  Error[Pe020]: identifier
+          "F8X16" is undefined
+  			OLED_WR_Byte(F8X16[c*16+i+8],OLED_DATA);
+  			             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",267  Error[Pe020]: identifier
+          "F8X16" is undefined
+  				OLED_WR_Byte(F6x8[c][i],OLED_DATA);
+  				             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",272  Error[Pe020]: identifier
+          "F6x8" is undefined
+  				OLED_WR_Byte(Hzk[2*no+1][t],OLED_DATA);
+  				             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",332  Error[Pe020]: identifier
+          "Hzk" is undefined
+  				OLED_WR_Byte(Hzk[2*no+1][t],OLED_DATA);
+  				                         ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",332  Warning[Pe549]: variable
+          "t" is used before its value is set
+
+[2022-01-24 02:54:10]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+sbit OLED_SCL=P1^0;//鏃堕挓 D0锛圫CLK锟继
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.h",35  Error[Pe020]: identifier
+          "sbit" is undefined
+  sbit OLED_SCL=P1^0;//鏃堕挓 D0锛圫CLK锟继
+                ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.h",35  Error[Pe020]: identifier
+          "P1" is undefined
+  sbit OLED_SDIN=P1^1;//D1锛圡OSI锛堖鏁版嵁
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.h",36  Error[Pe020]: identifier
+          "sbit" is undefined
+  const unsigned char code F6x8[][6] =		
+                           ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oledfont.h",9  Error[Pe065]: expected
+          a ";"
+  };
+   ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oledfont.h",103  Warning[Pe012]: 
+          parsing restarts here after previous syntax error
+  			OLED_WR_Byte(F8X16[c * 16 + i], OLED_DATA);
+  			             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",270  Error[Pe020]: identifier
+          "F8X16" is undefined
+  			OLED_WR_Byte(F8X16[c * 16 + i + 8], OLED_DATA);
+  			             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",273  Error[Pe020]: identifier
+          "F8X16" is undefined
+  			OLED_WR_Byte(F6x8[c][i], OLED_DATA);
+  			             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",279  Error[Pe020]: identifier
+          "F6x8" is undefined
+
+[2022-01-24 02:54:32]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+sbit OLED_SCL=P1^0;//鏃堕挓 D0锛圫CLK锟继
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.h",35  Error[Pe020]: identifier
+          "sbit" is undefined
+  sbit OLED_SCL=P1^0;//鏃堕挓 D0锛圫CLK锟继
+                ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.h",35  Error[Pe020]: identifier
+          "P1" is undefined
+  sbit OLED_SDIN=P1^1;//D1锛圡OSI锛堖鏁版嵁
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.h",36  Error[Pe020]: identifier
+          "sbit" is undefined
+  const unsigned char code F6x8[][6] =		
+                           ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oledfont.h",9  Error[Pe065]: expected
+          a ";"
+  };
+   ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oledfont.h",103  Warning[Pe012]: 
+          parsing restarts here after previous syntax error
+  			OLED_WR_Byte(F6x8[c][i], OLED_DATA);
+  			             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",279  Error[Pe020]: identifier
+          "F6x8" is undefined
+
+[2022-01-24 02:55:00]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+sbit OLED_SCL=P1^0;//鏃堕挓 D0锛圫CLK锟继
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.h",35  Error[Pe020]: identifier
+          "sbit" is undefined
+  sbit OLED_SCL=P1^0;//鏃堕挓 D0锛圫CLK锟继
+                ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.h",35  Error[Pe020]: identifier
+          "P1" is undefined
+  sbit OLED_SDIN=P1^1;//D1锛圡OSI锛堖鏁版嵁
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.h",36  Error[Pe020]: identifier
+          "sbit" is undefined
+  static unsigned char code F6x8[][6] =		
+                            ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oledfont.h",9  Error[Pe065]: expected
+          a ";"
+  };
+   ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oledfont.h",103  Warning[Pe012]: 
+          parsing restarts here after previous syntax error
+  			OLED_WR_Byte(F6x8[c][i], OLED_DATA);
+  			             ^
+"c:\Users\13443\source\stm8sdemo\lib\lcd\oled.c",279  Error[Pe020]: identifier
+          "F6x8" is undefined
+
+[2022-01-24 02:55:32]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "delay_ms"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\delay\delay.o",
+          and "c:\Users\13443\source\stm8sdemo\build\Release\lib\lcd\oled.o"
+
+
+[2022-01-24 02:55:52]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "delay_ms"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\delay\delay.o",
+          and "c:\Users\13443\source\stm8sdemo\build\Release\lib\lcd\oled.o"
+
+
+[2022-01-24 02:56:15]	[done]
+	build successfully !
+

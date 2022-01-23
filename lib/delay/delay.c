@@ -70,7 +70,7 @@ void delay_ms(uint16_t n_ms)
 // Description   : delay for some time in 10us unit(partial accurate)
 // Input         : n_10us is how many 10us of time to delay
 //------------------------------------------------------------------------------
-void delay_1us(uint16_t n_1us)
+void delay_us(uint16_t n_1us)
 {
   CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER4, ENABLE);
   // Init TIMER 4 //
