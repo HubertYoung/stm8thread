@@ -7374,3 +7374,3241 @@ Error[Lp011]: section placement failed
 [2022-01-23 21:59:58]	[done]
 	build successfully !
 
+[2022-01-23 22:43:54]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\delay\delay.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include <atomtimer.h>
+                        ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.h",6  Fatal error[Pe1696]: 
+          cannot open source file "atomtimer.h"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\oled\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+#include <atomtimer.h>
+                        ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.h",6  Fatal error[Pe1696]: 
+          cannot open source file "atomtimer.h"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\oled\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+#include <atomtimer.h>
+                        ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.h",6  Fatal error[Pe1696]: 
+          cannot open source file "atomtimer.h"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\oled\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-23 22:48:35]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\gui\gui.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include <atomtimer.h>
+                        ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.h",6  Fatal error[Pe1696]: 
+          cannot open source file "atomtimer.h"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\uart\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\oled\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+#include <atomtimer.h>
+                        ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.h",6  Fatal error[Pe1696]: 
+          cannot open source file "atomtimer.h"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\uart\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\oled\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+#include <atomtimer.h>
+                        ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.h",6  Fatal error[Pe1696]: 
+          cannot open source file "atomtimer.h"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\uart\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\oled\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-23 22:48:56]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\uart\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include "atom.h"
+                   ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.h",2  Fatal error[Pe1696]: 
+          cannot open source file "atom.h"
+            searched: "c:\Users\13443\source\stm8sdemo\lib\uart\"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\uart\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\oled\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-23 22:49:12]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\uart\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+static ATOM_MUTEX uart_mutex;
+         ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",10  Error[Pe020]: identifier
+          "ATOM_MUTEX" is undefined
+    if (atomMutexCreate (&uart_mutex) != ATOM_OK)
+        ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",29  Warning[Pe223]: function
+          "atomMutexCreate" declared implicitly
+    if (atomMutexCreate (&uart_mutex) != ATOM_OK)
+                                         ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",29  Error[Pe020]: identifier
+          "ATOM_OK" is undefined
+      if (atomMutexGet(&uart_mutex, 0) == ATOM_OK)
+          ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",55  Warning[Pe223]: function
+          "atomMutexGet" declared implicitly
+      if (atomMutexGet(&uart_mutex, 0) == ATOM_OK)
+                                          ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",55  Error[Pe020]: identifier
+          "ATOM_OK" is undefined
+          atomMutexPut(&uart_mutex);
+          ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",69  Warning[Pe223]: function
+          "atomMutexPut" declared implicitly
+
+[2022-01-23 22:49:57]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\uart\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+static ATOM_MUTEX uart_mutex;
+         ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",10  Error[Pe020]: identifier
+          "ATOM_MUTEX" is undefined
+    return (status);
+            ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",29  Warning[Pe549]: variable
+          "status" is used before its value is set
+
+[2022-01-23 22:50:20]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include <atomtimer.h>
+                        ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",3  Fatal error[Pe1696]: cannot
+          open source file "atomtimer.h"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\uart\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\oled\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-23 22:50:32]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+MCU_Config();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",14  Warning[Pe223]: function
+          "MCU_Config" declared implicitly
+      SSD1306_I2cInit();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",22  Warning[Pe223]: function
+          "SSD1306_I2cInit" declared implicitly
+      GUI_Init();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",33  Warning[Pe223]: function
+          "GUI_Init" declared implicitly
+      system_status(0)
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",42  Warning[Pe223]: function
+          "system_status" declared implicitly
+      while (1)
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",44  Error[Pe065]: expected a ";"
+  static void system_status(uint32_t param)
+              ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",59  Error[Pe159]: declaration is
+          incompatible with previous "system_status" (declared at line 42)
+          GUI_Refresh();
+          ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",73  Warning[Pe223]: function
+          "GUI_Refresh" declared implicitly
+          atomTimerDelay(1);
+          ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",74  Warning[Pe223]: function
+          "atomTimerDelay" declared implicitly
+          atomTimerDelay(1);
+          ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",90  Warning[Pe223]: function
+          "atomTimerDelay" declared implicitly
+          GUI_Refresh();
+          ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",91  Warning[Pe223]: function
+          "GUI_Refresh" declared implicitly
+  static void system_status(uint32_t param)
+              ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",59  Warning[Pe177]: function
+          "system_status" was declared but never referenced
+  static void at_thread_func(uint32_t param)
+              ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",86  Warning[Pe177]: function
+          "at_thread_func" was declared but never referenced
+
+[2022-01-23 22:51:20]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+MCU_Config();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",14  Warning[Pe223]: function
+          "MCU_Config" declared implicitly
+      SSD1306_I2cInit();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",22  Warning[Pe223]: function
+          "SSD1306_I2cInit" declared implicitly
+      GUI_Init();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",33  Warning[Pe223]: function
+          "GUI_Init" declared implicitly
+      system_status(0)
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",42  Warning[Pe223]: function
+          "system_status" declared implicitly
+      while (1)
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",44  Error[Pe065]: expected a ";"
+  void system_status(uint32_t param)
+       ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",59  Error[Pe159]: declaration is
+          incompatible with previous "system_status" (declared at line 42)
+      printf("Sys Init Over\n");
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",69  Warning[Pe223]: function
+          "printf" declared implicitly
+          GUI_Refresh();
+          ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",73  Warning[Pe223]: function
+          "GUI_Refresh" declared implicitly
+          atomTimerDelay(1);
+          ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",74  Warning[Pe223]: function
+          "atomTimerDelay" declared implicitly
+
+[2022-01-23 22:52:37]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+MCU_Config();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",14  Warning[Pe223]: function
+          "MCU_Config" declared implicitly
+      SSD1306_I2cInit();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",22  Warning[Pe223]: function
+          "SSD1306_I2cInit" declared implicitly
+      GUI_Init();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",33  Warning[Pe223]: function
+          "GUI_Init" declared implicitly
+      system_status(0)
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",42  Warning[Pe223]: function
+          "system_status" declared implicitly
+      while (1)
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",44  Error[Pe065]: expected a ";"
+  void system_status(uint32_t param)
+       ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",59  Error[Pe159]: declaration is
+          incompatible with previous "system_status" (declared at line 42)
+      printf("Sys Init Over\n");
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",69  Warning[Pe223]: function
+          "printf" declared implicitly
+          GUI_Refresh();
+          ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",73  Warning[Pe223]: function
+          "GUI_Refresh" declared implicitly
+
+[2022-01-23 22:52:55]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+MCU_Config();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",14  Warning[Pe223]: function
+          "MCU_Config" declared implicitly
+      SSD1306_I2cInit();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",22  Warning[Pe223]: function
+          "SSD1306_I2cInit" declared implicitly
+      GUI_Init();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",33  Warning[Pe223]: function
+          "GUI_Init" declared implicitly
+      system_status(0);
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",42  Warning[Pe223]: function
+          "system_status" declared implicitly
+  void system_status(uint32_t param)
+       ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",59  Error[Pe159]: declaration is
+          incompatible with previous "system_status" (declared at line 42)
+      printf("Sys Init Over\n");
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",69  Warning[Pe223]: function
+          "printf" declared implicitly
+          GUI_Refresh();
+          ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",73  Warning[Pe223]: function
+          "GUI_Refresh" declared implicitly
+
+[2022-01-23 22:53:21]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+MCU_Config();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",14  Warning[Pe223]: function
+          "MCU_Config" declared implicitly
+      SSD1306_I2cInit();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",22  Warning[Pe223]: function
+          "SSD1306_I2cInit" declared implicitly
+      GUI_Init();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",33  Warning[Pe223]: function
+          "GUI_Init" declared implicitly
+      system_status(0);
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",42  Warning[Pe223]: function
+          "system_status" declared implicitly
+  void system_status(uint32_t param)
+       ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",59  Error[Pe159]: declaration is
+          incompatible with previous "system_status" (declared at line 42)
+          GUI_Refresh();
+          ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",73  Warning[Pe223]: function
+          "GUI_Refresh" declared implicitly
+
+[2022-01-23 22:53:45]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void main(void)
+  ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",12  Error[Pe130]: expected a "{"
+      MCU_Config();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",16  Warning[Pe223]: function
+          "MCU_Config" declared implicitly
+      SSD1306_I2cInit();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",24  Warning[Pe223]: function
+          "SSD1306_I2cInit" declared implicitly
+      GUI_Init();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",35  Warning[Pe223]: function
+          "GUI_Init" declared implicitly
+  void system_status(uint32_t param)
+       ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",61  Error[Pe247]: function
+          "system_status" has already been defined (at line 10)
+          GUI_Refresh();
+          ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",75  Warning[Pe223]: function
+          "GUI_Refresh" declared implicitly
+
+[2022-01-23 22:55:24]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+int main(void)
+  ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",12  Error[Pe130]: expected a "{"
+      MCU_Config();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",16  Warning[Pe223]: function
+          "MCU_Config" declared implicitly
+      SSD1306_I2cInit();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",24  Warning[Pe223]: function
+          "SSD1306_I2cInit" declared implicitly
+      GUI_Init();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",35  Warning[Pe223]: function
+          "GUI_Init" declared implicitly
+  void system_status(uint32_t param)
+       ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",61  Error[Pe247]: function
+          "system_status" has already been defined (at line 10)
+          GUI_Refresh();
+          ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",75  Warning[Pe223]: function
+          "GUI_Refresh" declared implicitly
+
+[2022-01-23 22:55:52]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+int main(void)
+  ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",12  Error[Pe130]: expected a "{"
+      MCU_Config();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",16  Warning[Pe223]: function
+          "MCU_Config" declared implicitly
+      SSD1306_I2cInit();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",24  Warning[Pe223]: function
+          "SSD1306_I2cInit" declared implicitly
+      GUI_Init();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",35  Warning[Pe223]: function
+          "GUI_Init" declared implicitly
+  void system_status(uint32_t param)
+       ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",61  Error[Pe247]: function
+          "system_status" has already been defined (at line 10)
+          GUI_Refresh();
+          ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",75  Warning[Pe223]: function
+          "GUI_Refresh" declared implicitly
+
+[2022-01-23 22:56:08]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+int main(void)
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",12  Error[Pe130]: expected a "{"
+      MCU_Config();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",16  Warning[Pe223]: function
+          "MCU_Config" declared implicitly
+      SSD1306_I2cInit();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",24  Warning[Pe223]: function
+          "SSD1306_I2cInit" declared implicitly
+      GUI_Init();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",35  Warning[Pe223]: function
+          "GUI_Init" declared implicitly
+      return 0;
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",48  Warning[Pe111]: statement is
+          unreachable
+      return 0;
+             ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",48  Error[Pe118]: a void function
+          may not return a value
+  void system_status(uint32_t param)
+       ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",62  Error[Pe247]: function
+          "system_status" has already been defined (at line 10)
+          GUI_Refresh();
+          ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",76  Warning[Pe223]: function
+          "GUI_Refresh" declared implicitly
+
+[2022-01-23 22:56:17]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+int main(void)
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",12  Error[Pe130]: expected a "{"
+      MCU_Config();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",16  Warning[Pe223]: function
+          "MCU_Config" declared implicitly
+      SSD1306_I2cInit();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",24  Warning[Pe223]: function
+          "SSD1306_I2cInit" declared implicitly
+      GUI_Init();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",35  Warning[Pe223]: function
+          "GUI_Init" declared implicitly
+      return 0;
+             ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",48  Error[Pe118]: a void function
+          may not return a value
+  void system_status(uint32_t param)
+       ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",62  Error[Pe247]: function
+          "system_status" has already been defined (at line 10)
+          GUI_Refresh();
+          ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",76  Warning[Pe223]: function
+          "GUI_Refresh" declared implicitly
+
+[2022-01-23 22:56:41]	[done]
+	build successfully !
+
+[2022-01-23 22:57:27]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "delay_1us"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\delay\delay.o",
+          and "c:\Users\13443\source\stm8sdemo\build\Release\lib\iic\box_i2c.o"
+
+
+[2022-01-23 22:58:31]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li006]: duplicate definitions for "delay_1us"; in
+          "c:\Users\13443\source\stm8sdemo\build\Release\lib\delay\delay.o",
+          and "c:\Users\13443\source\stm8sdemo\build\Release\lib\iic\box_i2c.o"
+
+
+[2022-01-23 22:59:35]	[done]
+	build successfully !
+
+[2022-01-23 23:01:08]	[done]
+	build successfully !
+
+[2022-01-23 23:03:04]	[done]
+	build successfully !
+
+[2022-01-23 23:03:18]	[done]
+	build successfully !
+
+[2022-01-23 23:04:03]	[done]
+	build successfully !
+
+[2022-01-23 23:05:37]	[done]
+	build successfully !
+
+[2022-01-23 23:12:35]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\interrupt.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.c",22  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    TIM4_OVFCallback();
+    ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.c",25  Warning[Pe223]: function
+          "TIM4_OVFCallback" declared implicitly
+
+[2022-01-23 23:13:00]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\gui\gui.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",28  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    unsigned char ODR0        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR1        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR2        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR3        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR4        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR5        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR6        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR7        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR0        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Warning[Pe177]: variable
+          "ODR0" was declared but never referenced
+    unsigned char ODR1        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Warning[Pe177]: variable
+          "ODR1" was declared but never referenced
+    unsigned char ODR2        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Warning[Pe177]: variable
+          "ODR2" was declared but never referenced
+    unsigned char ODR3        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Warning[Pe177]: variable
+          "ODR3" was declared but never referenced
+    unsigned char ODR4        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Warning[Pe177]: variable
+          "ODR4" was declared but never referenced
+    unsigned char ODR5        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Warning[Pe177]: variable
+          "ODR5" was declared but never referenced
+    unsigned char ODR6        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Warning[Pe177]: variable
+          "ODR6" was declared but never referenced
+    unsigned char ODR7        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Warning[Pe177]: variable
+          "ODR7" was declared but never referenced
+  } __BITS_ODR;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",37  Error[Pe077]: this
+          declaration has no storage class or type specifier
+  __IO_REG8_BIT(PA_ODR,      0x5000, __READ_WRITE, __BITS_ODR);	//PA杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",96  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PB_ODR,      0x5005, __READ_WRITE, __BITS_ODR);	//PB杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",97  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PC_ODR,      0x500A, __READ_WRITE, __BITS_ODR);	//PC杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",98  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PD_ODR,      0x500F, __READ_WRITE, __BITS_ODR);	//PD杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",99  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PE_ODR,      0x5014, __READ_WRITE, __BITS_ODR);	//PE杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",100  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PF_ODR,      0x5019, __READ_WRITE, __BITS_ODR);	//PF杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",101  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PG_ODR,      0x501E, __READ_WRITE, __BITS_ODR);	//PG杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",102  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PH_ODR,      0x5023, __READ_WRITE, __BITS_ODR);	//PH杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",103  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PI_ODR,      0x5028, __READ_WRITE, __BITS_ODR);	//PI杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",104  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+      delay_us(2); //绛夊緟2us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",25  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(2); //绛夊緟2us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",37  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(4); //淇濇寔4us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",48  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(4); //淇濇寔4us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",60  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(4);
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",75  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+          delay_us(2);
+          ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",130  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",13  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    for (; nCount != 0; nCount--);
+           ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",14  Error[Pe020]: 
+          identifier "nCount" is undefined
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",28  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    unsigned char ODR0        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR1        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR2        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR3        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR4        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR5        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR6        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR7        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR0        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Warning[Pe177]: variable
+          "ODR0" was declared but never referenced
+    unsigned char ODR1        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Warning[Pe177]: variable
+          "ODR1" was declared but never referenced
+    unsigned char ODR2        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Warning[Pe177]: variable
+          "ODR2" was declared but never referenced
+    unsigned char ODR3        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Warning[Pe177]: variable
+          "ODR3" was declared but never referenced
+    unsigned char ODR4        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Warning[Pe177]: variable
+          "ODR4" was declared but never referenced
+    unsigned char ODR5        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Warning[Pe177]: variable
+          "ODR5" was declared but never referenced
+    unsigned char ODR6        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Warning[Pe177]: variable
+          "ODR6" was declared but never referenced
+    unsigned char ODR7        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Warning[Pe177]: variable
+          "ODR7" was declared but never referenced
+  } __BITS_ODR;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",37  Error[Pe077]: this
+          declaration has no storage class or type specifier
+  __IO_REG8_BIT(PA_ODR,      0x5000, __READ_WRITE, __BITS_ODR);	//PA杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",96  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PB_ODR,      0x5005, __READ_WRITE, __BITS_ODR);	//PB杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",97  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PC_ODR,      0x500A, __READ_WRITE, __BITS_ODR);	//PC杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",98  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PD_ODR,      0x500F, __READ_WRITE, __BITS_ODR);	//PD杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",99  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PE_ODR,      0x5014, __READ_WRITE, __BITS_ODR);	//PE杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",100  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PF_ODR,      0x5019, __READ_WRITE, __BITS_ODR);	//PF杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",101  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PG_ODR,      0x501E, __READ_WRITE, __BITS_ODR);	//PG杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",102  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PH_ODR,      0x5023, __READ_WRITE, __BITS_ODR);	//PH杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",103  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PI_ODR,      0x5028, __READ_WRITE, __BITS_ODR);	//PI杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",104  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  #define SSD1306_I2C_CONTROL
+          ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.h",77  Warning[Pe047]: 
+          incompatible redefinition of macro "SSD1306_I2C_CONTROL"
+    delay_ms(5);
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\oled\oled_ssd1306.c",95  Warning[Pe223]: 
+          function "delay_ms" declared implicitly
+    delay_ms(200);
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\oled\oled_ssd1306.c",321  Warning[Pe223]: 
+          function "delay_ms" declared implicitly
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",28  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    unsigned char ODR0        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR1        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR2        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR3        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR4        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR5        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR6        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR7        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR0        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Warning[Pe177]: variable
+          "ODR0" was declared but never referenced
+    unsigned char ODR1        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Warning[Pe177]: variable
+          "ODR1" was declared but never referenced
+    unsigned char ODR2        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Warning[Pe177]: variable
+          "ODR2" was declared but never referenced
+    unsigned char ODR3        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Warning[Pe177]: variable
+          "ODR3" was declared but never referenced
+    unsigned char ODR4        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Warning[Pe177]: variable
+          "ODR4" was declared but never referenced
+    unsigned char ODR5        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Warning[Pe177]: variable
+          "ODR5" was declared but never referenced
+    unsigned char ODR6        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Warning[Pe177]: variable
+          "ODR6" was declared but never referenced
+    unsigned char ODR7        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Warning[Pe177]: variable
+          "ODR7" was declared but never referenced
+  } __BITS_ODR;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",37  Error[Pe077]: this
+          declaration has no storage class or type specifier
+  __IO_REG8_BIT(PA_ODR,      0x5000, __READ_WRITE, __BITS_ODR);	//PA杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",96  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PB_ODR,      0x5005, __READ_WRITE, __BITS_ODR);	//PB杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",97  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PC_ODR,      0x500A, __READ_WRITE, __BITS_ODR);	//PC杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",98  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PD_ODR,      0x500F, __READ_WRITE, __BITS_ODR);	//PD杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",99  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PE_ODR,      0x5014, __READ_WRITE, __BITS_ODR);	//PE杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",100  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PF_ODR,      0x5019, __READ_WRITE, __BITS_ODR);	//PF杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",101  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PG_ODR,      0x501E, __READ_WRITE, __BITS_ODR);	//PG杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",102  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PH_ODR,      0x5023, __READ_WRITE, __BITS_ODR);	//PH杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",103  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PI_ODR,      0x5028, __READ_WRITE, __BITS_ODR);	//PI杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",104  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  #define SSD1306_I2C_CONTROL
+          ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.h",77  Warning[Pe047]: 
+          incompatible redefinition of macro "SSD1306_I2C_CONTROL"
+  static u8 last_index = _Main_UI; //涓婁竴涓?晫闈㈢储寮曞惶
+            ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",6  Warning[Pe550]: variable
+          "last_index" was set but never used
+
+[2022-01-23 23:13:25]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\oled\oled_ssd1306.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",28  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    unsigned char ODR0        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR1        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR2        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR3        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR4        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR5        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR6        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR7        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR0        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Warning[Pe177]: variable
+          "ODR0" was declared but never referenced
+    unsigned char ODR1        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Warning[Pe177]: variable
+          "ODR1" was declared but never referenced
+    unsigned char ODR2        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Warning[Pe177]: variable
+          "ODR2" was declared but never referenced
+    unsigned char ODR3        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Warning[Pe177]: variable
+          "ODR3" was declared but never referenced
+    unsigned char ODR4        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Warning[Pe177]: variable
+          "ODR4" was declared but never referenced
+    unsigned char ODR5        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Warning[Pe177]: variable
+          "ODR5" was declared but never referenced
+    unsigned char ODR6        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Warning[Pe177]: variable
+          "ODR6" was declared but never referenced
+    unsigned char ODR7        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Warning[Pe177]: variable
+          "ODR7" was declared but never referenced
+  } __BITS_ODR;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",37  Error[Pe077]: this
+          declaration has no storage class or type specifier
+  __IO_REG8_BIT(PA_ODR,      0x5000, __READ_WRITE, __BITS_ODR);	//PA杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",96  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PB_ODR,      0x5005, __READ_WRITE, __BITS_ODR);	//PB杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",97  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PC_ODR,      0x500A, __READ_WRITE, __BITS_ODR);	//PC杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",98  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PD_ODR,      0x500F, __READ_WRITE, __BITS_ODR);	//PD杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",99  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PE_ODR,      0x5014, __READ_WRITE, __BITS_ODR);	//PE杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",100  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PF_ODR,      0x5019, __READ_WRITE, __BITS_ODR);	//PF杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",101  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PG_ODR,      0x501E, __READ_WRITE, __BITS_ODR);	//PG杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",102  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PH_ODR,      0x5023, __READ_WRITE, __BITS_ODR);	//PH杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",103  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PI_ODR,      0x5028, __READ_WRITE, __BITS_ODR);	//PI杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",104  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+      delay_us(2); //绛夊緟2us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",25  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(2); //绛夊緟2us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",37  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(4); //淇濇寔4us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",48  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(4); //淇濇寔4us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",60  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(4);
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",75  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+          delay_us(2);
+          ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",130  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",13  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    for (; nCount != 0; nCount--);
+           ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",14  Error[Pe020]: 
+          identifier "nCount" is undefined
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",28  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    unsigned char ODR0        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR1        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR2        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR3        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR4        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR5        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR6        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR7        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR0        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Warning[Pe177]: variable
+          "ODR0" was declared but never referenced
+    unsigned char ODR1        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Warning[Pe177]: variable
+          "ODR1" was declared but never referenced
+    unsigned char ODR2        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Warning[Pe177]: variable
+          "ODR2" was declared but never referenced
+    unsigned char ODR3        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Warning[Pe177]: variable
+          "ODR3" was declared but never referenced
+    unsigned char ODR4        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Warning[Pe177]: variable
+          "ODR4" was declared but never referenced
+    unsigned char ODR5        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Warning[Pe177]: variable
+          "ODR5" was declared but never referenced
+    unsigned char ODR6        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Warning[Pe177]: variable
+          "ODR6" was declared but never referenced
+    unsigned char ODR7        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Warning[Pe177]: variable
+          "ODR7" was declared but never referenced
+  } __BITS_ODR;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",37  Error[Pe077]: this
+          declaration has no storage class or type specifier
+  __IO_REG8_BIT(PA_ODR,      0x5000, __READ_WRITE, __BITS_ODR);	//PA杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",96  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PB_ODR,      0x5005, __READ_WRITE, __BITS_ODR);	//PB杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",97  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PC_ODR,      0x500A, __READ_WRITE, __BITS_ODR);	//PC杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",98  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PD_ODR,      0x500F, __READ_WRITE, __BITS_ODR);	//PD杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",99  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PE_ODR,      0x5014, __READ_WRITE, __BITS_ODR);	//PE杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",100  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PF_ODR,      0x5019, __READ_WRITE, __BITS_ODR);	//PF杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",101  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PG_ODR,      0x501E, __READ_WRITE, __BITS_ODR);	//PG杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",102  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PH_ODR,      0x5023, __READ_WRITE, __BITS_ODR);	//PH杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",103  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PI_ODR,      0x5028, __READ_WRITE, __BITS_ODR);	//PI杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",104  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  #define SSD1306_I2C_CONTROL
+          ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.h",77  Warning[Pe047]: 
+          incompatible redefinition of macro "SSD1306_I2C_CONTROL"
+  static u8 last_index = _Main_UI; //涓婁竴涓?晫闈㈢储寮曞惶
+            ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",6  Warning[Pe550]: variable
+          "last_index" was set but never used
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",28  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    unsigned char ODR0        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR1        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR2        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR3        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR4        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR5        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR6        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR7        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR0        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Warning[Pe177]: variable
+          "ODR0" was declared but never referenced
+    unsigned char ODR1        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Warning[Pe177]: variable
+          "ODR1" was declared but never referenced
+    unsigned char ODR2        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Warning[Pe177]: variable
+          "ODR2" was declared but never referenced
+    unsigned char ODR3        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Warning[Pe177]: variable
+          "ODR3" was declared but never referenced
+    unsigned char ODR4        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Warning[Pe177]: variable
+          "ODR4" was declared but never referenced
+    unsigned char ODR5        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Warning[Pe177]: variable
+          "ODR5" was declared but never referenced
+    unsigned char ODR6        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Warning[Pe177]: variable
+          "ODR6" was declared but never referenced
+    unsigned char ODR7        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Warning[Pe177]: variable
+          "ODR7" was declared but never referenced
+  } __BITS_ODR;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",37  Error[Pe077]: this
+          declaration has no storage class or type specifier
+  __IO_REG8_BIT(PA_ODR,      0x5000, __READ_WRITE, __BITS_ODR);	//PA杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",96  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PB_ODR,      0x5005, __READ_WRITE, __BITS_ODR);	//PB杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",97  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PC_ODR,      0x500A, __READ_WRITE, __BITS_ODR);	//PC杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",98  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PD_ODR,      0x500F, __READ_WRITE, __BITS_ODR);	//PD杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",99  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PE_ODR,      0x5014, __READ_WRITE, __BITS_ODR);	//PE杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",100  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PF_ODR,      0x5019, __READ_WRITE, __BITS_ODR);	//PF杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",101  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PG_ODR,      0x501E, __READ_WRITE, __BITS_ODR);	//PG杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",102  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PH_ODR,      0x5023, __READ_WRITE, __BITS_ODR);	//PH杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",103  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PI_ODR,      0x5028, __READ_WRITE, __BITS_ODR);	//PI杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",104  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  #define SSD1306_I2C_CONTROL
+          ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.h",77  Warning[Pe047]: 
+          incompatible redefinition of macro "SSD1306_I2C_CONTROL"
+    delay_ms(5);
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\oled\oled_ssd1306.c",95  Warning[Pe223]: 
+          function "delay_ms" declared implicitly
+    delay_ms(200);
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\oled\oled_ssd1306.c",321  Warning[Pe223]: 
+          function "delay_ms" declared implicitly
+
+[2022-01-23 23:14:39]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\oled\oled_ssd1306.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",28  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    unsigned char ODR0        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR1        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR2        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR3        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR4        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR5        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR6        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR7        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR0        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Warning[Pe177]: variable
+          "ODR0" was declared but never referenced
+    unsigned char ODR1        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Warning[Pe177]: variable
+          "ODR1" was declared but never referenced
+    unsigned char ODR2        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Warning[Pe177]: variable
+          "ODR2" was declared but never referenced
+    unsigned char ODR3        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Warning[Pe177]: variable
+          "ODR3" was declared but never referenced
+    unsigned char ODR4        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Warning[Pe177]: variable
+          "ODR4" was declared but never referenced
+    unsigned char ODR5        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Warning[Pe177]: variable
+          "ODR5" was declared but never referenced
+    unsigned char ODR6        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Warning[Pe177]: variable
+          "ODR6" was declared but never referenced
+    unsigned char ODR7        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Warning[Pe177]: variable
+          "ODR7" was declared but never referenced
+  } __BITS_ODR;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",37  Error[Pe077]: this
+          declaration has no storage class or type specifier
+  __IO_REG8_BIT(PA_ODR,      0x5000, __READ_WRITE, __BITS_ODR);	//PA杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",96  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PB_ODR,      0x5005, __READ_WRITE, __BITS_ODR);	//PB杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",97  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PC_ODR,      0x500A, __READ_WRITE, __BITS_ODR);	//PC杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",98  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PD_ODR,      0x500F, __READ_WRITE, __BITS_ODR);	//PD杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",99  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PE_ODR,      0x5014, __READ_WRITE, __BITS_ODR);	//PE杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",100  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PF_ODR,      0x5019, __READ_WRITE, __BITS_ODR);	//PF杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",101  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PG_ODR,      0x501E, __READ_WRITE, __BITS_ODR);	//PG杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",102  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PH_ODR,      0x5023, __READ_WRITE, __BITS_ODR);	//PH杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",103  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PI_ODR,      0x5028, __READ_WRITE, __BITS_ODR);	//PI杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",104  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+      delay_us(2); //绛夊緟2us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",25  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(2); //绛夊緟2us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",37  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(4); //淇濇寔4us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",48  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(4); //淇濇寔4us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",60  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(4);
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",75  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+          delay_us(2);
+          ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",130  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",28  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    unsigned char ODR0        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR1        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR2        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR3        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR4        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR5        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR6        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR7        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR0        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Warning[Pe177]: variable
+          "ODR0" was declared but never referenced
+    unsigned char ODR1        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Warning[Pe177]: variable
+          "ODR1" was declared but never referenced
+    unsigned char ODR2        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Warning[Pe177]: variable
+          "ODR2" was declared but never referenced
+    unsigned char ODR3        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Warning[Pe177]: variable
+          "ODR3" was declared but never referenced
+    unsigned char ODR4        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Warning[Pe177]: variable
+          "ODR4" was declared but never referenced
+    unsigned char ODR5        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Warning[Pe177]: variable
+          "ODR5" was declared but never referenced
+    unsigned char ODR6        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Warning[Pe177]: variable
+          "ODR6" was declared but never referenced
+    unsigned char ODR7        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Warning[Pe177]: variable
+          "ODR7" was declared but never referenced
+  } __BITS_ODR;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",37  Error[Pe077]: this
+          declaration has no storage class or type specifier
+  __IO_REG8_BIT(PA_ODR,      0x5000, __READ_WRITE, __BITS_ODR);	//PA杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",96  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PB_ODR,      0x5005, __READ_WRITE, __BITS_ODR);	//PB杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",97  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PC_ODR,      0x500A, __READ_WRITE, __BITS_ODR);	//PC杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",98  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PD_ODR,      0x500F, __READ_WRITE, __BITS_ODR);	//PD杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",99  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PE_ODR,      0x5014, __READ_WRITE, __BITS_ODR);	//PE杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",100  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PF_ODR,      0x5019, __READ_WRITE, __BITS_ODR);	//PF杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",101  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PG_ODR,      0x501E, __READ_WRITE, __BITS_ODR);	//PG杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",102  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PH_ODR,      0x5023, __READ_WRITE, __BITS_ODR);	//PH杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",103  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PI_ODR,      0x5028, __READ_WRITE, __BITS_ODR);	//PI杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",104  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  #define SSD1306_I2C_CONTROL
+          ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.h",81  Warning[Pe047]: 
+          incompatible redefinition of macro "SSD1306_I2C_CONTROL"
+  static u8 last_index = _Main_UI; //涓婁竴涓?晫闈㈢储寮曞惶
+            ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",6  Warning[Pe550]: variable
+          "last_index" was set but never used
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",13  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    for (; nCount != 0; nCount--);
+           ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",14  Error[Pe020]: 
+          identifier "nCount" is undefined
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",28  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    unsigned char ODR0        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR1        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR2        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR3        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR4        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR5        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR6        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR7        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR0        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Warning[Pe177]: variable
+          "ODR0" was declared but never referenced
+    unsigned char ODR1        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Warning[Pe177]: variable
+          "ODR1" was declared but never referenced
+    unsigned char ODR2        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Warning[Pe177]: variable
+          "ODR2" was declared but never referenced
+    unsigned char ODR3        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Warning[Pe177]: variable
+          "ODR3" was declared but never referenced
+    unsigned char ODR4        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Warning[Pe177]: variable
+          "ODR4" was declared but never referenced
+    unsigned char ODR5        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Warning[Pe177]: variable
+          "ODR5" was declared but never referenced
+    unsigned char ODR6        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Warning[Pe177]: variable
+          "ODR6" was declared but never referenced
+    unsigned char ODR7        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Warning[Pe177]: variable
+          "ODR7" was declared but never referenced
+  } __BITS_ODR;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",37  Error[Pe077]: this
+          declaration has no storage class or type specifier
+  __IO_REG8_BIT(PA_ODR,      0x5000, __READ_WRITE, __BITS_ODR);	//PA杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",96  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PB_ODR,      0x5005, __READ_WRITE, __BITS_ODR);	//PB杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",97  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PC_ODR,      0x500A, __READ_WRITE, __BITS_ODR);	//PC杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",98  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PD_ODR,      0x500F, __READ_WRITE, __BITS_ODR);	//PD杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",99  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PE_ODR,      0x5014, __READ_WRITE, __BITS_ODR);	//PE杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",100  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PF_ODR,      0x5019, __READ_WRITE, __BITS_ODR);	//PF杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",101  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PG_ODR,      0x501E, __READ_WRITE, __BITS_ODR);	//PG杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",102  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PH_ODR,      0x5023, __READ_WRITE, __BITS_ODR);	//PH杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",103  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PI_ODR,      0x5028, __READ_WRITE, __BITS_ODR);	//PI杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",104  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  #define SSD1306_I2C_CONTROL
+          ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.h",81  Warning[Pe047]: 
+          incompatible redefinition of macro "SSD1306_I2C_CONTROL"
+    delay_ms(5);
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\oled\oled_ssd1306.c",95  Warning[Pe223]: 
+          function "delay_ms" declared implicitly
+    delay_ms(200);
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\oled\oled_ssd1306.c",321  Warning[Pe223]: 
+          function "delay_ms" declared implicitly
+
+[2022-01-23 23:15:16]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\gui\gui.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",28  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    unsigned char ODR0        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR1        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR2        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR3        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR4        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR5        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR6        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR7        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR0        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Warning[Pe177]: variable
+          "ODR0" was declared but never referenced
+    unsigned char ODR1        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Warning[Pe177]: variable
+          "ODR1" was declared but never referenced
+    unsigned char ODR2        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Warning[Pe177]: variable
+          "ODR2" was declared but never referenced
+    unsigned char ODR3        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Warning[Pe177]: variable
+          "ODR3" was declared but never referenced
+    unsigned char ODR4        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Warning[Pe177]: variable
+          "ODR4" was declared but never referenced
+    unsigned char ODR5        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Warning[Pe177]: variable
+          "ODR5" was declared but never referenced
+    unsigned char ODR6        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Warning[Pe177]: variable
+          "ODR6" was declared but never referenced
+    unsigned char ODR7        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Warning[Pe177]: variable
+          "ODR7" was declared but never referenced
+  } __BITS_ODR;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",37  Error[Pe077]: this
+          declaration has no storage class or type specifier
+  __IO_REG8_BIT(PA_ODR,      0x5000, __READ_WRITE, __BITS_ODR);	//PA杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",96  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PB_ODR,      0x5005, __READ_WRITE, __BITS_ODR);	//PB杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",97  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PC_ODR,      0x500A, __READ_WRITE, __BITS_ODR);	//PC杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",98  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PD_ODR,      0x500F, __READ_WRITE, __BITS_ODR);	//PD杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",99  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PE_ODR,      0x5014, __READ_WRITE, __BITS_ODR);	//PE杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",100  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PF_ODR,      0x5019, __READ_WRITE, __BITS_ODR);	//PF杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",101  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PG_ODR,      0x501E, __READ_WRITE, __BITS_ODR);	//PG杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",102  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PH_ODR,      0x5023, __READ_WRITE, __BITS_ODR);	//PH杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",103  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PI_ODR,      0x5028, __READ_WRITE, __BITS_ODR);	//PI杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",104  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+      delay_us(2); //绛夊緟2us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",25  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(2); //绛夊緟2us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",37  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(4); //淇濇寔4us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",48  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(4); //淇濇寔4us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",60  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(4);
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",75  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+          delay_us(2);
+          ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",130  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",13  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    for (; nCount != 0; nCount--);
+           ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",14  Error[Pe020]: 
+          identifier "nCount" is undefined
+    delay_1ms = n_ms * 1000;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",17  Error[Pe020]: 
+          identifier "delay_1ms" is undefined
+   delay_1ms = n_1us;
+   ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",22  Error[Pe020]: 
+          identifier "delay_1ms" is undefined
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",28  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    unsigned char ODR0        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR1        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR2        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR3        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR4        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR5        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR6        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR7        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR0        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Warning[Pe177]: variable
+          "ODR0" was declared but never referenced
+    unsigned char ODR1        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Warning[Pe177]: variable
+          "ODR1" was declared but never referenced
+    unsigned char ODR2        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Warning[Pe177]: variable
+          "ODR2" was declared but never referenced
+    unsigned char ODR3        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Warning[Pe177]: variable
+          "ODR3" was declared but never referenced
+    unsigned char ODR4        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Warning[Pe177]: variable
+          "ODR4" was declared but never referenced
+    unsigned char ODR5        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Warning[Pe177]: variable
+          "ODR5" was declared but never referenced
+    unsigned char ODR6        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Warning[Pe177]: variable
+          "ODR6" was declared but never referenced
+    unsigned char ODR7        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Warning[Pe177]: variable
+          "ODR7" was declared but never referenced
+  } __BITS_ODR;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",37  Error[Pe077]: this
+          declaration has no storage class or type specifier
+  __IO_REG8_BIT(PA_ODR,      0x5000, __READ_WRITE, __BITS_ODR);	//PA杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",96  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PB_ODR,      0x5005, __READ_WRITE, __BITS_ODR);	//PB杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",97  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PC_ODR,      0x500A, __READ_WRITE, __BITS_ODR);	//PC杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",98  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PD_ODR,      0x500F, __READ_WRITE, __BITS_ODR);	//PD杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",99  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PE_ODR,      0x5014, __READ_WRITE, __BITS_ODR);	//PE杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",100  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PF_ODR,      0x5019, __READ_WRITE, __BITS_ODR);	//PF杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",101  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PG_ODR,      0x501E, __READ_WRITE, __BITS_ODR);	//PG杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",102  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PH_ODR,      0x5023, __READ_WRITE, __BITS_ODR);	//PH杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",103  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PI_ODR,      0x5028, __READ_WRITE, __BITS_ODR);	//PI杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",104  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  #define SSD1306_I2C_CONTROL
+          ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.h",81  Warning[Pe047]: 
+          incompatible redefinition of macro "SSD1306_I2C_CONTROL"
+    delay_ms(5);
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\oled\oled_ssd1306.c",95  Warning[Pe223]: 
+          function "delay_ms" declared implicitly
+    delay_ms(200);
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\oled\oled_ssd1306.c",321  Warning[Pe223]: 
+          function "delay_ms" declared implicitly
+void TIM4_UPD_OVF_IRQHandler(void) __interrupt(23);
+                                     ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",28  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    unsigned char ODR0        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR1        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR2        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR3        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR4        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR5        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR6        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR7        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR0        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Warning[Pe177]: variable
+          "ODR0" was declared but never referenced
+    unsigned char ODR1        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Warning[Pe177]: variable
+          "ODR1" was declared but never referenced
+    unsigned char ODR2        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Warning[Pe177]: variable
+          "ODR2" was declared but never referenced
+    unsigned char ODR3        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Warning[Pe177]: variable
+          "ODR3" was declared but never referenced
+    unsigned char ODR4        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Warning[Pe177]: variable
+          "ODR4" was declared but never referenced
+    unsigned char ODR5        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Warning[Pe177]: variable
+          "ODR5" was declared but never referenced
+    unsigned char ODR6        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Warning[Pe177]: variable
+          "ODR6" was declared but never referenced
+    unsigned char ODR7        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Warning[Pe177]: variable
+          "ODR7" was declared but never referenced
+  } __BITS_ODR;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",37  Error[Pe077]: this
+          declaration has no storage class or type specifier
+  __IO_REG8_BIT(PA_ODR,      0x5000, __READ_WRITE, __BITS_ODR);	//PA杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",96  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PB_ODR,      0x5005, __READ_WRITE, __BITS_ODR);	//PB杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",97  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PC_ODR,      0x500A, __READ_WRITE, __BITS_ODR);	//PC杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",98  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PD_ODR,      0x500F, __READ_WRITE, __BITS_ODR);	//PD杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",99  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PE_ODR,      0x5014, __READ_WRITE, __BITS_ODR);	//PE杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",100  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PF_ODR,      0x5019, __READ_WRITE, __BITS_ODR);	//PF杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",101  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PG_ODR,      0x501E, __READ_WRITE, __BITS_ODR);	//PG杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",102  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PH_ODR,      0x5023, __READ_WRITE, __BITS_ODR);	//PH杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",103  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PI_ODR,      0x5028, __READ_WRITE, __BITS_ODR);	//PI杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",104  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  #define SSD1306_I2C_CONTROL
+          ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.h",81  Warning[Pe047]: 
+          incompatible redefinition of macro "SSD1306_I2C_CONTROL"
+  static u8 last_index = _Main_UI; //涓婁竴涓?晫闈㈢储寮曞惶
+            ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",6  Warning[Pe550]: variable
+          "last_index" was set but never used
+
+[2022-01-23 23:17:08]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\oled\oled_ssd1306.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void TIM4_IRQHandler(void) __interrupt(23);
+                             ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",28  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    unsigned char ODR0        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR1        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR2        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR3        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR4        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR5        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR6        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR7        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR0        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Warning[Pe177]: variable
+          "ODR0" was declared but never referenced
+    unsigned char ODR1        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Warning[Pe177]: variable
+          "ODR1" was declared but never referenced
+    unsigned char ODR2        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Warning[Pe177]: variable
+          "ODR2" was declared but never referenced
+    unsigned char ODR3        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Warning[Pe177]: variable
+          "ODR3" was declared but never referenced
+    unsigned char ODR4        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Warning[Pe177]: variable
+          "ODR4" was declared but never referenced
+    unsigned char ODR5        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Warning[Pe177]: variable
+          "ODR5" was declared but never referenced
+    unsigned char ODR6        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Warning[Pe177]: variable
+          "ODR6" was declared but never referenced
+    unsigned char ODR7        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Warning[Pe177]: variable
+          "ODR7" was declared but never referenced
+  } __BITS_ODR;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",37  Error[Pe077]: this
+          declaration has no storage class or type specifier
+  __IO_REG8_BIT(PA_ODR,      0x5000, __READ_WRITE, __BITS_ODR);	//PA杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",96  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PB_ODR,      0x5005, __READ_WRITE, __BITS_ODR);	//PB杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",97  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PC_ODR,      0x500A, __READ_WRITE, __BITS_ODR);	//PC杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",98  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PD_ODR,      0x500F, __READ_WRITE, __BITS_ODR);	//PD杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",99  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PE_ODR,      0x5014, __READ_WRITE, __BITS_ODR);	//PE杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",100  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PF_ODR,      0x5019, __READ_WRITE, __BITS_ODR);	//PF杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",101  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PG_ODR,      0x501E, __READ_WRITE, __BITS_ODR);	//PG杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",102  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PH_ODR,      0x5023, __READ_WRITE, __BITS_ODR);	//PH杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",103  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PI_ODR,      0x5028, __READ_WRITE, __BITS_ODR);	//PI杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",104  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+      delay_us(2); //绛夊緟2us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",25  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(2); //绛夊緟2us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",37  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(4); //淇濇寔4us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",48  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(4); //淇濇寔4us
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",60  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+      delay_us(4);
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",75  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+          delay_us(2);
+          ^
+"c:\Users\13443\source\stm8sdemo\lib\iic\box_i2c.c",130  Warning[Pe223]: 
+          function "delay_us" declared implicitly
+void TIM4_IRQHandler(void) __interrupt(23);
+                             ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",13  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    for (; nCount != 0; nCount--);
+           ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",14  Error[Pe020]: 
+          identifier "nCount" is undefined
+    delay_1ms = n_ms * 1000;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",17  Error[Pe020]: 
+          identifier "delay_1ms" is undefined
+   delay_1ms = n_1us;
+   ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",22  Error[Pe020]: 
+          identifier "delay_1ms" is undefined
+void TIM4_IRQHandler(void) __interrupt(23);
+                             ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",28  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    unsigned char ODR0        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR1        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR2        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR3        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR4        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR5        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR6        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR7        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR0        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Warning[Pe177]: variable
+          "ODR0" was declared but never referenced
+    unsigned char ODR1        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Warning[Pe177]: variable
+          "ODR1" was declared but never referenced
+    unsigned char ODR2        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Warning[Pe177]: variable
+          "ODR2" was declared but never referenced
+    unsigned char ODR3        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Warning[Pe177]: variable
+          "ODR3" was declared but never referenced
+    unsigned char ODR4        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Warning[Pe177]: variable
+          "ODR4" was declared but never referenced
+    unsigned char ODR5        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Warning[Pe177]: variable
+          "ODR5" was declared but never referenced
+    unsigned char ODR6        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Warning[Pe177]: variable
+          "ODR6" was declared but never referenced
+    unsigned char ODR7        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Warning[Pe177]: variable
+          "ODR7" was declared but never referenced
+  } __BITS_ODR;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",37  Error[Pe077]: this
+          declaration has no storage class or type specifier
+  __IO_REG8_BIT(PA_ODR,      0x5000, __READ_WRITE, __BITS_ODR);	//PA杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",96  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PB_ODR,      0x5005, __READ_WRITE, __BITS_ODR);	//PB杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",97  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PC_ODR,      0x500A, __READ_WRITE, __BITS_ODR);	//PC杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",98  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PD_ODR,      0x500F, __READ_WRITE, __BITS_ODR);	//PD杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",99  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PE_ODR,      0x5014, __READ_WRITE, __BITS_ODR);	//PE杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",100  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PF_ODR,      0x5019, __READ_WRITE, __BITS_ODR);	//PF杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",101  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PG_ODR,      0x501E, __READ_WRITE, __BITS_ODR);	//PG杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",102  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PH_ODR,      0x5023, __READ_WRITE, __BITS_ODR);	//PH杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",103  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PI_ODR,      0x5028, __READ_WRITE, __BITS_ODR);	//PI杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",104  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  #define SSD1306_I2C_CONTROL
+          ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.h",81  Warning[Pe047]: 
+          incompatible redefinition of macro "SSD1306_I2C_CONTROL"
+  static u8 last_index = _Main_UI; //涓婁竴涓?晫闈㈢储寮曞惶
+            ^
+"c:\Users\13443\source\stm8sdemo\lib\gui\gui.c",6  Warning[Pe550]: variable
+          "last_index" was set but never used
+void TIM4_IRQHandler(void) __interrupt(23);
+                             ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",28  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    unsigned char ODR0        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR1        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR2        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR3        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR4        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR5        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR6        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR7        : 1;
+                              ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Error[Pe065]: expected a
+          ";"
+    unsigned char ODR0        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",29  Warning[Pe177]: variable
+          "ODR0" was declared but never referenced
+    unsigned char ODR1        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",30  Warning[Pe177]: variable
+          "ODR1" was declared but never referenced
+    unsigned char ODR2        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",31  Warning[Pe177]: variable
+          "ODR2" was declared but never referenced
+    unsigned char ODR3        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",32  Warning[Pe177]: variable
+          "ODR3" was declared but never referenced
+    unsigned char ODR4        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",33  Warning[Pe177]: variable
+          "ODR4" was declared but never referenced
+    unsigned char ODR5        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",34  Warning[Pe177]: variable
+          "ODR5" was declared but never referenced
+    unsigned char ODR6        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",35  Warning[Pe177]: variable
+          "ODR6" was declared but never referenced
+    unsigned char ODR7        : 1;
+                  ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",36  Warning[Pe177]: variable
+          "ODR7" was declared but never referenced
+  } __BITS_ODR;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",37  Error[Pe077]: this
+          declaration has no storage class or type specifier
+  __IO_REG8_BIT(PA_ODR,      0x5000, __READ_WRITE, __BITS_ODR);	//PA杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",96  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PB_ODR,      0x5005, __READ_WRITE, __BITS_ODR);	//PB杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",97  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PC_ODR,      0x500A, __READ_WRITE, __BITS_ODR);	//PC杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",98  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PD_ODR,      0x500F, __READ_WRITE, __BITS_ODR);	//PD杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",99  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PE_ODR,      0x5014, __READ_WRITE, __BITS_ODR);	//PE杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",100  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PF_ODR,      0x5019, __READ_WRITE, __BITS_ODR);	//PF杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",101  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PG_ODR,      0x501E, __READ_WRITE, __BITS_ODR);	//PG杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",102  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PH_ODR,      0x5023, __READ_WRITE, __BITS_ODR);	//PH杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",103  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  __IO_REG8_BIT(PI_ODR,      0x5028, __READ_WRITE, __BITS_ODR);	//PI杈撳嚭鍙⑦
+                                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\sys\sys.h",104  Error[Pe757]: variable
+          "__BITS_ODR" is not a type name
+  #define SSD1306_I2C_CONTROL
+          ^
+"c:\Users\13443\source\stm8sdemo\src\hw_setup.h",81  Warning[Pe047]: 
+          incompatible redefinition of macro "SSD1306_I2C_CONTROL"
+    delay_ms(5);
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\oled\oled_ssd1306.c",95  Warning[Pe223]: 
+          function "delay_ms" declared implicitly
+    delay_ms(200);
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\oled\oled_ssd1306.c",321  Warning[Pe223]: 
+          function "delay_ms" declared implicitly
+
+[2022-01-23 23:19:31]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\interrupt.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void TIM4_IRQHandler(void) __interrupt(23);
+                             ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.h",14  Error[Pe130]: expected a
+          "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.c",22  Warning[Pe012]: parsing
+          restarts here after previous syntax error
+    TIM4_OVFCallback();
+    ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.c",25  Warning[Pe223]: function
+          "TIM4_OVFCallback" declared implicitly
+
+[2022-01-23 23:19:41]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\interrupt.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void TIM4_IRQHandler(void) __interrupt(23)
+                             ^
+"c:\Users\13443\source\stm8sdemo\src\interrupt.c",21  Error[Pe130]: expected a
+          "{"
+
+[2022-01-23 23:29:57]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\delay\delay.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void time_loop(uint32_t s)
+       ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",12  Error[Pe147]: 
+          declaration is incompatible with "void time_loop(u16)" (declared at
+          line 12 of "c:\Users\13443\source\stm8sdemo\lib\delay\delay.h")
+  void delay_1us(uint16_t n_1us)
+       ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",36  Error[Pe147]: 
+          declaration is incompatible with "u16 volatile delay_1us" (declared
+          at line 10)
+    delay_1us = n_1us;
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",38  Error[Pe137]: 
+          expression must be a modifiable lvalue
+    while (delay_1us)
+           ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",40  Warning[Pa131]: this is
+          a function pointer constant. Did you intend a function call?
+    while (delay_1us)
+           ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",40  Warning[Pe236]: 
+          controlling expression is constant
+    --delay_1us;
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",156  Error[Pe852]: 
+          expression must be a pointer to a complete object type
+
+[2022-01-23 23:30:22]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\delay\delay.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void time_loop(uint32_t s)
+       ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",12  Error[Pe147]: 
+          declaration is incompatible with "void time_loop(u16)" (declared at
+          line 12 of "c:\Users\13443\source\stm8sdemo\lib\delay\delay.h")
+
+[2022-01-23 23:30:39]	compilation failed at : "c:\Users\13443\source\stm8sdemo\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+MCU_Config();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",16  Warning[Pe223]: function
+          "MCU_Config" declared implicitly
+      SSD1306_I2cInit();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",24  Warning[Pe223]: function
+          "SSD1306_I2cInit" declared implicitly
+      GUI_Init();
+      ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",35  Warning[Pe223]: function
+          "GUI_Init" declared implicitly
+          GUI_Refresh();
+          ^
+"c:\Users\13443\source\stm8sdemo\src\main.c",77  Error[Pe065]: expected a ";"
+
+[2022-01-23 23:30:52]	[done]
+	build successfully !
+
+[2022-01-23 23:31:46]	[done]
+	build successfully !
+
+[2022-01-23 23:33:11]	[done]
+	build successfully !
+
+[2022-01-23 23:33:58]	[done]
+	build successfully !
+
+[2022-01-23 23:35:04]	[done]
+	build successfully !
+
+[2022-01-23 23:35:29]	[done]
+	build successfully !
+
+[2022-01-23 23:39:42]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+  .\build\Release\src\main.o -o .\build\Release\stm8soled.out
+                                ^
+"c:\Users\13443\source\stm8sdemo\build\Release\stm8soled.lnp",31  Fatal error[Lo004]: 
+          could not delete file ".\build\Release\stm8soled.out"
+Fatal error detected, aborting.
+
+
+[2022-01-23 23:39:59]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+  .\build\Release\src\main.o -o .\build\Release\stm8soled.out
+                                ^
+"c:\Users\13443\source\stm8sdemo\build\Release\stm8soled.lnp",31  Fatal error[Lo004]: 
+          could not delete file ".\build\Release\stm8soled.out"
+Fatal error detected, aborting.
+
+
+[2022-01-23 23:40:33]	[done]
+	build successfully !
+
+[2022-01-23 23:41:42]	[done]
+	build successfully !
+
+[2022-01-23 23:42:22]	[done]
+	build successfully !
+
+[2022-01-23 23:44:24]	[done]
+	build successfully !
+
+[2022-01-23 23:47:18]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\delay\delay.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+interrupt 23
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",151  Error[Pe130]: expected
+          a "{"
+
+[2022-01-23 23:50:20]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\delay\delay.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void TIM2_Overflow_Handler(void) __interrupt(13);
+                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.h",14  Error[Pe130]: 
+          expected a "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c",22  Warning[Pe012]: 
+          parsing restarts here after previous syntax error
+    TIM2_OVFCallback();
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c",25  Warning[Pe223]: 
+          function "TIM2_OVFCallback" declared implicitly
+#include "atomport.h"
+                       ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.h",8  Fatal error[Pe1696]: 
+          cannot open source file "atomport.h"
+            searched: "c:\Users\13443\source\stm8sdemo\lib\delay\"
+            searched: "c:\Users\13443\source\stm8sdemo\lib\key\"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\uart\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\oled\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+#include "atomport.h"
+                       ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.h",8  Fatal error[Pe1696]: 
+          cannot open source file "atomport.h"
+            searched: "c:\Users\13443\source\stm8sdemo\lib\delay\"
+            searched: "c:\Users\13443\source\stm8sdemo\lib\key\"
+            searched: "c:\Users\13443\source\stm8sdemo\lib\gui\"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\uart\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\oled\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+#include "atomport.h"
+                       ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.h",8  Fatal error[Pe1696]: 
+          cannot open source file "atomport.h"
+            searched: "c:\Users\13443\source\stm8sdemo\lib\delay\"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\uart\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\oled\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-23 23:50:37]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\delay\delay.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void TIM2_Overflow_Handler(void) __interrupt(13);
+                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.h",14  Error[Pe130]: 
+          expected a "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c",22  Warning[Pe012]: 
+          parsing restarts here after previous syntax error
+    TIM2_OVFCallback();
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c",25  Warning[Pe223]: 
+          function "TIM2_OVFCallback" declared implicitly
+timer_1s = s * 1000;
+                 ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",16  Error[Pe020]: 
+          identifier "s" is undefined
+
+[2022-01-23 23:50:51]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\delay\delay.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void TIM2_Overflow_Handler(void) __interrupt(13);
+                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.h",14  Error[Pe130]: 
+          expected a "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c",22  Warning[Pe012]: 
+          parsing restarts here after previous syntax error
+    TIM2_OVFCallback();
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c",25  Warning[Pe223]: 
+          function "TIM2_OVFCallback" declared implicitly
+timer_1s = s * 1000;
+                 ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",16  Error[Pe020]: 
+          identifier "s" is undefined
+
+[2022-01-23 23:50:59]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void TIM2_Overflow_Handler(void) __interrupt(13);
+                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.h",14  Error[Pe130]: 
+          expected a "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c",22  Warning[Pe012]: 
+          parsing restarts here after previous syntax error
+    TIM2_OVFCallback();
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c",25  Warning[Pe223]: 
+          function "TIM2_OVFCallback" declared implicitly
+
+[2022-01-23 23:51:52]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void TIM2_Overflow_Handler(void) __interrupt(13);
+                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.h",14  Error[Pe130]: 
+          expected a "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c",22  Warning[Pe012]: 
+          parsing restarts here after previous syntax error
+    TIM4_OVFCallback();
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c",25  Warning[Pe223]: 
+          function "TIM4_OVFCallback" declared implicitly
+
+[2022-01-23 23:52:54]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void TIM2_Overflow_Handler(void) __interrupt(13);
+                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.h",14  Error[Pe130]: 
+          expected a "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c",22  Warning[Pe012]: 
+          parsing restarts here after previous syntax error
+    TIM2_OVFCallback();
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c",25  Warning[Pe223]: 
+          function "TIM2_OVFCallback" declared implicitly
+
+[2022-01-24 00:07:09]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void TIM2_Overflow_Handler(void) __interrupt(13);
+                                   ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.h",14  Error[Pe130]: 
+          expected a "{"
+  {
+  ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c",22  Warning[Pe012]: 
+          parsing restarts here after previous syntax error
+    TIM2_OVFCallback();
+    ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\interrupt.c",25  Warning[Pe223]: 
+          function "TIM2_OVFCallback" declared implicitly
+
+[2022-01-24 00:07:40]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\uart\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+return (status);
+            ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",29  Warning[Pe549]: variable
+          "status" is used before its value is set
+  int putchar (char c)
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",88  Error[Pe147]: declaration
+          is incompatible with "__nounwind int putchar(int)" (declared at line
+          216 of "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+          8.3\stm8\inc\c\stdio.h")
+
+[2022-01-24 00:16:04]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\uart\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include "atom.h"
+                   ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.h",2  Fatal error[Pe1696]: 
+          cannot open source file "atom.h"
+            searched: "c:\Users\13443\source\stm8sdemo\lib\uart\"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\uart\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\oled\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\gui\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-24 00:16:20]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\uart\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+return (status);
+            ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",23  Warning[Pe549]: variable
+          "status" is used before its value is set
+  #ifdef USE_FULL_ASSERT
+   ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",61  Error[Pe037]: the #endif
+          for this directive is missing
+
+[2022-01-24 00:16:30]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\uart\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+return (status);
+            ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",23  Warning[Pe549]: variable
+          "status" is used before its value is set
+  #ifdef USE_FULL_ASSERT
+   ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",61  Error[Pe037]: the #endif
+          for this directive is missing
+
+[2022-01-24 00:16:47]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\uart\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+return (status);
+            ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",23  Warning[Pe549]: variable
+          "status" is used before its value is set
+  #ifdef USE_FULL_ASSERT
+   ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",62  Error[Pe037]: the #endif
+          for this directive is missing
+
+[2022-01-24 00:17:20]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\uart\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+return (status);
+            ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",23  Warning[Pe549]: variable
+          "status" is used before its value is set
+  #ifdef USE_FULL_ASSERT
+   ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",61  Error[Pe037]: the #endif
+          for this directive is missing
+
+[2022-01-24 00:17:37]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\uart\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+return (status);
+            ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",23  Warning[Pe549]: variable
+          "status" is used before its value is set
+  #ifdef USE_FULL_ASSERT
+   ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",61  Error[Pe037]: the #endif
+          for this directive is missing
+
+[2022-01-24 00:18:41]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\uart\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+int putchar(char c)
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",79  Error[Pe147]: declaration
+          is incompatible with "__nounwind int putchar(int)" (declared at line
+          216 of "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+          8.3\stm8\inc\c\stdio.h")
+
+[2022-01-24 00:20:30]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\uart\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+char putchar(char c)
+       ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",26  Error[Pe147]: declaration
+          is incompatible with "__nounwind int putchar(int)" (declared at line
+          216 of "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+          8.3\stm8\inc\c\stdio.h")
+    while (!UART2_GetFlagStatus(UART1_FLAG_TXE))
+                                ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",28  Error[Pe020]: identifier
+          "UART1_FLAG_TXE" is undefined
+
+[2022-01-24 00:20:41]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\uart\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+char putchar(char c)
+       ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",26  Error[Pe147]: declaration
+          is incompatible with "__nounwind int putchar(int)" (declared at line
+          216 of "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+          8.3\stm8\inc\c\stdio.h")
+
+[2022-01-24 00:20:54]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\uart\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+char putchar(char c)
+       ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",26  Error[Pe147]: declaration
+          is incompatible with "__nounwind int putchar(int)" (declared at line
+          216 of "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+          8.3\stm8\inc\c\stdio.h")
+
+[2022-01-24 00:21:16]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\uart\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+char putchar(char c)
+       ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",26  Error[Pe147]: declaration
+          is incompatible with "__nounwind int putchar(int)" (declared at line
+          216 of "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+          8.3\stm8\inc\c\stdio.h")
+
+[2022-01-24 00:24:22]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li005]: no definition for "delay_isr" [referenced from
+          c:\Users\13443\source\stm8sdemo\build\Release\src\stm8s_it.o]
+Error[Li005]: no definition for "UART2_SendByte" [referenced from
+          c:\Users\13443\source\stm8sdemo\build\Release\lib\uart\uart.o]
+
+
+[2022-01-24 00:24:56]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li005]: no definition for "delay_isr" [referenced from
+          c:\Users\13443\source\stm8sdemo\build\Release\src\stm8s_it.o]
+
+
+[2022-01-24 00:27:23]	[done]
+	build successfully !
+
+[2022-01-24 00:29:49]	[done]
+	build successfully !
+
+[2022-01-24 00:30:27]	[done]
+	build successfully !
+
+[2022-01-24 00:33:52]	[done]
+	build successfully !
+
+[2022-01-24 00:34:14]	[done]
+	build successfully !
+
+[2022-01-24 00:35:38]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\uart\uart.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+return (status);
+            ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",24  Warning[Pe549]: variable
+          "status" is used before its value is set
+  int putchar (char c)
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\uart\uart.c",85  Error[Pe147]: declaration
+          is incompatible with "__nounwind int putchar(int)" (declared at line
+          216 of "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+          8.3\stm8\inc\c\stdio.h")
+
+[2022-01-24 00:36:04]	[done]
+	build successfully !
+
+[2022-01-24 00:37:03]	[done]
+	build successfully !
+
+[2022-01-24 00:37:48]	compilation failed at : "c:\Users\13443\source\stm8sdemo\lib\delay\delay.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+void delay_1us(uint16_t n_1us)
+       ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",99  Error[Pe147]: 
+          declaration is incompatible with "uint16_t volatile delay_1us"
+          (declared at line 10)
+    --delay_1us;
+      ^
+"c:\Users\13443\source\stm8sdemo\lib\delay\delay.c",149  Error[Pe852]: 
+          expression must be a pointer to a complete object type
+
+[2022-01-24 00:38:23]	[done]
+	build successfully !
+

@@ -48,7 +48,9 @@
             "hw_setup.h": "c",
             "gfx_bw.h": "c",
             "fonts.h": "c",
-            "font_6x4.h": "c"
+            "font_6x4.h": "c",
+            "interrupt.h": "c",
+            "stdio.h": "c"
         },
         "[yaml]": {
             "editor.insertSpaces": true,

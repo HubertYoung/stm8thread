@@ -20,6 +20,11 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm8s.h"
 #include "stm8s_i2c.h"
+#include "stm8s_it.h"
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /* Exported symbols ----------------------------------------------------------*/
 /**

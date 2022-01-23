@@ -16,6 +16,7 @@
 /* Privatefunctions prototypes -----------------------------------------------*/
 static void SystemClock_Config(void);
 static void GPIO_Config(void);
+static void TIM4_Config(void);
 static void I2C_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
@@ -59,7 +60,7 @@ static void SystemClock_Config(void)
   CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER4, ENABLE);
 
   CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER1, DISABLE);
-  
+
 #ifdef DISABLE_OTHER_PERIPHERIAL_CLOCKS
   CLK_PeripheralClockConfig(CLK_PERIPHERAL_ADC, DISABLE);
   CLK_PeripheralClockConfig(CLK_PERIPHERAL_AWU, DISABLE);
@@ -100,10 +101,10 @@ static void GPIO_Config(void)
   GPIO_Init(SSD1306_SCL_Port, SSD1306_SCL_Pin, GPIO_MODE_OUT_OD_HIZ_FAST);
   GPIO_Init(SSD1306_SDA_Port, SSD1306_SDA_Pin, GPIO_MODE_OUT_OD_HIZ_FAST);
 #endif
-  // /* Configure USART Tx as alternate function push-pull  (software pull up)*/
-  // GPIO_ExternalPullUpConfig(GPIOC, GPIO_PIN_3, ENABLE);
-  // /* Configure USART Rx as alternate function push-pull  (software pull up)*/
-  // GPIO_ExternalPullUpConfig(GPIOC, GPIO_PIN_2, ENABLE);
+  /* Configure USART Tx as alternate function push-pull  (software pull up)*/
+  GPIO_ExternalPullUpConfig(GPIOC, GPIO_PIN_3, ENABLE);
+  /* Configure USART Rx as alternate function push-pull  (software pull up)*/
+  GPIO_ExternalPullUpConfig(GPIOC, GPIO_PIN_2, ENABLE);
 
   GPIO_Init(TEST_Port, TEST_Pin, GPIO_MODE_OUT_PP_LOW_SLOW);
   GPIO_Init(GPIOA, GPIO_PIN_1, GPIO_MODE_OUT_PP_LOW_FAST);
@@ -166,6 +167,31 @@ static void SPI_Config(void)
   SPI_Cmd(ENABLE);
 }
 #endif
+/**
+  * @brief TIM2 Configuration for system tick
+  * @retval None
+  */
+static void TIM4_Config(void)
+{
+  // TIM4_DeInit();
+
+  // /* Time period is 1ms, 1/((16MHz/16) * 1000) */
+  // TIM4_TimeBaseInit(TIM4_PRESCALER_64, 3);
+  // /* Enable the OVF interrupts from TIM2 */
+  // TIM4_ITConfig(TIM4_IT_UPDATE, ENABLE);
+  // /* Start Timer */
+  // TIM4_Cmd(ENABLE);
+
+  // TIM4_DeInit();
+
+  // /* Time period is 1ms, 1/((16MHz/16) * 1000) */
+  // TIM4_TimeBaseInit(TIM4_PRESCALER_64, 3);
+  // /* Enable the OVF interrupts from TIM2 */
+  // TIM4_ITConfig(TIM4_IT_UPDATE, ENABLE);
+  // /* Start Timer */
+  // TIM4_Cmd(ENABLE);
+  // enableInterrupts();
+}
 
 /* Exported user code --------------------------------------------------------*/
 /**
@@ -179,6 +205,7 @@ void MCU_Config(void)
   SystemClock_Config();
 
   GPIO_Config();
+  // TIM4_Config();
 #ifdef SSD1306_I2C_CONTROL
   I2C_Config();
 #endif

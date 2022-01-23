@@ -1,18 +1,45 @@
- 
+
 /* Includes ------------------------------------------------------------------*/
 #include "stm8s.h"
 #include "delay.h"
+#include "key.h"
 
 #define SYS_CLK_HSI_DIV1
 
+static volatile uint32_t timer_1s;
+static volatile uint16_t delay_1us;
+
+void time_loop(uint16_t ms)
+{
+  if (!timer_1s)
+  {
+    timer_1s = ms * 1000;
+    LED_SYS_REVERSE;
+  }
+};
 /** @brief  Inserts a delay time.
   * @param  nCount: specifies the delay time length.
   * @retval None
   */
 void Delay(__IO uint16_t nCount)
 {
-  for (; nCount != 0; nCount--);
+  for (; nCount != 0; nCount--)
+    ;
 }
+// void delay_ms(uint16_t n_ms)
+// {
+//   delay_1us = n_ms * 1000;
+//   /* Wait for TIM2 for make his job */
+//   while (delay_1us)
+//     ;
+// }
+// void delay_us(uint16_t n_1us)
+// {
+//   delay_1us = n_1us;
+//   /* Wait for TIM2 for make his job */
+//   while (delay_1us)
+//     ;
+// }
 
 //------------------------------------------------------------------------------
 // Function Name : delay_ms
@@ -64,13 +91,12 @@ void delay_ms(uint16_t n_ms)
   TIM4->CR1 &= ~TIM4_CR1_CEN;
 }
 
-
 //------------------------------------------------------------------------------
 // Function Name : delay_10us
 // Description   : delay for some time in 10us unit(partial accurate)
 // Input         : n_10us is how many 10us of time to delay
 //------------------------------------------------------------------------------
-void delay_1us(uint16_t n_1us)
+void delay_us(uint16_t n_1us)
 {
   CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER4, ENABLE);
   // Init TIMER 4 //
@@ -115,4 +141,12 @@ void delay_1us(uint16_t n_1us)
   TIM4->CR1 &= ~TIM4_CR1_CEN;
   CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER4, DISABLE);
 
+}
+
+void delay_isr(void)
+{
+  /* Internal ticks */
+  --delay_1us;
+  /* Benchmark ticks */
+  if(timer_1s) --timer_1s;
 }
