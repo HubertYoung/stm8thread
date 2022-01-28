@@ -2,85 +2,38 @@
 #include "key.h"
 #include "eeprom.h"
 
-void keyInit(void)
+//按键初始化函数
+void KEY_Init(void)
 {
-
-    // EXTI_DeInit();
-    // EXTI_SetExtIntSensitivity(EXTI_PORT_GPIOB, EXTI_SENSITIVITY_FALL_ONLY);
+     // key
+  GPIO_Init(GPIOB, GPIO_PIN_0 | GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3, GPIO_MODE_IN_FL_NO_IT); // KEY_UP
 }
-uint8_t keyRead(void)
+
+//按键处理函数
+//返回按键值
+//mode:0,不支持连续按;1,支持连续按;
+//0，没有任何按键按下
+//1，WKUP按下 KEY_DOWN
+//注意此函数有响应优先级,KEY_LEFT>KEKEY_LEFTEY2>KEY_DOWN!!
+u8 KEY_Scan(u8 mode)
 {
-    static u8 Flag = 0;
-    if ((!KEY_UP || !KEY_DOWN || !KEY_LEFT || !KEY_RIGHT) && Flag == 0)
+    static u8 key_up = 1; //按键松开标志
+    if (mode == 1)
+        key_up = 1; //支持连按
+    if (key_up && (KEY_LEFT == 1 || KEY_UP == 1 || KEY_RIGHT == 1 || KEY_DOWN == 1))
     {
-        Flag = 1;
-        delay_ms(15); //按键消抖
-        if (KEY_UP == 0)
-            return 2;
-        if (KEY_LEFT == 0)
-            return 3;
-        if (KEY_DOWN == 0)
-            return 4;
-        if (KEY_RIGHT == 0)
-            return 5;
+        delay_ms(10);
+        key_up = 0;
+        if (KEY_LEFT == 1)
+            return KEY_LEFT_PRES;
+        else if (KEY_UP == 1)
+            return KEY_UP_PRES;
+        else if (KEY_RIGHT == 1)
+            return KEY_RIGHT_PRES;
+        else if (KEY_DOWN == 1)
+            return KEY_DOWN_PRES;
     }
-    if ((KEY_UP && KEY_DOWN && KEY_LEFT && KEY_RIGHT) && Flag == 1)
-        Flag = 0; //检测是否松开
-    return 0;
+    else if (KEY_LEFT == 0 && KEY_UP == 0 && KEY_RIGHT == 0 && KEY_DOWN == 0)
+        key_up = 1;
+    return 0; //无按键按下
 }
-// uint8_t keyRead(uint8_t key_map)
-// {
-//     uint8_t result = 0;
-//     if (key_map & KEY_UP != RESET && GPIO_ReadInputPin(KEY_GPIO, KEY1_GPIO_PIN) == RESET)
-//     {
-//         delay_ms(20);
-//         if (key_map & KEY_UP != RESET && GPIO_ReadInputPin(KEY_GPIO, KEY1_GPIO_PIN) == RESET)
-//         {
-//             result |= KEY_UP;
-//         }
-//     }
-//     if (key_map & KEY_DOWN != RESET && GPIO_ReadInputPin(KEY_GPIO, KEY2_GPIO_PIN) == RESET)
-//     {
-//         delay_ms(20);
-//         if (key_map & KEY_DOWN != RESET && GPIO_ReadInputPin(KEY_GPIO, KEY2_GPIO_PIN) == RESET)
-//         {
-//             result |= KEY_DOWN;
-//         }
-//     }
-//     return result;
-// }
-
-// #if defined(__IAR_SYSTEMS_ICC__)
-// #pragma vector = 6
-// #endif
-// INTERRUPT void EXTI_PORTB_IRQHandler(void)
-// #if defined(__RCSTM8__)
-//     interrupt 4
-// #endif
-// {
-
-    // uint8_t keyPassValue = keyRead(KEY_UP | KEY_DOWN);
-
-    // uint8_t duty_cycle = eeprom_read_data8(PWM_CYCLE_ADD);
-    // uint16_t pwm1_period = eeprom_read_data16(PWM_PERIOD_ADD);
-
-    // switch (keyPassValue)
-    // {
-    // case KEY_UP:
-    //     GPIO_WriteReverse(GPIOA, GPIO_PIN_1);
-
-    //     duty_cycle++;
-    //     eeprom_write_data8(PWM_CYCLE_ADD, duty_cycle >= 99 ? 99 : duty_cycle);
-    //     TIM1_SetCompare2((pwm1_period * duty_cycle / 100) - 1); //脉冲宽度值
-    //     break;
-    // case KEY_DOWN:
-    //     GPIO_WriteReverse(GPIOA, GPIO_PIN_2);
-    //     duty_cycle--;
-    //     eeprom_write_data8(PWM_CYCLE_ADD, duty_cycle <= 1 ? 1 : duty_cycle);
-    //     TIM1_SetCompare2((pwm1_period * duty_cycle / 100) - 1); //脉冲宽度值
-    //     break;
-    // default:
-    //     break;
-    // }
-    // printf("KEY_UP uint8_t{%d}\n", (KEY_UP != RESET && GPIO_ReadInputPin(KEY_GPIO, KEY1_GPIO_PIN) == RESET));
-// }

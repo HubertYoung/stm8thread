@@ -5,8 +5,8 @@
         "printf-formatter": "tiny",
         "scanf-formatter": "small",
         "math-functions": "default",
-        "data-mode": "medium",
-        "code-mode": "small",
+        "data-mode": "large",
+        "code-mode": "large",
         "output-debug-info": "enable"
     },
     "c/cpp-compiler": {

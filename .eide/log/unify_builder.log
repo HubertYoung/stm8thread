@@ -7374,3 +7374,674 @@ Error[Lp011]: section placement failed
 [2022-01-23 21:59:58]	[done]
 	build successfully !
 
+[2022-01-29 01:37:20]	compilation failed at : "c:\Users\13443\source\stm8thread\lib\oled\oled_ssd1306.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+I2C_CWrite(SSD1306_I2C_ADDRESS, 0x00, &com, sizeof(com));
+               ^
+"c:\Users\13443\source\stm8thread\lib\oled\oled_ssd1306.c",47  Error[Pe020]: 
+          identifier "SSD1306_I2C_ADDRESS" is undefined
+    I2C_CWrite(SSD1306_I2C_ADDRESS, 0x40, &dat, sizeof(dat));
+               ^
+"c:\Users\13443\source\stm8thread\lib\oled\oled_ssd1306.c",71  Error[Pe020]: 
+          identifier "SSD1306_I2C_ADDRESS" is undefined
+    I2C_CWrite(SSD1306_I2C_ADDRESS, 0x40, (uint8_t*)&buffer,
+               ^
+"c:\Users\13443\source\stm8thread\lib\oled\oled_ssd1306.c",472  Error[Pe020]: 
+          identifier "SSD1306_I2C_ADDRESS" is undefined
+    I2C_CWrite(SSD1306_I2C_ADDRESS, 0x40, bitmap,
+               ^
+"c:\Users\13443\source\stm8thread\lib\oled\oled_ssd1306.c",500  Error[Pe020]: 
+          identifier "SSD1306_I2C_ADDRESS" is undefined
+
+[2022-01-29 01:37:41]	compilation failed at : "c:\Users\13443\source\stm8thread\src\hw_setup.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+while (CLK_GetFlagStatus(CLK_FLAG_HSIRDY) == FALSE)
+                                              ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",35  Warning[Pa089]: 
+          enumerated type mixed with another enumerated type
+    GPIO_Init(GPIOB, GPIO_PIN_0 | GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3, GPIO_MODE_IN_PU_NO_IT); // KEY_UP
+                     ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",88  Warning[Pe188]: 
+          enumerated type mixed with another type
+At end of source  Error[Pe067]: expected a "}"
+  static void I2C_Config(void);
+              ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",19  Warning[Pe177]: function
+          "I2C_Config" was declared but never referenced
+
+[2022-01-29 01:37:47]	compilation failed at : "c:\Users\13443\source\stm8thread\src\hw_setup.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+while (CLK_GetFlagStatus(CLK_FLAG_HSIRDY) == FALSE)
+                                              ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",35  Warning[Pa089]: 
+          enumerated type mixed with another enumerated type
+    GPIO_Init(GPIOB, GPIO_PIN_0 | GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3, GPIO_MODE_IN_PU_NO_IT); // KEY_UP
+                     ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",88  Warning[Pe188]: 
+          enumerated type mixed with another type
+At end of source  Error[Pe067]: expected a "}"
+  static void I2C_Config(void);
+              ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",19  Warning[Pe177]: function
+          "I2C_Config" was declared but never referenced
+
+[2022-01-29 01:38:03]	compilation failed at : "c:\Users\13443\source\stm8thread\src\hw_setup.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+while (CLK_GetFlagStatus(CLK_FLAG_HSIRDY) == FALSE)
+                                              ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",35  Warning[Pa089]: 
+          enumerated type mixed with another enumerated type
+    GPIO_Init(GPIOB, GPIO_PIN_0 | GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3, GPIO_MODE_IN_PU_NO_IT); // KEY_UP
+                     ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",88  Warning[Pe188]: 
+          enumerated type mixed with another type
+At end of source  Error[Pe067]: expected a "}"
+  static void I2C_Config(void);
+              ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",19  Warning[Pe177]: function
+          "I2C_Config" was declared but never referenced
+
+[2022-01-29 01:38:21]	compilation failed at : "c:\Users\13443\source\stm8thread\src\hw_setup.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+while (CLK_GetFlagStatus(CLK_FLAG_HSIRDY) == FALSE)
+                                              ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",34  Warning[Pa089]: 
+          enumerated type mixed with another enumerated type
+    GPIO_Init(GPIOB, GPIO_PIN_0 | GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3, GPIO_MODE_IN_PU_NO_IT); // KEY_UP
+                     ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",87  Warning[Pe188]: 
+          enumerated type mixed with another type
+At end of source  Error[Pe067]: expected a "}"
+
+[2022-01-29 01:39:02]	compilation failed at : "c:\Users\13443\source\stm8thread\src\hw_setup.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+while (CLK_GetFlagStatus(CLK_FLAG_HSIRDY) == FALSE)
+                                              ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",34  Warning[Pa089]: 
+          enumerated type mixed with another enumerated type
+    GPIO_Init(GPIOB, GPIO_PIN_0 | GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3, GPIO_MODE_IN_PU_NO_IT); // KEY_UP
+                     ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",75  Warning[Pe188]: 
+          enumerated type mixed with another type
+At end of source  Error[Pe067]: expected a "}"
+
+[2022-01-29 01:39:59]	compilation failed at : "c:\Users\13443\source\stm8thread\src\hw_setup.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+while (CLK_GetFlagStatus(CLK_FLAG_HSIRDY) == FALSE)
+                                              ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",34  Warning[Pa089]: 
+          enumerated type mixed with another enumerated type
+    GPIO_Init(GPIOB, GPIO_PIN_0 | GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3, GPIO_MODE_IN_PU_NO_IT); // KEY_UP
+                     ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",75  Warning[Pe188]: 
+          enumerated type mixed with another type
+At end of source  Error[Pe067]: expected a "}"
+
+[2022-01-29 01:40:26]	compilation failed at : "c:\Users\13443\source\stm8thread\src\hw_setup.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+while (CLK_GetFlagStatus(CLK_FLAG_HSIRDY) == FALSE)
+                                              ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",34  Warning[Pa089]: 
+          enumerated type mixed with another enumerated type
+    GPIO_Init(GPIOB, GPIO_PIN_0 | GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3, GPIO_MODE_IN_PU_NO_IT); // KEY_UP
+                     ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",75  Warning[Pe188]: 
+          enumerated type mixed with another type
+At end of source  Error[Pe067]: expected a "}"
+
+[2022-01-29 01:41:01]	compilation failed at : "c:\Users\13443\source\stm8thread\src\hw_setup.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+while (CLK_GetFlagStatus(CLK_FLAG_HSIRDY) == FALSE)
+                                              ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",34  Warning[Pa089]: 
+          enumerated type mixed with another enumerated type
+    GPIO_Init(GPIOB, GPIO_PIN_0 | GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3, GPIO_MODE_IN_PU_NO_IT); // KEY_UP
+                     ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",75  Warning[Pe188]: 
+          enumerated type mixed with another type
+At end of source  Error[Pe067]: expected a "}"
+
+[2022-01-29 01:41:24]	compilation failed at : "c:\Users\13443\source\stm8thread\src\hw_setup.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+while (CLK_GetFlagStatus(CLK_FLAG_HSIRDY) == FALSE)
+                                              ^
+"c:\Users\13443\source\stm8thread\src\hw_setup.c",34  Warning[Pa089]: 
+          enumerated type mixed with another enumerated type
+At end of source  Error[Pe067]: expected a "}"
+
+[2022-01-29 01:41:43]	[done]
+	build successfully !
+
+[2022-01-29 01:48:22]	compilation failed at : "c:\Users\13443\source\stm8thread\lib\iic\iic.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+HAL_GPIO_DeInit(GPIOB, GPIO_PIN_8 | GPIO_PIN_9);
+      ^
+"c:\Users\13443\source\stm8thread\lib\iic\iic.c",78  Warning[Pe223]: function
+          "HAL_GPIO_DeInit" declared implicitly
+      HAL_GPIO_DeInit(GPIOB, GPIO_PIN_8 | GPIO_PIN_9);
+                             ^
+"c:\Users\13443\source\stm8thread\lib\iic\iic.c",78  Error[Pe020]: identifier
+          "GPIO_PIN_8" is undefined
+      HAL_GPIO_DeInit(GPIOB, GPIO_PIN_8 | GPIO_PIN_9);
+                                          ^
+"c:\Users\13443\source\stm8thread\lib\iic\iic.c",78  Error[Pe020]: identifier
+          "GPIO_PIN_9" is undefined
+
+[2022-01-29 01:49:15]	compilation failed at : "c:\Users\13443\source\stm8thread\lib\iic\iic.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+return 0;
+      ^
+"c:\Users\13443\source\stm8thread\lib\iic\iic.c",79  Error[Pe065]: expected a
+          ";"
+  }
+  ^
+"c:\Users\13443\source\stm8thread\lib\iic\iic.c",80  Warning[Pe940]: missing
+          return statement at end of non-void function "iic_deinit"
+
+[2022-01-29 01:49:24]	[done]
+	build successfully !
+
+[2022-01-29 01:50:39]	compilation failed at : "c:\Users\13443\source\stm8thread\lib\solgui\SOLGUI_Hardware.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include "main.h"
+                   ^
+"c:\Users\13443\source\stm8thread\lib\solgui\SOLGUI_Hardware.c",4  Fatal error[Pe1696]: 
+          cannot open source file "main.h"
+            searched: "c:\Users\13443\source\stm8thread\lib\solgui\"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\solgui\"
+            searched: ".\lib\solgui\Font\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\ports\stm8\"
+            searched: ".\lib\key\"
+            searched: ".\lib\kernel\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-29 01:50:57]	compilation failed at : "c:\Users\13443\source\stm8thread\lib\solgui\SOLGUI_Hardware.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include "oled.h"
+                   ^
+"c:\Users\13443\source\stm8thread\lib\solgui\SOLGUI_Hardware.c",6  Fatal error[Pe1696]: 
+          cannot open source file "oled.h"
+            searched: "c:\Users\13443\source\stm8thread\lib\solgui\"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\solgui\"
+            searched: ".\lib\solgui\Font\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\ports\stm8\"
+            searched: ".\lib\key\"
+            searched: ".\lib\kernel\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-29 01:51:48]	[done]
+	build successfully !
+
+[2022-01-29 01:56:52]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li005]: no definition for "keyInit" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\src\main.o]
+Error[Li005]: no definition for "delay_us" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\lib\iic\iic.o]
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0xa14 bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+
+
+[2022-01-29 01:57:28]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li005]: no definition for "keyInit" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\src\main.o]
+Error[Li005]: no definition for "delay_us" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\lib\iic\iic.o]
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0xa38 bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x4c82 bytes (max align 0x1) in
+                      <[0x008000-0x00bfff]> (total uncommitted space 0x3f80).
+
+
+[2022-01-29 01:58:36]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li005]: no definition for "keyInit" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\src\main.o]
+Error[Li005]: no definition for "delay_us" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\lib\iic\iic.o]
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x9e4 bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x4c82 bytes (max align 0x1) in
+                      <[0x008000-0x00bfff]> (total uncommitted space 0x3f80).
+
+
+[2022-01-29 02:00:12]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li005]: no definition for "keyInit" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\src\main.o]
+Error[Li005]: no definition for "atomOSInit" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\src\main.o]
+Error[Li005]: no definition for "archInitSystemTickTimer" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\src\main.o]
+Error[Li005]: no definition for "atomThreadCreate" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\src\main.o]
+Error[Li005]: no definition for "atomOSStart" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\src\main.o]
+Error[Li005]: no definition for "atomTimerDelay" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\src\main.o]
+Error[Li005]: no definition for "delay_us" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\lib\iic\iic.o]
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x9bd bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+
+
+[2022-01-29 02:01:48]	compilation failed at : "c:\Users\13443\source\stm8thread\lib\solgui\SOLGUI_Common.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include <atomtimer.h>
+                        ^
+"c:\Users\13443\source\stm8thread\lib\delay\delay.h",6  Fatal error[Pe1696]: 
+          cannot open source file "atomtimer.h"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\solgui\"
+            searched: ".\lib\solgui\Font\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\OLED\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+#include <atomtimer.h>
+                        ^
+"c:\Users\13443\source\stm8thread\lib\delay\delay.h",6  Fatal error[Pe1696]: 
+          cannot open source file "atomtimer.h"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\solgui\"
+            searched: ".\lib\solgui\Font\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\OLED\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+#include <atomtimer.h>
+                        ^
+"c:\Users\13443\source\stm8thread\lib\delay\delay.h",6  Fatal error[Pe1696]: 
+          cannot open source file "atomtimer.h"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\solgui\"
+            searched: ".\lib\solgui\Font\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\OLED\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+#include <atomtimer.h>
+                        ^
+"c:\Users\13443\source\stm8thread\lib\delay\delay.h",6  Fatal error[Pe1696]: 
+          cannot open source file "atomtimer.h"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\solgui\"
+            searched: ".\lib\solgui\Font\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\OLED\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+#include <atomtimer.h>
+                        ^
+"c:\Users\13443\source\stm8thread\lib\delay\delay.h",6  Fatal error[Pe1696]: 
+          cannot open source file "atomtimer.h"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\solgui\"
+            searched: ".\lib\solgui\Font\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\OLED\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+#include <atomtimer.h>
+                        ^
+"c:\Users\13443\source\stm8thread\lib\delay\delay.h",6  Fatal error[Pe1696]: 
+          cannot open source file "atomtimer.h"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\solgui\"
+            searched: ".\lib\solgui\Font\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\OLED\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+#include <atomtimer.h>
+                        ^
+"c:\Users\13443\source\stm8thread\lib\delay\delay.h",6  Fatal error[Pe1696]: 
+          cannot open source file "atomtimer.h"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\solgui\"
+            searched: ".\lib\solgui\Font\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\OLED\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-29 02:02:04]	compilation failed at : "c:\Users\13443\source\stm8thread\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+#include <uart.h>
+                   ^
+"c:\Users\13443\source\stm8thread\src\main.c",2  Fatal error[Pe1696]: cannot
+          open source file "uart.h"
+            searched: ".\..\..\..\..\Program Files (x86)\IAR Systems\Embedded
+                      Workbench 8.3\stm8\lib\"
+            searched: ".\src\"
+            searched: ".\lib\sys\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\src\"
+            searched: ".\lib\STM8S_StdPeriph_Driver\inc\"
+            searched: ".\lib\solgui\"
+            searched: ".\lib\solgui\Font\"
+            searched: ".\lib\pwm\"
+            searched: ".\lib\OLED\"
+            searched: ".\lib\key\"
+            searched: ".\lib\iic\"
+            searched: ".\lib\eeprom\"
+            searched: ".\lib\delay\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\"
+            searched: "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+                      8.3\stm8\inc\c\"
+Fatal error detected, aborting.
+
+[2022-01-29 02:02:17]	compilation failed at : "c:\Users\13443\source\stm8thread\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+keyInit();
+      ^
+"c:\Users\13443\source\stm8thread\src\main.c",51  Warning[Pe223]: function
+          "keyInit" declared implicitly
+          key = KEY_Scan(0);
+          ^
+"c:\Users\13443\source\stm8thread\src\main.c",59  Error[Pe020]: identifier
+          "key" is undefined
+          atomTimerDelay(10);
+          ^
+"c:\Users\13443\source\stm8thread\src\main.c",64  Warning[Pe223]: function
+          "atomTimerDelay" declared implicitly
+  }
+  ^
+"c:\Users\13443\source\stm8thread\src\main.c",68  Error[Pe169]: expected a
+          declaration
+
+[2022-01-29 02:02:38]	compilation failed at : "c:\Users\13443\source\stm8thread\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+key = KEY_Scan(0);
+          ^
+"c:\Users\13443\source\stm8thread\src\main.c",59  Error[Pe020]: identifier
+          "key" is undefined
+          atomTimerDelay(10);
+          ^
+"c:\Users\13443\source\stm8thread\src\main.c",64  Warning[Pe223]: function
+          "atomTimerDelay" declared implicitly
+  }
+  ^
+"c:\Users\13443\source\stm8thread\src\main.c",68  Error[Pe169]: expected a
+          declaration
+
+[2022-01-29 02:02:56]	compilation failed at : "c:\Users\13443\source\stm8thread\src\main.c", exit code: 2
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+key = KEY_Scan(0);
+          ^
+"c:\Users\13443\source\stm8thread\src\main.c",59  Error[Pe020]: identifier
+          "key" is undefined
+
+[2022-01-29 02:03:13]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li005]: no definition for "delay_us" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\lib\iic\iic.o]
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x864 bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+
+
+[2022-01-29 02:03:34]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li005]: no definition for "delay_us" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\lib\iic\iic.o]
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x864 bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+
+
+[2022-01-29 02:04:29]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li005]: no definition for "delay_us" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\lib\iic\iic.o]
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x864 bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+
+
+[2022-01-29 02:04:41]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li005]: no definition for "delay_us" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\lib\iic\iic.o]
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x864 bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+
+
+[2022-01-29 02:06:10]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li005]: no definition for "delay_us" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\lib\iic\iic.o]
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x864 bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+
+
+[2022-01-29 02:06:49]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Error[Li005]: no definition for "delay_us" [referenced from
+          c:\Users\13443\source\stm8thread\build\Release\lib\iic\iic.o]
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x864 bytes (max align 0x1) in
+                      <[0x000000-0x0007ff]> (total uncommitted space 0x5f0).
+            Uncommitted:
+            [0x000000-0x0000ff]:  0xf0
+            [0x000100-0x0007ff]: 0x500
+
+
